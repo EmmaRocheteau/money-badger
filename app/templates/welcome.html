@@ -1,0 +1,20 @@
+{% extends "appbuilder/base.html" %}
+{% block content %}
+<h1>Welcome to Money Badger</h1>
+<h3>{{top_text}}</h3>
+<br>
+<center>
+    <table style="width:50%">
+      <tr>
+        <td>
+            <form action="{{redirect}}">
+                <input type="submit" value="Login to {{auth}}" />
+            </form>
+        </td>
+        <td>
+            <img src="/static/{{img}}.png" height="100">
+        </td>
+      </tr>
+    </table>
+</center>
+{% endblock %}

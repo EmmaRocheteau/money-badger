@@ -9,6 +9,7 @@ from splitwise import Splitwise as splimp
 import config as Config
 
 import json 
+import pyyaml
 
 oauth = OAuth()
 splitwise = oauth.remote_app('splitwise',
@@ -135,13 +136,33 @@ class Splitwise(BaseView):
     def gareth(self):
         sObj = splimp(Config.consumer_key,Config.consumer_secret)
         sObj.setAccessToken(session['access_token'])
-        content = sObj.__makeRequest(splimp.GET_CURRENT_USER_URL)
+        url = splimp.GET_EXPENSES_URL
+        options = {}
+        url += sObj.__prepareOptionsUrl(options)
+        content = sObj.__makeRequest(url)
         content = json.loads(content.decode("utf-8"))
-        
+        session['expenses'] = content
+        #print("\n\n\n\n\n\n" , content)
         #resp = splitwise.get('get_current_user')
-        return render_template('output.html', getresp=content, base_template=appbuilder.base_template, appbuilder=appbuilder)
+        return render_template('output.html', getresp="waddup pimps", base_template=appbuilder.base_template, appbuilder=appbuilder)
+    @expose('/welcome')
+    def welcome(self):
+        return render_template('welcome.html', top_text="Get started by logging in to Splitwise",
+                               auth="Splitwise", redirect="/splitwise/login", img="splitwise",
+                               base_template=appbuilder.base_template, appbuilder=appbuilder)
+
+    @expose('/starling')
+    def starling(self):
+        return render_template('welcome.html', top_text="Now log in to your banking Provider",
+                               auth="Starling Bank", redirect="/starling/login", img="starling",
+                               base_template=appbuilder.base_template, appbuilder=appbuilder)
+
+
+class Starling(BaseView):
+    route_base = '/starling'
 
 appbuilder.add_view_no_menu(Splitwise())
+appbuilder.add_view_no_menu(Starling())
 #appbuilder.add_link("Splitwise", href='/splitwise_login/', category='Login')
   
 db.create_all()

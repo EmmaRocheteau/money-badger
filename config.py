@@ -109,7 +109,7 @@ IMG_UPLOAD_URL = '/static/uploads/'
 #APP_THEME = "bootstrap-theme.css"  # default bootstrap
 #APP_THEME = "cerulean.css"
 #APP_THEME = "amelia.css"
-#APP_THEME = "cosmo.css"
+APP_THEME = "cosmo.css"
 #APP_THEME = "cyborg.css"  
 #APP_THEME = "flatly.css"
 #APP_THEME = "journal.css"
@@ -119,5 +119,5 @@ IMG_UPLOAD_URL = '/static/uploads/'
 #APP_THEME = "spacelab.css"
 #APP_THEME = "united.css"
 #APP_THEME = "yeti.css"
-APP_THEME= "superhero.css"
+#APP_THEME= "superhero.css"
 
