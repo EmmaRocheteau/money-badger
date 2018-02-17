@@ -77,7 +77,7 @@ class Starling(BaseView):
     def authed(self):
         access_token = "idBjil3J7CS0ZCa1wqSN4vReAiM3oq2Sl0iaE6MY1MN9Bj0B0skZBxdd3X7vMRKY"
         url = "https://api-sandbox.starlingbank.com/api/v1/accounts/balance"
-        data = requests.get(url, data={'Authorization': 'Bearer '+ access_token}).json()
+        data = requests.get(url, headers={'Authorization': 'Bearer '+ access_token}).json()
         print("\n\n\n\n\n\n")
         print(url)
         print(data)
