@@ -20,6 +20,8 @@ authorize_url='https://secure.splitwise.com/oauth/authorize',
 consumer_key='QhKCiloQAS3UKPQm9yrI59WGfIsJcv2VO0llHsmX',
 consumer_secret='yPIQ0El2AwF8kg4RjdPjZIBKHRHTKBviycTqyHOh')
 from flask import session, redirect, flash, request, url_for
+# session['access_token'] = None
+# session['starling_access_token'] = None
 from app import app
 
 
@@ -76,13 +78,14 @@ class Starling(BaseView):
     #@splitwise.authorized_handler
     def authed(self):
         access_token = "idBjil3J7CS0ZCa1wqSN4vReAiM3oq2Sl0iaE6MY1MN9Bj0B0skZBxdd3X7vMRKY"
+        session['starling_access_token']  = access_token
         url = "https://api-sandbox.starlingbank.com/api/v1/accounts/balance"
         data = requests.get(url, headers={'Authorization': 'Bearer '+ access_token}).json()
         print("\n\n\n\n\n\n")
         print(url)
         print(data)
 
-        return redirect('/splitwise/gareth')
+        return redirect('/home/login')
 
     @expose('/hint')
     def starling(self):
@@ -131,7 +134,7 @@ class Splitwise(BaseView):
         access_token = sObj.getAccessToken(oauth_token,session['secret'],oauth_verifier)
         session['access_token'] = access_token
 
-        return redirect('/starling/hint')
+        return redirect('/home/login')
 
 
         # next_url = request.args.get('next') or '/splitwise/gareth'#url_for('index')
