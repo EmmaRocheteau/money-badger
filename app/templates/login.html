@@ -18,7 +18,9 @@
                 {% if starling_auth %}
                 <button type="button" class="btn btn-success starling" disabled>Success</button>
                 {% else %}
-                <button type="button" class="btn btn-primary starling">Log In</button>
+                <form action=/starling/login>
+                    <button type="submit" class="btn btn-primary starling">Log In</button>
+                </form>
                 {% endif %}
             </td>
             <td width="20%"></td>
@@ -26,12 +28,22 @@
                 {% if splitwise_auth %}
                 <button type="button" class="btn btn-success splitwise" disabled>Success</button>
                 {% else %}
-                <button type="button" class="btn btn-primary splitwise">Log In</button>
+                <form action=/splitwise/login>
+                    <button type="submit" class="btn btn-primary splitwise">Log In</button>
+                </form>
                 {% endif %}
             </td>
             <td width="15%"></td>
         </tr>
+        <tr height="30px"></tr>
     </table>
+    <br>
+    {% if splitwise_auth and starling_auth %}
+    <form action=/home/home>
+        <button type="submit" class="btn btn-primary btn-lrg">Proceed to Your Account</button>
+    </form>
+    {% endif %}
+
 </center>
 
 

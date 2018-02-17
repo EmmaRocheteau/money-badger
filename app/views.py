@@ -178,12 +178,8 @@ class Home(BaseView):
 
     @expose('/login')
     def login(self):
-        sw_auth = True
-        try:
-            print(session['access_token'])
-        except KeyError:
-            sw_auth = False
-        sl_auth = False
+        sw_auth = 'access_token' in session
+        sl_auth = 'starling_access_token' in session
         return render_template("login.html", splitwise_auth=sw_auth, starling_auth = sl_auth,
                                base_template=appbuilder.base_template, appbuilder=appbuilder)
 
@@ -213,7 +209,7 @@ appbuilder.add_view_no_menu(Home())
 
 #appbuilder.add_view(Welcome, "Welcome", category='Charts')
 # appbuilder.add_view(Home, "/home/home")
-appbuilder.add_link("Settle", "/settle", label="Settle")
+appbuilder.add_link("Settle", "/home/settle", label="Settle")
 # appbuilder.add_view_no_menu(Welcome())
 # appbuilder.add_link("Splitwise", href='/splitwise_login/', category='Login')
 
