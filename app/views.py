@@ -1,8 +1,7 @@
-from flask import render_template
+from flask import session, redirect, flash, request, url_for, render_template
 from flask_appbuilder.models.sqla.interface import SQLAInterface
 from flask_appbuilder import ModelView, BaseView, expose, has_access
 from app import appbuilder, db
-from flask import render_template
 from flask_login import current_user
 from flask_oauth import OAuth
 import requests
@@ -94,6 +93,8 @@ class Starling(BaseView):
 
 class Welcome(BaseView):
     route_base = '/welcome'
+    default_view = '/'
+    
     @expose('/')
     def welcome(self):
         return render_template('welcome.html', top_text="Get started by logging in to Splitwise",
@@ -188,7 +189,7 @@ class Record():
 
 class Home(BaseView):
     route_base = '/home'
-
+    default_view = '/home'
     @expose('/settle')
     def settle(self):
         d = []
@@ -199,7 +200,7 @@ class Home(BaseView):
         return render_template("settle.html", debtors=d,
                                base_template=appbuilder.base_template, appbuilder=appbuilder)
 
-    @expose('/')
+    @expose('/home')
     def root(self):
         r = []
         r.append(Record(datetime.datetime(2018, 2, 15), "Drugs", 420, "Food & Drink", "Splitwise", 69))
@@ -210,9 +211,12 @@ class Home(BaseView):
 
 appbuilder.add_view_no_menu(Splitwise())
 appbuilder.add_view_no_menu(Starling())
-appbuilder.add_view_no_menu(Home())
-appbuilder.add_view_no_menu(Welcome())
-#appbuilder.add_link("Splitwise", href='/splitwise_login/', category='Login')
+#appbuilder.add_view(Welcome, "Welcome", category='Charts')
+# appbuilder.add_view(Home, "/home/home")
+appbuilder.add_link("Settle", "/settle", label="Settle")
+# appbuilder.add_view_no_menu(Welcome())
+# appbuilder.add_link("Splitwise", href='/splitwise_login/', category='Login')
+
   
 db.create_all()
 

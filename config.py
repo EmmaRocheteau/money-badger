@@ -20,7 +20,7 @@ CSRF_ENABLED = True
 # GLOBALS FOR APP Builder 
 #------------------------------
 # Uncomment to setup Your App name
-#APP_NAME = "My App Name"
+APP_NAME = "Money Badger"
 
 # Uncomment to setup Setup an App icon
 #APP_ICON = "static/img/logo.jpg"
@@ -34,7 +34,7 @@ CSRF_ENABLED = True
 # AUTH_LDAP : Is for LDAP
 # AUTH_REMOTE_USER : Is for using REMOTE_USER from web server
 
-# AUTH_TYPE = AUTH_OAUTH
+AUTH_TYPE = 1
 # CONSUMER_KEY = 'QhKCiloQAS3UKPQm9yrI59WGfIsJcv2VO0llHsmX'
 # CONSUMER_SECRET = 'yPIQ0El2AwF8kg4RjdPjZIBKHRHTKBviycTqyHOh'
 # OAUTH_PROVIDERS = [
@@ -50,16 +50,16 @@ CSRF_ENABLED = True
 # ]
 
 # Uncomment to setup Full admin role name
-#AUTH_ROLE_ADMIN = 'Admin'
+AUTH_ROLE_ADMIN = 'Admin'
 
 # Uncomment to setup Public role name, no authentication needed
 #AUTH_ROLE_PUBLIC = 'Public'
 
 # Will allow user self registration
-#AUTH_USER_REGISTRATION = True
+AUTH_USER_REGISTRATION = True
 
 # The default user self registration role
-#AUTH_USER_REGISTRATION_ROLE = "Admin"
+AUTH_USER_REGISTRATION_ROLE = "Admin"
 
 # When using LDAP Auth, setup the ldap server
 #AUTH_LDAP_SERVER = "ldap://ldapserver.new"
