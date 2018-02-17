@@ -8,6 +8,7 @@ from flask_oauth import OAuth
 import requests
 from splitwise import Splitwise as splimp
 import config as Config
+import datetime
 
 import json
 
@@ -172,6 +173,19 @@ class Debtor():
         self.name = str(name)
         self.amount = "£" + "{0:,.2f}".format(amount)
 
+class Record():
+    def __init__(self, date, desc, amount, category, source, owed=0):
+        self.date = date.strftime("%Y/%m/%d")
+        self.description = desc
+        self.amount = "£" + "{0:,.2f}".format(amount)
+        self.category = str(category)
+        self.source = str(source)
+        if(owed == 0 or category == "Bank"):
+            self.owed = ""
+        else:
+            self.owed = "£" + "{0:,.2f}".format(owed)
+
+
 class Home(BaseView):
     route_base = '/home'
 
@@ -187,8 +201,11 @@ class Home(BaseView):
 
     @expose('/')
     def root(self):
-
-        return render_template("root.html",
+        r = []
+        r.append(Record(datetime.datetime(2018, 2, 15), "Drugs", 420, "Food & Drink", "Splitwise", 69))
+        r.append(Record(datetime.datetime(2018, 1, 30), "Guns", 0.2, "Charitable Causes", "Bank"))
+        r.append(Record(datetime.datetime(2017, 12, 30), "Champage", 50, "Political Contributions", "Bank"))
+        return render_template("root.html", records=r,
                                base_template=appbuilder.base_template, appbuilder=appbuilder)
 
 appbuilder.add_view_no_menu(Splitwise())
