@@ -5,6 +5,10 @@ from app import appbuilder, db
 from flask import render_template
 from flask_login import current_user
 from flask_oauth import OAuth
+from splitwise import Splitwise as splimp
+import config as Config
+
+import json 
 
 oauth = OAuth()
 splitwise = oauth.remote_app('splitwise',
@@ -20,7 +24,7 @@ from app import app
 
 @splitwise.tokengetter
 def get_splitwise_token(token=None):
-    return session.get('oauth_token')
+    return session['splitwise_token']
 
 """
     Create your Views::
@@ -84,35 +88,58 @@ class Splitwise(BaseView):
 
     @expose('/login/')
     #@has_access
-    def auth(self):
+    def login(self):
         # do something with param1
         # and render template with param
-
-        return splitwise.authorize(callback='/splitwise/auth')
+        sObj = splimp(Config.consumer_key,Config.consumer_secret)
+        url, secret = sObj.getAuthorizeURL()
+        session['secret'] = secret
+        #url ='/splitwise/auth'
+        return redirect(url)
+        #return splitwise.authorize(callback='/splitwise/auth')
         #return self.render_template('output.html',
          #                   getresp = str(expenses_list))
     @expose('/auth/')
     #@has_access
-    @splitwise.authorized_handler
-    def authed(self, resp):
-        next_url = request.args.get('next') or url_for('index')
-        if resp is None:
-            flash(u'You denied the request to sign in.')
-            return redirect(next_url)
+    #@splitwise.authorized_handler
+    def authed(self):
+        if 'secret' not in session:
+            return redirect('/')
 
-        session['splitwise_token'] = (
-            resp['oauth_token'],
-            resp['oauth_token_secret']
-        )
-        session['splitwise_user'] = resp['first_name']
+        oauth_token    = request.args.get('oauth_token')
+        oauth_verifier = request.args.get('oauth_verifier')
 
-        flash('You were signed in as %s' % resp['first_name'])
-        return redirect(next_url)
+        sObj = splimp(Config.consumer_key,Config.consumer_secret)
+        access_token = sObj.getAccessToken(oauth_token,session['secret'],oauth_verifier)
+        session['access_token'] = access_token
+
+        return redirect('/splitwise/gareth')
+
+
+        # next_url = request.args.get('next') or '/splitwise/gareth'#url_for('index')
+        # if resp is None:
+        #     flash(u'You denied the request to sign in.')
+        #     return redirect(next_url)
+
+        # session['splitwise_token'] = (
+        #     request.args['oauth_token'],
+        #     request.args['oauth_verifier']
+        # )
+        # #session['splitwise_user'] = resp['first_name']
+        # rep = splitwise.request('/get_current_user', format='json')
+
+        # #flash('You were signed in as %s' % resp['first_name'])
+        # return redirect(next_url)
 
     @expose('/gareth')
     def gareth(self):
+        sObj = splimp(Config.consumer_key,Config.consumer_secret)
+        sObj.setAccessToken(session['access_token'])
+        content = sObj.__makeRequest(splimp.GET_CURRENT_USER_URL)
+        content = json.loads(content.decode("utf-8"))
         
-        return render_template('output.html', getresp="waddup pimps",base_template=appbuilder.base_template, appbuilder=appbuilder)
+        #resp = splitwise.get('get_current_user')
+        return render_template('output.html', getresp=content, base_template=appbuilder.base_template, appbuilder=appbuilder)
 
 appbuilder.add_view_no_menu(Splitwise())
 #appbuilder.add_link("Splitwise", href='/splitwise_login/', category='Login')
