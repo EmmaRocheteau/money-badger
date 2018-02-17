@@ -7,7 +7,7 @@ from flask_oauth import OAuth
 import requests
 from splitwise import Splitwise as splimp
 import config as Config
-import datetime
+from data_classes import *
 
 import json
 
@@ -94,7 +94,7 @@ class Starling(BaseView):
 class Welcome(BaseView):
     route_base = '/welcome'
     default_view = '/'
-    
+
     @expose('/')
     def welcome(self):
         return render_template('welcome.html', top_text="Get started by logging in to Splitwise",
@@ -166,29 +166,14 @@ class Splitwise(BaseView):
 
 
 
-
-
-
-class Debtor():
-    def __init__(self, name, amount):
-        self.name = str(name)
-        self.amount = "£" + "{0:,.2f}".format(amount)
-
-class Record():
-    def __init__(self, date, desc, amount, category, source, owed=0):
-        self.date = date.strftime("%Y/%m/%d")
-        self.description = desc
-        self.amount = "£" + "{0:,.2f}".format(amount)
-        self.category = str(category)
-        self.source = str(source)
-        if(owed == 0 or category == "Bank"):
-            self.owed = ""
-        else:
-            self.owed = "£" + "{0:,.2f}".format(owed)
-
-
 class Home(BaseView):
     route_base = '/home'
+
+    @expose('/login')
+    def login(self):
+        return render_template("login.html",
+                               base_template=appbuilder.base_template, appbuilder=appbuilder)
+
     default_view = '/home'
     @expose('/settle')
     def settle(self):
