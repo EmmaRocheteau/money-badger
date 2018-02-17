@@ -168,13 +168,14 @@ class Splitwise(BaseView):
 
 class Home(BaseView):
     route_base = '/home'
+    default_view = '/home'
 
     @expose('/login')
     def login(self):
         return render_template("login.html",
                                base_template=appbuilder.base_template, appbuilder=appbuilder)
 
-    default_view = '/home'
+
     @expose('/settle')
     def settle(self):
         d = []
@@ -196,6 +197,8 @@ class Home(BaseView):
 
 appbuilder.add_view_no_menu(Splitwise())
 appbuilder.add_view_no_menu(Starling())
+appbuilder.add_view_no_menu(Home())
+
 #appbuilder.add_view(Welcome, "Welcome", category='Charts')
 # appbuilder.add_view(Home, "/home/home")
 appbuilder.add_link("Settle", "/settle", label="Settle")
