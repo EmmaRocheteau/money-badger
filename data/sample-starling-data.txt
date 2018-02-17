@@ -1,0 +1,443 @@
+{
+ "_links": {
+  "nextPage": {
+   "href": "NOT_YET_IMPLEMENTED"
+  }
+ },
+ "_embedded": {
+  "transactions": [
+   {
+    "_links": {
+     "detail": {
+      "href": "api/v1/transactions/mastercard/76935547-56d2-4a06-94db-52e385154d24",
+      "templated": false
+     }
+    },
+    "id": "76935547-56d2-4a06-94db-52e385154d24",
+    "currency": "GBP",
+    "amount": -10.2,
+    "direction": "OUTBOUND",
+    "created": "2018-02-17T14:07:48.724Z",
+    "narrative": "Yorkshire Bank III",
+    "source": "MASTER_CARD",
+    "balance": 2312.41
+   },
+   {
+    "_links": {
+     "detail": {
+      "href": "api/v1/transactions/mastercard/9a68efba-9c6f-4cb0-aec9-8a999d38c9a3",
+      "templated": false
+     }
+    },
+    "id": "9a68efba-9c6f-4cb0-aec9-8a999d38c9a3",
+    "currency": "GBP",
+    "amount": -37.91,
+    "direction": "OUTBOUND",
+    "created": "2018-02-17T14:07:48.624Z",
+    "narrative": "Amazon",
+    "source": "MASTER_CARD",
+    "balance": 2322.61
+   },
+   {
+    "_links": {
+     "detail": {
+      "href": "api/v1/transactions/mastercard/e423a01b-3509-4e79-9241-1b6f8266134d",
+      "templated": false
+     }
+    },
+    "id": "e423a01b-3509-4e79-9241-1b6f8266134d",
+    "currency": "GBP",
+    "amount": -14.05,
+    "direction": "OUTBOUND",
+    "created": "2018-02-17T14:07:48.623Z",
+    "narrative": "Mastercard",
+    "source": "MASTER_CARD",
+    "balance": 2360.52
+   },
+   {
+    "_links": {
+     "detail": {
+      "href": "api/v1/transactions/mastercard/94671053-c49d-420b-bff4-1ed24dd1c5ef",
+      "templated": false
+     }
+    },
+    "id": "94671053-c49d-420b-bff4-1ed24dd1c5ef",
+    "currency": "GBP",
+    "amount": -27.25,
+    "direction": "OUTBOUND",
+    "created": "2018-02-17T14:07:48.515Z",
+    "narrative": "ING",
+    "source": "MASTER_CARD",
+    "balance": 2374.57
+   },
+   {
+    "_links": {
+     "detail": {
+      "href": "api/v1/transactions/mastercard/1096120e-56f4-4294-bc12-04b5a4dd6dc9",
+      "templated": false
+     }
+    },
+    "id": "1096120e-56f4-4294-bc12-04b5a4dd6dc9",
+    "currency": "GBP",
+    "amount": -5.75,
+    "direction": "OUTBOUND",
+    "created": "2018-02-17T14:07:48.299Z",
+    "narrative": "Mastercard",
+    "source": "MASTER_CARD",
+    "balance": 2401.82
+   },
+   {
+    "_links": {
+     "detail": {
+      "href": "api/v1/transactions/mastercard/ac2899cd-ac93-4acb-ac78-1c20fbd8ae5d",
+      "templated": false
+     }
+    },
+    "id": "ac2899cd-ac93-4acb-ac78-1c20fbd8ae5d",
+    "currency": "GBP",
+    "amount": -2.76,
+    "direction": "OUTBOUND",
+    "created": "2018-02-17T14:07:48.297Z",
+    "narrative": "Yorkshire Bank III",
+    "source": "MASTER_CARD",
+    "balance": 2407.57
+   },
+   {
+    "_links": {
+     "detail": {
+      "href": "api/v1/transactions/fps/out/bcd780a5-c5e6-4762-ac73-a9ccb487f6e7",
+      "templated": false
+     }
+    },
+    "id": "bcd780a5-c5e6-4762-ac73-a9ccb487f6e7",
+    "currency": "GBP",
+    "amount": -15.19,
+    "direction": "OUTBOUND",
+    "created": "2018-02-17T14:07:48.229Z",
+    "narrative": "External Payment",
+    "source": "FASTER_PAYMENTS_OUT",
+    "balance": 2410.33
+   },
+   {
+    "_links": {
+     "detail": {
+      "href": "api/v1/transactions/mastercard/c9f06e1f-268e-4aa3-82fe-f06068b9fc7c",
+      "templated": false
+     }
+    },
+    "id": "c9f06e1f-268e-4aa3-82fe-f06068b9fc7c",
+    "currency": "GBP",
+    "amount": -30.46,
+    "direction": "OUTBOUND",
+    "created": "2018-02-17T14:07:48.182Z",
+    "narrative": "Sofitel",
+    "source": "MASTER_CARD",
+    "balance": 2425.52
+   },
+   {
+    "_links": {
+     "detail": {
+      "href": "api/v1/transactions/fps/out/54fcf7ce-c2cf-4227-8e98-e5429ff542c8",
+      "templated": false
+     }
+    },
+    "id": "54fcf7ce-c2cf-4227-8e98-e5429ff542c8",
+    "currency": "GBP",
+    "amount": -23.57,
+    "direction": "OUTBOUND",
+    "created": "2018-02-17T14:07:48.156Z",
+    "narrative": "External Payment",
+    "source": "FASTER_PAYMENTS_OUT",
+    "balance": 2455.98
+   },
+   {
+    "_links": {
+     "detail": {
+      "href": "api/v1/transactions/mastercard/383afa7f-af33-498d-b6df-f6e0c632f287",
+      "templated": false
+     }
+    },
+    "id": "383afa7f-af33-498d-b6df-f6e0c632f287",
+    "currency": "GBP",
+    "amount": -24.13,
+    "direction": "OUTBOUND",
+    "created": "2018-02-17T14:07:48.090Z",
+    "narrative": "Sofitel",
+    "source": "MASTER_CARD",
+    "balance": 2479.55
+   },
+   {
+    "_links": {
+     "detail": {
+      "href": "api/v1/transactions/fps/out/9d43d809-151b-4394-b5f9-9cfb5991a90d",
+      "templated": false
+     }
+    },
+    "id": "9d43d809-151b-4394-b5f9-9cfb5991a90d",
+    "currency": "GBP",
+    "amount": -17.98,
+    "direction": "OUTBOUND",
+    "created": "2018-02-17T14:07:48.014Z",
+    "narrative": "External Payment",
+    "source": "FASTER_PAYMENTS_OUT",
+    "balance": 2503.68
+   },
+   {
+    "_links": {
+     "detail": {
+      "href": "api/v1/transactions/fps/in/4b2765c6-913e-4fe1-8e6c-2ff5898b09f7",
+      "templated": false
+     }
+    },
+    "id": "4b2765c6-913e-4fe1-8e6c-2ff5898b09f7",
+    "currency": "GBP",
+    "amount": 1.23,
+    "direction": "INBOUND",
+    "created": "2018-02-17T14:07:48.000Z",
+    "narrative": "someRef",
+    "source": "FASTER_PAYMENTS_IN",
+    "balance": 2521.66
+   },
+   {
+    "_links": {
+     "detail": {
+      "href": "api/v1/transactions/fps/in/426d69d3-c693-476f-8050-6722b2153391",
+      "templated": false
+     }
+    },
+    "id": "426d69d3-c693-476f-8050-6722b2153391",
+    "currency": "GBP",
+    "amount": 17.89,
+    "direction": "INBOUND",
+    "created": "2018-02-17T14:07:48.000Z",
+    "narrative": "someRef",
+    "source": "FASTER_PAYMENTS_IN",
+    "balance": 2520.43
+   },
+   {
+    "_links": {
+     "detail": {
+      "href": "api/v1/transactions/fps/in/f8847d27-a85d-4ffb-9a91-7bbbda868a93",
+      "templated": false
+     }
+    },
+    "id": "f8847d27-a85d-4ffb-9a91-7bbbda868a93",
+    "currency": "GBP",
+    "amount": 11.81,
+    "direction": "INBOUND",
+    "created": "2018-02-17T14:07:48.000Z",
+    "narrative": "someRef",
+    "source": "FASTER_PAYMENTS_IN",
+    "balance": 2502.54
+   },
+   {
+    "_links": {
+     "detail": {
+      "href": "api/v1/transactions/fps/in/a1e7e924-8782-4125-ad81-31d75ef796e6",
+      "templated": false
+     }
+    },
+    "id": "a1e7e924-8782-4125-ad81-31d75ef796e6",
+    "currency": "GBP",
+    "amount": 10.76,
+    "direction": "INBOUND",
+    "created": "2018-02-17T14:07:48.000Z",
+    "narrative": "someRef",
+    "source": "FASTER_PAYMENTS_IN",
+    "balance": 2490.73
+   },
+   {
+    "_links": {
+     "detail": {
+      "href": "api/v1/transactions/fps/out/a2fdeacf-763b-4c89-ba9a-fc4cdaaefbe3",
+      "templated": false
+     }
+    },
+    "id": "a2fdeacf-763b-4c89-ba9a-fc4cdaaefbe3",
+    "currency": "GBP",
+    "amount": -24.21,
+    "direction": "OUTBOUND",
+    "created": "2018-02-17T14:07:47.954Z",
+    "narrative": "External Payment",
+    "source": "FASTER_PAYMENTS_OUT",
+    "balance": 2479.97
+   },
+   {
+    "_links": {
+     "detail": {
+      "href": "api/v1/transactions/mastercard/7797c2dc-192d-4239-90d5-221e93b8499b",
+      "templated": false
+     }
+    },
+    "id": "7797c2dc-192d-4239-90d5-221e93b8499b",
+    "currency": "GBP",
+    "amount": -6.78,
+    "direction": "OUTBOUND",
+    "created": "2018-02-17T14:07:47.888Z",
+    "narrative": "Mastercard",
+    "source": "MASTER_CARD",
+    "balance": 2504.18
+   },
+   {
+    "_links": {
+     "detail": {
+      "href": "api/v1/transactions/mastercard/6d9d3ccb-86da-476a-a495-06b227787d42",
+      "templated": false
+     }
+    },
+    "id": "6d9d3ccb-86da-476a-a495-06b227787d42",
+    "currency": "GBP",
+    "amount": -12.22,
+    "direction": "OUTBOUND",
+    "created": "2018-02-17T14:07:47.508Z",
+    "narrative": "Mastercard",
+    "source": "MASTER_CARD",
+    "balance": 2510.96
+   },
+   {
+    "_links": {
+     "detail": {
+      "href": "api/v1/transactions/mastercard/f065e315-039d-4665-8e0d-fb8c696cf13f",
+      "templated": false
+     }
+    },
+    "id": "f065e315-039d-4665-8e0d-fb8c696cf13f",
+    "currency": "GBP",
+    "amount": -3.03,
+    "direction": "OUTBOUND",
+    "created": "2018-02-17T14:07:47.507Z",
+    "narrative": "Pret A Manger",
+    "source": "MASTER_CARD",
+    "balance": 2523.18
+   },
+   {
+    "_links": {
+     "detail": {
+      "href": "api/v1/transactions/mastercard/dcdd816a-15dc-4bab-9702-3ef10639988d",
+      "templated": false
+     }
+    },
+    "id": "dcdd816a-15dc-4bab-9702-3ef10639988d",
+    "currency": "GBP",
+    "amount": -13.2,
+    "direction": "OUTBOUND",
+    "created": "2018-02-17T14:07:47.507Z",
+    "narrative": "Villandry",
+    "source": "MASTER_CARD",
+    "balance": 2526.21
+   },
+   {
+    "_links": {
+     "detail": {
+      "href": "api/v1/transactions/mastercard/3bc5e394-1829-4368-ac59-9b6b6b2d9892",
+      "templated": false
+     }
+    },
+    "id": "3bc5e394-1829-4368-ac59-9b6b6b2d9892",
+    "currency": "GBP",
+    "amount": -7.63,
+    "direction": "OUTBOUND",
+    "created": "2018-02-17T14:07:47.493Z",
+    "narrative": "ING",
+    "source": "MASTER_CARD",
+    "balance": 2539.41
+   },
+   {
+    "_links": {
+     "detail": {
+      "href": "api/v1/transactions/fps/out/e437ce5f-e59d-4f8a-b131-119fff571324",
+      "templated": false
+     }
+    },
+    "id": "e437ce5f-e59d-4f8a-b131-119fff571324",
+    "currency": "GBP",
+    "amount": -30.6,
+    "direction": "OUTBOUND",
+    "created": "2018-02-17T14:07:47.199Z",
+    "narrative": "External Payment",
+    "source": "FASTER_PAYMENTS_OUT",
+    "balance": 2547.04
+   },
+   {
+    "_links": {
+     "detail": {
+      "href": "api/v1/transactions/fps/out/4e06a670-574d-4b24-84e9-4a70ec0961ab",
+      "templated": false
+     }
+    },
+    "id": "4e06a670-574d-4b24-84e9-4a70ec0961ab",
+    "currency": "GBP",
+    "amount": -8.63,
+    "direction": "OUTBOUND",
+    "created": "2018-02-17T14:07:47.143Z",
+    "narrative": "External Payment",
+    "source": "FASTER_PAYMENTS_OUT",
+    "balance": 2577.64
+   },
+   {
+    "_links": {
+     "detail": {
+      "href": "api/v1/transactions/fps/in/c04880c9-1dbf-48ba-930b-9f44b95524c4",
+      "templated": false
+     }
+    },
+    "id": "c04880c9-1dbf-48ba-930b-9f44b95524c4",
+    "currency": "GBP",
+    "amount": 12.84,
+    "direction": "INBOUND",
+    "created": "2018-02-17T14:07:47.000Z",
+    "narrative": "someRef",
+    "source": "FASTER_PAYMENTS_IN",
+    "balance": 2586.27
+   },
+   {
+    "_links": {
+     "detail": {
+      "href": "api/v1/transactions/fps/in/b7e1a128-c88b-411d-bf85-b1523d99bb4a",
+      "templated": false
+     }
+    },
+    "id": "b7e1a128-c88b-411d-bf85-b1523d99bb4a",
+    "currency": "GBP",
+    "amount": 11.27,
+    "direction": "INBOUND",
+    "created": "2018-02-17T14:07:46.000Z",
+    "narrative": "someRef",
+    "source": "FASTER_PAYMENTS_IN",
+    "balance": 2573.43
+   },
+   {
+    "_links": {
+     "detail": {
+      "href": "api/v1/transactions/fps/in/34e2825a-e2ce-4066-a2a2-dd12611a55fe",
+      "templated": false
+     }
+    },
+    "id": "34e2825a-e2ce-4066-a2a2-dd12611a55fe",
+    "currency": "GBP",
+    "amount": 2000,
+    "direction": "INBOUND",
+    "created": "2018-02-17T14:07:45.000Z",
+    "narrative": "someRef",
+    "source": "FASTER_PAYMENTS_IN",
+    "balance": 2562.16
+   },
+   {
+    "_links": {
+     "detail": {
+      "href": "api/v1/transactions/fps/in/ebf1bb97-69b4-4abb-a535-d6da3844b468",
+      "templated": false
+     }
+    },
+    "id": "ebf1bb97-69b4-4abb-a535-d6da3844b468",
+    "currency": "GBP",
+    "amount": 500,
+    "direction": "INBOUND",
+    "created": "2018-02-17T14:07:45.000Z",
+    "narrative": "someRef",
+    "source": "FASTER_PAYMENTS_IN",
+    "balance": 562.16
+   }
+  ]
+ }
+}
