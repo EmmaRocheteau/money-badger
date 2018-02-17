@@ -178,7 +178,13 @@ class Home(BaseView):
 
     @expose('/login')
     def login(self):
-        return render_template("login.html",
+        sw_auth = True
+        try:
+            print(session['access_token'])
+        except KeyError:
+            sw_auth = False
+        sl_auth = False
+        return render_template("login.html", splitwise_auth=sw_auth, starling_auth = sl_auth,
                                base_template=appbuilder.base_template, appbuilder=appbuilder)
 
 

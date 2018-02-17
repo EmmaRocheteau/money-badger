@@ -3,22 +3,35 @@
 <br>
 <br>
 <center>
-<table cellpadding="30" cellspacing="0" width="100%" border="0">
-   <tr>
-      <td width="15%"> </td>
-      <td width="25%" align="center"><img src="/static/starling.png" height=200"></td>
-      <td width="20%"> </td>
-      <td width="25%" align="center"><img src="/static/splitwise.png" height="200"></td>
-      <td width="15%"> </td>
-   </tr>
-    <tr>
-      <td width="15%"> </td>
-      <td width="25%" align="center"><button type="button" class="btn btn-primary starling">Log In</button></td>
-      <td width="20%"> </td>
-      <td width="25%" align="center"><button type="button" class="btn btn-primary splitwise">Log In</button></td>
-      <td width="15%"> </td>
-   </tr>
-</table>
+    <table cellpadding="30" cellspacing="0" width="100%" border="0">
+        <tr>
+            <td width="15%"></td>
+            <td width="25%" align="center"><img src="/static/starling.png" height=200"></td>
+            <td width="20%"></td>
+            <td width="25%" align="center"><img src="/static/splitwise.png" height="200"></td>
+            <td width="15%"></td>
+        </tr>
+        <tr height="30px"></tr>
+        <tr>
+            <td width="15%"></td>
+            <td width="25%" align="center">
+                {% if starling_auth %}
+                <button type="button" class="btn btn-success starling" disabled>Success</button>
+                {% else %}
+                <button type="button" class="btn btn-primary starling">Log In</button>
+                {% endif %}
+            </td>
+            <td width="20%"></td>
+            <td width="25%" align="center">
+                {% if splitwise_auth %}
+                <button type="button" class="btn btn-success splitwise" disabled>Success</button>
+                {% else %}
+                <button type="button" class="btn btn-primary splitwise">Log In</button>
+                {% endif %}
+            </td>
+            <td width="15%"></td>
+        </tr>
+    </table>
 </center>
 
 
