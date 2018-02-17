@@ -1,0 +1,37 @@
+{% extends "appbuilder/base.html" %}
+{% block content %}
+<h1>Account Summary</h1>
+<h3>View your transactions</h3>
+<br>
+<center>
+    <table class="table table-hover">
+        <thead>
+        <tr>
+            <th scope="col">Date</th>
+            <th scope="col">Description</th>
+            <th scope="col">Amount</th>
+            <th scope="col">Category</th>
+            <th scope="col">Source</th>
+            <th scope="col">Owed</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for record in records %}
+        <tr class="table-active">
+            <td>{{ record.date }}</td>
+            <td>{{ record.description }}</td>
+            <td>{{ record.amount }}</td>
+            <td>{{ record.category }}</td>
+            <td>{{ record.source }}</td>
+            <td>{{ record.owed }}</td>
+        </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</center>
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="/static/root.js"></script>
+
+{% endblock %}
