@@ -1,0 +1,33 @@
+{% extends "appbuilder/base.html" %}
+{% block content %}
+<h1>Debtors</h1>
+<br>
+<h3>People whom you owe</h3>
+<br>
+<center>
+    <table class="table table-hover">
+  <thead>
+    <tr>
+      <th scope="col">Debtor</th>
+      <th scope="col">Amount</th>
+      <th scope="col"></th>
+    </tr>
+  </thead>
+  <tbody>
+  {% for debtor in debtors %}
+    <tr class="table-active">
+      <td>{{ debtor.name }}</td>
+      <td>{{ debtor.amount }}</td>
+      <td><button type="button" class="btn btn-primary settle">Settle Up</button></td>
+    </tr>
+  {% endfor %}
+  </tbody>
+    </table>
+    <button type="button" class="btn btn-success settle-all">Settle All</button>
+</center>
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="/static/settle.js"></script>
+
+{% endblock %}

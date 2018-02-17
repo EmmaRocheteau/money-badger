@@ -9,7 +9,7 @@ import requests
 from splitwise import Splitwise as splimp
 import config as Config
 
-import json 
+import json
 
 oauth = OAuth()
 splitwise = oauth.remote_app('splitwise',
@@ -163,8 +163,34 @@ class Splitwise(BaseView):
 
 
 
+
+class Debtor():
+    def __init__(self, name, amount):
+        self.name = str(name)
+        self.amount = "£" + "{0:,.2f}".format(amount)
+
+class Home(BaseView):
+    route_base = '/home'
+
+    @expose('/settle')
+    def settle(self):
+        d = []
+        d.append(Debtor("Hugh Mungus", 69.0))
+        d.append(Debtor("Gareth Funk", 100000))
+        d.append(Debtor("The Queen", 1000000000.01))
+
+        return render_template("settle.html", debtors=d,
+                               base_template=appbuilder.base_template, appbuilder=appbuilder)
+
+    @expose('/')
+    def root(self):
+
+        return render_template("root.html",
+                               base_template=appbuilder.base_template, appbuilder=appbuilder)
+
 appbuilder.add_view_no_menu(Splitwise())
 appbuilder.add_view_no_menu(Starling())
+appbuilder.add_view_no_menu(Home())
 appbuilder.add_view_no_menu(Welcome())
 #appbuilder.add_link("Splitwise", href='/splitwise_login/', category='Login')
   
