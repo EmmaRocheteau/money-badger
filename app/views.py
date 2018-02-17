@@ -109,12 +109,24 @@ class Splitwise(BaseView):
         flash('You were signed in as %s' % resp['first_name'])
         return redirect(next_url)
 
-    @expose('/gareth')
-    def gareth(self):
-        
-        return render_template('output.html', getresp="waddup pimps",base_template=appbuilder.base_template, appbuilder=appbuilder)
+    @expose('/welcome')
+    def welcome(self):
+        return render_template('welcome.html', top_text="Get started by logging in to Splitwise",
+                               auth="Splitwise", redirect="/splitwise/login", img="splitwise",
+                               base_template=appbuilder.base_template, appbuilder=appbuilder)
+
+    @expose('/starling')
+    def starling(self):
+        return render_template('welcome.html', top_text="Now log in to your banking Provider",
+                               auth="Starling Bank", redirect="/starling/login", img="starling",
+                               base_template=appbuilder.base_template, appbuilder=appbuilder)
+
+
+class Starling(BaseView):
+    route_base = '/starling'
 
 appbuilder.add_view_no_menu(Splitwise())
+appbuilder.add_view_no_menu(Starling())
 #appbuilder.add_link("Splitwise", href='/splitwise_login/', category='Login')
   
 db.create_all()
