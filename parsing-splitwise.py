@@ -6,6 +6,7 @@ import datetime
 import matplotlib.pyplot as plt
 import math
 import re
+from pprint import pprint
 
 
 def yaml_read(yaml_file):
@@ -16,7 +17,7 @@ def yaml_read(yaml_file):
     return values
 
 
-def get_mine(splitwise_output, user_id=5090950):
+def get_owed(splitwise_output, user_id=5090950):
     """Get relevant transactions for a specific person, checking that they
     have not been deleted.
     :param splitwise_output: All splitwise transactions, as returned by
@@ -30,11 +31,36 @@ def get_mine(splitwise_output, user_id=5090950):
         if transactions['deleted_at'] is None:
             involved = transactions['users']
             for users in involved:
-                if int(users['user']['id']) == user_id and \
-                        users['owed_share'] != 0. and \
-                        users['owed_share'] is not None:
+                if int(users['user']['id']) == user_id:
+                    #and \
+                    #    users['owed_share'] != 0. and \
+                    #    users['owed_share'] is not None:
                     my_transactions.append(transactions)
     return my_transactions
+
+
+#def get_paid(splitwise_output, user_id=5090950):
+#    """Get relevant transactions for a specific person, checking that they
+#    have not been deleted.
+#    :param splitwise_output: All splitwise transactions, as returned by
+#    splitwise.
+#    :param user_id: User ID for the person whose transactions are to be
+#    returned.
+#    :return: List of dictionaries, each one corresponding to a non-deleted
+#    transaction the user was involved in."""
+#    my_transactions = []
+#    for payments in splitwise_output:
+#        if payments['deleted_at'] is None:
+#            involved = payments['users']
+#            for user in involved:
+#                if int(user['user']['id']) == user_id:
+#                    if payments['payment']:
+#                        my_transactions.append(payments)
+#                    elif user['paid_share'] is not None:
+#                        if user['paid_share'] != 0.:
+#                            my_transactions.append(payments)
+#                    break
+#    return my_transactions
 
 
 def cleanup(my_transactions, user_id=5090950):
@@ -47,13 +73,16 @@ def cleanup(my_transactions, user_id=5090950):
             if int(users['user']['id']) == user_id:
                 # User is me
                 owed_share = users['owed_share']
+                paid_share = users['paid_share']
                 # Users are unique so if found, no need to search further.
                 break
         nice_format.append(
             {'Date'       : dp.parse(transaction['date']).date(),
              'Description': transaction['description'],
              'Category'   : transaction['category']['name'],
-             'Cost'       : np.float(owed_share),
+             'Owe'       : owed_share,
+             'Paid'       : paid_share,
+             'Payment'    : transaction['payment'],
              'Currency'   : transaction['currency_code'],
              'Group ID'   : transaction['group_id']})
     return pd.DataFrame(nice_format)
@@ -83,22 +112,24 @@ def date_filter(transactions, date_from=None, to=None):
 
 if __name__ == '__main__':
     # Get data from file and format to a pandas dataframe.
-    data = yaml_read('.\example\expenses.yaml')
-    mine = get_mine(data, user_id=5090950)
+    data = yaml_read('.\data\expenses.yaml')
+    mine = get_owed(data, user_id=5090950)
     df = cleanup(mine, user_id=5090950)
 
     # For now, isolate to GBP.
     df = df[df['Currency'] == 'GBP']
-    df2 = date_filter(df, date_from='11/09/2017', to='31/12/2017')
-    # categorise = df.groupby('Category').agg({'Cost': 'sum'})
-    # print(categorise)
-    df2['Day'] = [date.weekday() for date in df2['Date']]
-    wkdy = df2[df2['Day'] <= 4]
-    lnch = wkdy[wkdy['Description'].str.contains(re.compile(r'[L|l]unch'))]
-    no_pub = lnch[lnch['Description'].str.contains(re.compile(("^(?!Pub|\\.).*")))]
-    no_pub = no_pub[
-        no_pub['Description'].str.contains(re.compile(("^(?!Byron|\\.).*")))]
-    print(no_pub)
+    df2 = date_filter(df, date_from='15/07/2017', to='15/07/2017')
+    pprint(df2)
+    ## categorise = df.groupby('Category').agg({'Cost': 'sum'})
+    ## print(categorise)
+    #df2['Day'] = [date.weekday() for date in df2['Date']]
+    #wkdy = df2[df2['Day'] <= 4]
+    #lnch = wkdy[wkdy['Description'].str.contains(re.compile(r'[L|l]unch'))]
+    #no_pub = lnch[lnch['Description'].str.contains(re.compile(("^(
+    ## ?!Pub|\\.).*")))]
+    #no_pub = no_pub[
+    #    no_pub['Description'].str.contains(re.compile(("^(?!Byron|\\.).*")))]
+    #print(no_pub)
 
     #no_pub["Date"] = pd.to_datetime(df["Date"])
     #no_pub.groupby(no_pub['Date'].dt.week).agg({'Cost': 'sum'})
