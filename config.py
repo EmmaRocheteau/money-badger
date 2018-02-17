@@ -120,4 +120,3 @@ IMG_UPLOAD_URL = '/static/uploads/'
 #APP_THEME = "united.css"
 #APP_THEME = "yeti.css"
 APP_THEME= "superhero.css"
-
