@@ -1,4 +1,4 @@
-# LSTM for international airline passengers problem with window regression framing
+# LSTM
 import numpy
 import matplotlib.pyplot as plt
 from pandas import read_csv
