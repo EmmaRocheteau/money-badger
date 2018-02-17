@@ -68,16 +68,19 @@ class Starling(BaseView):
     @expose('/login/')
     #@has_access
     def login(self):
-
+        return redirect('/starling/auth')
         #return self.render_template('output.html',
          #                   getresp = str(expenses_list))
     @expose('/auth/')
     #@has_access
     #@splitwise.authorized_handler
     def authed(self):
-        access_token = idBjil3J7CS0ZCa1wqSN4vReAiM3oq2Sl0iaE6MY1MN9Bj0B0skZBxdd3X7vMRKY
-        url = https://api-sandbox.starlingbank.com/api/v1/accounts/balance?Authorization="Bearer {}".format(access_token)
-        data = requests.get(url).json()
+        access_token = "idBjil3J7CS0ZCa1wqSN4vReAiM3oq2Sl0iaE6MY1MN9Bj0B0skZBxdd3X7vMRKY"
+        url = "https://api-sandbox.starlingbank.com/api/v1/accounts/balance"
+        data = requests.get(url, data={'Authorization': 'Bearer '+ access_token}).json()
+        print("\n\n\n\n\n\n")
+        print(url)
+        print(data)
 
         return redirect('/splitwise/gareth')
 
