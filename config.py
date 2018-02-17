@@ -30,7 +30,21 @@ CSRF_ENABLED = True
 # AUTH_DB : Is for database (username/password()
 # AUTH_LDAP : Is for LDAP
 # AUTH_REMOTE_USER : Is for using REMOTE_USER from web server
-AUTH_TYPE = AUTH_DB
+
+# AUTH_TYPE = AUTH_OAUTH
+# CONSUMER_KEY = 'QhKCiloQAS3UKPQm9yrI59WGfIsJcv2VO0llHsmX'
+# CONSUMER_SECRET = 'yPIQ0El2AwF8kg4RjdPjZIBKHRHTKBviycTqyHOh'
+# OAUTH_PROVIDERS = [
+#     {'name':'splitwise', 'icon':'fa-splitwise','token_key':'oauth_token', 'token_secret':'oauth_token_secret',
+#         'remote_app': {
+#             'consumer_key': CONSUMER_KEY,
+#             'consumer_secret': CONSUMER_SECRET,
+#             'base_url': 'https://secure.splitwise.com/api/v3.0/',
+#             'request_token_url': 'https://secure.splitwise.com/oauth/request_token',
+#             'access_token_url': 'https://secure.splitwise.com/oauth/access_token',
+#             'authorize_url': 'https://secure.splitwise.com/oauth/authorize'}
+#     }
+# ]
 
 # Uncomment to setup Full admin role name
 #AUTH_ROLE_ADMIN = 'Admin'
@@ -42,7 +56,7 @@ AUTH_TYPE = AUTH_DB
 #AUTH_USER_REGISTRATION = True
 
 # The default user self registration role
-#AUTH_USER_REGISTRATION_ROLE = "Public"
+#AUTH_USER_REGISTRATION_ROLE = "Admin"
 
 # When using LDAP Auth, setup the ldap server
 #AUTH_LDAP_SERVER = "ldap://ldapserver.new"
@@ -62,14 +76,14 @@ BABEL_DEFAULT_LOCALE = 'en'
 BABEL_DEFAULT_FOLDER = 'translations'
 # The allowed translation for you app
 LANGUAGES = {
-    'en': {'flag':'gb', 'name':'English'},
-    'pt': {'flag':'pt', 'name':'Portuguese'},
-    'pt_BR': {'flag':'br', 'name': 'Pt Brazil'},
-    'es': {'flag':'es', 'name':'Spanish'},
-    'de': {'flag':'de', 'name':'German'},
-    'zh': {'flag':'cn', 'name':'Chinese'},
-    'ru': {'flag':'ru', 'name':'Russian'},
-    'pl': {'flag':'pl', 'name':'Polish'}
+    'en': {'flag':'gb', 'name':'English'}#,
+    # 'pt': {'flag':'pt', 'name':'Portuguese'},
+    # 'pt_BR': {'flag':'br', 'name': 'Pt Brazil'},
+    # 'es': {'flag':'es', 'name':'Spanish'},
+    # 'de': {'flag':'de', 'name':'German'},
+    # 'zh': {'flag':'cn', 'name':'Chinese'},
+    # 'ru': {'flag':'ru', 'name':'Russian'},
+    # 'pl': {'flag':'pl', 'name':'Polish'}
 }
 #---------------------------------------------------
 # Image and file configuration
@@ -101,4 +115,5 @@ IMG_UPLOAD_URL = '/static/uploads/'
 #APP_THEME = "spacelab.css"
 #APP_THEME = "united.css"
 #APP_THEME = "yeti.css"
+APP_THEME= "superhero.css"
 
