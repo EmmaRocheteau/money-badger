@@ -5,11 +5,12 @@ from app import appbuilder, db
 from flask import render_template
 from flask_login import current_user
 from flask_oauth import OAuth
+import requests
 from splitwise import Splitwise as splimp
 import config as Config
+import datetime
 
-import json 
-import pyyaml
+import json
 
 oauth = OAuth()
 splitwise = oauth.remote_app('splitwise',
@@ -62,27 +63,42 @@ def page_not_found(e):
     return render_template('404.html', base_template=appbuilder.base_template, appbuilder=appbuilder), 404
 
 
+class Starling(BaseView):
+    route_base = '/starling'
 
-@app.route('/split_login')
-def login():
-    return splitwise.authorize(callback=url_for('auth', next=request.args.get('next') or request.referrer or None))
+    @expose('/login/')
+    #@has_access
+    def login(self):
+        return redirect('/starling/auth')
+        #return self.render_template('output.html',
+         #                   getresp = str(expenses_list))
+    @expose('/auth/')
+    #@has_access
+    #@splitwise.authorized_handler
+    def authed(self):
+        access_token = "idBjil3J7CS0ZCa1wqSN4vReAiM3oq2Sl0iaE6MY1MN9Bj0B0skZBxdd3X7vMRKY"
+        url = "https://api-sandbox.starlingbank.com/api/v1/accounts/balance"
+        data = requests.get(url, data={'Authorization': 'Bearer '+ access_token}).json()
+        print("\n\n\n\n\n\n")
+        print(url)
+        print(data)
 
-@app.route('/auth')
+        return redirect('/splitwise/gareth')
 
-def auth(resp):
-    next_url = request.args.get('next') or url_for('index')
-    if resp is None:
-        flash(u'You denied the request to sign in.')
-        return redirect(next_url)
+    @expose('/hint')
+    def starling(self):
+        return render_template('welcome.html', top_text="Now log in to your banking Provider",
+                               auth="Starling Bank", redirect="/starling/login", img="starling",
+                               base_template=appbuilder.base_template, appbuilder=appbuilder)
 
-    session['splitwise_token'] = (
-        resp['oauth_token'],
-        resp['oauth_token_secret']
-    )
-    session['splitwise_user'] = resp['first_name']
 
-    flash('You were signed in as %s' % resp['first_name'])
-    return redirect(next_url)
+class Welcome(BaseView):
+    route_base = '/welcome'
+    @expose('/')
+    def welcome(self):
+        return render_template('welcome.html', top_text="Get started by logging in to Splitwise",
+                               auth="Splitwise", redirect="/splitwise/login", img="splitwise",
+                               base_template=appbuilder.base_template, appbuilder=appbuilder)
 
 class Splitwise(BaseView):
     route_base = '/splitwise'
@@ -114,7 +130,7 @@ class Splitwise(BaseView):
         access_token = sObj.getAccessToken(oauth_token,session['secret'],oauth_verifier)
         session['access_token'] = access_token
 
-        return redirect('/splitwise/gareth')
+        return redirect('/starling/hint')
 
 
         # next_url = request.args.get('next') or '/splitwise/gareth'#url_for('index')
@@ -132,7 +148,7 @@ class Splitwise(BaseView):
         # #flash('You were signed in as %s' % resp['first_name'])
         # return redirect(next_url)
 
-    @expose('/gareth')
+    @expose('/expenses')
     def gareth(self):
         sObj = splimp(Config.consumer_key,Config.consumer_secret)
         sObj.setAccessToken(session['access_token'])
@@ -145,24 +161,57 @@ class Splitwise(BaseView):
         #print("\n\n\n\n\n\n" , content)
         #resp = splitwise.get('get_current_user')
         return render_template('output.html', getresp="waddup pimps", base_template=appbuilder.base_template, appbuilder=appbuilder)
-    @expose('/welcome')
-    def welcome(self):
-        return render_template('welcome.html', top_text="Get started by logging in to Splitwise",
-                               auth="Splitwise", redirect="/splitwise/login", img="splitwise",
+
+
+
+
+
+
+
+class Debtor():
+    def __init__(self, name, amount):
+        self.name = str(name)
+        self.amount = "£" + "{0:,.2f}".format(amount)
+
+class Record():
+    def __init__(self, date, desc, amount, category, source, owed=0):
+        self.date = date.strftime("%Y/%m/%d")
+        self.description = desc
+        self.amount = "£" + "{0:,.2f}".format(amount)
+        self.category = str(category)
+        self.source = str(source)
+        if(owed == 0 or category == "Bank"):
+            self.owed = ""
+        else:
+            self.owed = "£" + "{0:,.2f}".format(owed)
+
+
+class Home(BaseView):
+    route_base = '/home'
+
+    @expose('/settle')
+    def settle(self):
+        d = []
+        d.append(Debtor("Hugh Mungus", 69.0))
+        d.append(Debtor("Gareth Funk", 100000))
+        d.append(Debtor("The Queen", 1000000000.01))
+
+        return render_template("settle.html", debtors=d,
                                base_template=appbuilder.base_template, appbuilder=appbuilder)
 
-    @expose('/starling')
-    def starling(self):
-        return render_template('welcome.html', top_text="Now log in to your banking Provider",
-                               auth="Starling Bank", redirect="/starling/login", img="starling",
+    @expose('/')
+    def root(self):
+        r = []
+        r.append(Record(datetime.datetime(2018, 2, 15), "Drugs", 420, "Food & Drink", "Splitwise", 69))
+        r.append(Record(datetime.datetime(2018, 1, 30), "Guns", 0.2, "Charitable Causes", "Bank"))
+        r.append(Record(datetime.datetime(2017, 12, 30), "Champage", 50, "Political Contributions", "Bank"))
+        return render_template("root.html", records=r,
                                base_template=appbuilder.base_template, appbuilder=appbuilder)
-
-
-class Starling(BaseView):
-    route_base = '/starling'
 
 appbuilder.add_view_no_menu(Splitwise())
 appbuilder.add_view_no_menu(Starling())
+appbuilder.add_view_no_menu(Home())
+appbuilder.add_view_no_menu(Welcome())
 #appbuilder.add_link("Splitwise", href='/splitwise_login/', category='Login')
   
 db.create_all()

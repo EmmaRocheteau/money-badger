@@ -2,7 +2,6 @@ import os
 from flask_appbuilder.security.manager import AUTH_OID, AUTH_REMOTE_USER, AUTH_DB, AUTH_LDAP, AUTH_OAUTH
 basedir = os.path.abspath(os.path.dirname(__file__))
 
-
 consumer_key='QhKCiloQAS3UKPQm9yrI59WGfIsJcv2VO0llHsmX'
 consumer_secret='yPIQ0El2AwF8kg4RjdPjZIBKHRHTKBviycTqyHOh'
 
@@ -119,5 +118,6 @@ IMG_UPLOAD_URL = '/static/uploads/'
 #APP_THEME = "spacelab.css"
 #APP_THEME = "united.css"
 #APP_THEME = "yeti.css"
-APP_THEME= "superhero.css"
-
+#APP_THEME= "superhero.css"
+#APP_THEME= "lux.css"
+APP_THEME= "sandstone.css"
