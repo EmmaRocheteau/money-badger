@@ -41,8 +41,10 @@ def my_user_info_getter(sm, provider, response=None):
 
 @appbuilder.app.errorhandler(404)
 def page_not_found(e):
-    return render_template('404.html', base_template=appbuilder.base_template, appbuilder=appbuilder), 404
+    return render2('404.html'), 404
 
+def render2(html, **kwargs):
+    return render_template(html, base_template=appbuilder.base_template, appbuilder=appbuilder, **kwargs)
 
 class Starling(BaseView):
     route_base = '/starling'
@@ -146,8 +148,8 @@ class Home(BaseView):
     def login(self):
         sw_auth = 'access_token' in session
         sl_auth = 'starling_access_token' in session
-        return render_template("login.html", splitwise_auth=sw_auth, starling_auth = sl_auth,
-                               base_template=appbuilder.base_template, appbuilder=appbuilder)
+        return render2("login.html", splitwise_auth=sw_auth, starling_auth = sl_auth)
+                               #base_template=appbuilder.base_template, appbuilder=appbuilder)
 
     @expose('/settle')
     def settle(self):
@@ -174,6 +176,7 @@ class Home(BaseView):
         script, div = components(chart)
         return render_template("graphs.html", script=script, div=div, base_template=appbuilder.base_template, appbuilder=appbuilder)
 
+# class Root(BaseView):
 
 
 appbuilder.add_view_no_menu(Splitwise())
