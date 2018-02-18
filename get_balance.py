@@ -5,7 +5,7 @@ def get_balance(data_path, start_balance=1000):
     data = pd.read_csv(data_path)
     cost_data = data.groupby('Date')['Cost'].sum()
 
-    idx = pd.date_range('2017-01-01', '2017-12-26')
+    idx = pd.date_range('2017-09-01', '2017-12-26')
     cost_data.index = pd.DatetimeIndex(cost_data.index)
 
     cost_data = cost_data.reindex(idx, fill_value=0)

@@ -51,11 +51,16 @@ model = Sequential()
 model.add(LSTM(4, input_shape=(1, look_back)))
 model.add(Dense(1))
 model.compile(loss='mean_squared_error', optimizer='adam')
-model.fit(trainX, trainY, epochs=100, batch_size=1, verbose=2)
+model.fit(trainX, trainY, epochs=10, batch_size=1, verbose=2)
 
 # make predictions
 trainPredict = model.predict(trainX)
 testPredict = model.predict(testX)
+
+print(trainPredict.shape)
+print(testPredict.shape)
+print(trainY.shape)
+print(testY.shape)
 
 # invert predictions
 trainPredict = scaler.inverse_transform(trainPredict)
@@ -69,12 +74,15 @@ print('Train Score: %.2f RMSE' % (trainScore))
 testScore = math.sqrt(mean_squared_error(testY[0], testPredict[:,0]))
 print('Test Score: %.2f RMSE' % (testScore))
 
+'''
 #Bootstrapping
 testPredict = model.predict(testX)
-
-
-
-
+i = 1
+while i < 100:
+	forecasted_test = testPredict
+	testPredict = model.predict(testPredict)
+	
+'''
 
 # shift train predictions for plotting
 trainPredictPlot = numpy.empty_like(dataset)
