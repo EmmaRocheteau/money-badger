@@ -59,13 +59,12 @@ class Starling(BaseView):
     def authed(self):
         access_token = "idBjil3J7CS0ZCa1wqSN4vReAiM3oq2Sl0iaE6MY1MN9Bj0B0skZBxdd3X7vMRKY"
         session['starling_access_token']  = access_token
-        getreq = 'transactions/mastercard'
-        url = "https://api-sandbox.starlingbank.com/api/v1/"+getreq
-        data = requests.get(url, headers={'Authorization': 'Bearer '+ access_token}).json()
-        with open('card_transactions.json', 'w') as f:
-            json.dump(data, f)
-        print("\n\n\n\n\n\n")
-        print(url)
+        #getreq = 'transactions/mastercard'
+
+        # with open('card_transactions.json', 'w') as f:
+        #     json.dump(data, f)
+        # print("\n\n\n\n\n\n")
+        # print(url)
         #print(data)
 
         return redirect('/home/login')
@@ -76,6 +75,10 @@ class Starling(BaseView):
                                auth="Starling Bank", redirect="/starling/login", img="starling",
                                base_template=appbuilder.base_template, appbuilder=appbuilder)
 
+def get_starling(access_token, getreq):
+    
+    url = "https://api-sandbox.starlingbank.com/api/v1/"+getreq
+    return requests.get(url, headers={'Authorization': 'Bearer '+ access_token}).json()
 
 class Welcome(BaseView):
     route_base = '/welcome'

@@ -1,11 +1,13 @@
 from flask import Flask, render_template, request
 
-from bokeh.charts import Line
+from bokeh.charts import TimeSeries
 from bokeh.embed import components
 import numpy as np
+from get_balance import get_balance
 def line_balance(data):
-    xyvalues = np.array([[2, 3, 7, 5, 26], [12, 33, 47, 15, 126], [22, 43, 10, 25, 26]])
+    dat = get_balance("../sample_data.csv")
+    data = dict(dat=dat['Cost'], Date=dat['index'])
+    ser = TimeSeries(data, x='Date', ylabel='Balance/£', dash=['dat'], legend=None)
+    #line = Line(xyvalues, title="line", legend="top_left", ylabel='Languages')
 
-    line = Line(xyvalues, title="line", legend="top_left", ylabel='Languages')
-
-    return line
+    return ser
