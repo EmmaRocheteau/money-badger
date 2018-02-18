@@ -1,5 +1,5 @@
 import logging
-from flask import Flask
+from flask import Flask, session
 from flask.ext.appbuilder import SQLA, AppBuilder
 
 """
@@ -12,8 +12,14 @@ logging.getLogger().setLevel(logging.DEBUG)
 app = Flask(__name__)
 app.config.from_object('config')
 db = SQLA(app)
-appbuilder = AppBuilder(app, db.session)
+appbuilder = AppBuilder(app, db.session, base_template="graph_base.html")
 
+
+# if 'access_token' in session:
+#     session.pop('access_token', None)
+
+# if 'starling_access_token' in session:
+#     session.pop('starling_access_token', None)
 
 """
 from sqlalchemy.engine import Engine

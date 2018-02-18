@@ -1,0 +1,20 @@
+{% extends 'appbuilder/baselayout.html' %}
+
+{% block head_css %}
+    {{ super() }}
+    <link
+    href="http://cdn.pydata.org/bokeh/release/bokeh-0.12.5.min.css"
+    rel="stylesheet" type="text/css">
+    <link
+    href="http://cdn.pydata.org/bokeh/release/bokeh-widgets-0.12.5.min.css"
+    rel="stylesheet" type="text/css">
+{% endblock %}
+
+{% block head_js %}
+    {{ super() }}
+    <script src="http://cdn.pydata.org/bokeh/release/bokeh-0.12.5.min.js"></script>
+    <script src="http://cdn.pydata.org/bokeh/release/bokeh-widgets-0.12.5.min.js"></script>
+{% endblock %}
+
+
+

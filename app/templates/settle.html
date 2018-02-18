@@ -16,9 +16,9 @@
         {% for debtor in debtors %}
         <tr class="table-active">
             <td>{{ debtor.name }}</td>
-            <td>{{ debtor.amount }}</td>
+            <td><b>{{ debtor.amount }}</b></td>
             <td>
-                <button type="button" class="btn btn-primary settle">Settle Up</button>
+                <button type="button" class="btn btn-primary btn-sm settle">Settle Up</button>
             </td>
         </tr>
         {% endfor %}

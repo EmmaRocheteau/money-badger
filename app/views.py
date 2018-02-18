@@ -10,6 +10,10 @@ import config as Config
 from data_classes import *
 
 import json
+from app import app
+
+from app.graphs import line_balance
+from bokeh.embed import components
 
 oauth = OAuth()
 splitwise = oauth.remote_app('splitwise',
@@ -19,33 +23,9 @@ access_token_url='https://secure.splitwise.com/oauth/access_token',
 authorize_url='https://secure.splitwise.com/oauth/authorize',
 consumer_key='QhKCiloQAS3UKPQm9yrI59WGfIsJcv2VO0llHsmX',
 consumer_secret='yPIQ0El2AwF8kg4RjdPjZIBKHRHTKBviycTqyHOh')
-from flask import session, redirect, flash, request, url_for
-# session['access_token'] = None
-# session['starling_access_token'] = None
-from app import app
 
 
-@splitwise.tokengetter
-def get_splitwise_token(token=None):
-    return session['splitwise_token']
 
-"""
-    Create your Views::
-
-
-    class MyModelView(ModelView):
-        datamodel = SQLAInterface(MyModel)
-
-
-    Next, register your Views::
-
-
-    appbuilder.add_view(MyModelView, "My View", icon="fa-folder-open-o", category="My Category", category_icon='fa-envelope')
-"""
-
-"""
-    Application wide 404 error handler
-"""
 
 @appbuilder.sm.oauth_user_info_getter
 def my_user_info_getter(sm, provider, response=None):
@@ -107,6 +87,11 @@ class Welcome(BaseView):
                                auth="Splitwise", redirect="/splitwise/login", img="splitwise",
                                base_template=appbuilder.base_template, appbuilder=appbuilder)
 
+
+@splitwise.tokengetter
+def get_splitwise_token(token=None):
+    return session['splitwise_token']
+
 class Splitwise(BaseView):
     route_base = '/splitwise'
 
@@ -120,9 +105,6 @@ class Splitwise(BaseView):
         session['secret'] = secret
         #url ='/splitwise/auth'
         return redirect(url)
-        #return splitwise.authorize(callback='/splitwise/auth')
-        #return self.render_template('output.html',
-         #                   getresp = str(expenses_list))
     @expose('/auth/')
     #@has_access
     #@splitwise.authorized_handler
@@ -139,24 +121,8 @@ class Splitwise(BaseView):
 
         return redirect('/home/login')
 
-
-        # next_url = request.args.get('next') or '/splitwise/gareth'#url_for('index')
-        # if resp is None:
-        #     flash(u'You denied the request to sign in.')
-        #     return redirect(next_url)
-
-        # session['splitwise_token'] = (
-        #     request.args['oauth_token'],
-        #     request.args['oauth_verifier']
-        # )
-        # #session['splitwise_user'] = resp['first_name']
-        # rep = splitwise.request('/get_current_user', format='json')
-
-        # #flash('You were signed in as %s' % resp['first_name'])
-        # return redirect(next_url)
-
     @expose('/expenses')
-    def gareth(self):
+    def get_expenses(self):
         sObj = splimp(Config.consumer_key,Config.consumer_secret)
         sObj.setAccessToken(session['access_token'])
         url = splimp.GET_EXPENSES_URL
@@ -199,6 +165,14 @@ class Home(BaseView):
             session['calculated_records'] = r
         return render_template("root.html", records=r,
                                base_template=appbuilder.base_template, appbuilder=appbuilder)
+    
+    @expose('/balance')
+    def balance(self):
+        chart = line_balance("data")
+        script, div = components(chart)
+        return render_template("graphs.html", script=script, div=div, base_template=appbuilder.base_template, appbuilder=appbuilder)
+
+
 
 appbuilder.add_view_no_menu(Splitwise())
 appbuilder.add_view_no_menu(Starling())

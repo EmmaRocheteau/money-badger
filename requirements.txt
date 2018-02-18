@@ -3,3 +3,4 @@ python 3.6.3
 flask
 flask-appbuilder
 splitwise
+bokeh 0.12.4
