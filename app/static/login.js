@@ -1,8 +1,10 @@
 // root.js
 
 var main = function() {
-    $(".proceed").click(function(){
-        $(".gif").show();
+    $(".form").submit(function(event){
+    event.preventDefault();
+     $(".gif").show();
+     this.submit(); //now submit the form
     });
 
 }
