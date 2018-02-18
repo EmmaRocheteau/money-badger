@@ -139,7 +139,6 @@ class Splitwise(BaseView):
 class Home(BaseView):
     route_base = '/home'
     default_view = '/home'
-
     @expose('/login')
     def login(self):
         sw_auth = 'access_token' in session
@@ -161,9 +160,9 @@ class Home(BaseView):
     def root(self):
         if 'calculated_records' not in session:
             df = m.get_sample_data()
-            r = create_records(df)
-            session['calculated_records'] = r
-        return render_template("root.html", records=r,
+            self.r = create_records(df)
+            session['calculated_records'] = True
+        return render_template("root.html", records=self.r,
                                base_template=appbuilder.base_template, appbuilder=appbuilder)
     
     @expose('/balance')
