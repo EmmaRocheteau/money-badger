@@ -20,5 +20,5 @@ def get_balance(data_path, start_balance=1000):
     return balance_data
 
 if __name__ == "__main__" :
-    get_balance('~/PycharmProjects/sample_data.csv')
+    print(get_balance('~/PycharmProjects/sample_data.csv'))
 
