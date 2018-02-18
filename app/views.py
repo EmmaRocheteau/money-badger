@@ -76,10 +76,12 @@ class Starling(BaseView):
         return render2('welcome.html', top_text="Now log in to your banking Provider",
                                auth="Starling Bank", redirect="/starling/login", img="starling")
 
+
 def get_starling(access_token, getreq, **kwargs):
     
     url = "https://api-sandbox.starlingbank.com/api/v1/"+getreq
-    return requests.get(url, headers={'Authorization': 'Bearer '+ access_token}, data=kwargs).json()
+    return requests.get(url, headers={'Authorization': 'Bearer ' +
+                                                       access_token}, data=kwargs).json()
 
 # def get_splitwise(access_token, url, **kwargs):
 #     options = kwargs
@@ -88,6 +90,7 @@ def get_starling(access_token, getreq, **kwargs):
 #     # url += sObj.__prepareOptionsUrl(options)
 #     content = sObj.__makeRequest(url)
 #     return json.loads(content.decode("utf-8"))
+
 
 class Welcome(BaseView):
     route_base = '/welcome'
