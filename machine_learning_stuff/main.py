@@ -10,6 +10,7 @@ from sklearn.preprocessing import MinMaxScaler
 from sklearn.metrics import mean_squared_error
 from testtrainsplit import *
 
+data = pd.read_csv(../balance_data.csv)
 
 trainX, trainY, testX, testY = test_train_split(data, 10) #data, lookback
 
