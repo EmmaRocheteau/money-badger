@@ -1,1 +1,2026 @@
-{"_links": {"nextPage": {"href": "NOT_YET_IMPLEMENTED"}}, "_embedded": {"transactions": [{"_links": {"merchant": {"href": "/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26", "templated": false}, "merchantLocation": {"href": "/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26/locations/371c62bc-dcfc-4799-8b23-b070626772f7", "templated": false}}, "id": "72f5eead-5d92-41ff-bc61-237e3561ae29", "currency": "GBP", "amount": -11.81, "direction": "OUTBOUND", "created": "2018-02-17T23:39:10.247Z", "narrative": "Pret A Manger", "source": "MASTER_CARD", "mastercardTransactionMethod": "CHIP_AND_PIN", "status": "SETTLED", "sourceAmount": -11.81, "sourceCurrency": "GBP", "merchantId": "c052f76f-e919-427d-85fc-f46a75a3ff26", "merchantLocationId": "371c62bc-dcfc-4799-8b23-b070626772f7", "spendingCategory": "HOLIDAYS", "country": "GBR", "posTimestamp": "23:39:10", "authorisationCode": "650165", "eventUid": "048a54a9-989b-45dd-bd04-8b0386b0e8ae", "cardLast4": "6447"}, {"_links": {"merchant": {"href": "/api/v1/merchants/e5b21fd4-fb62-4c40-8f56-4890a16bab51", "templated": false}, "merchantLocation": {"href": "/api/v1/merchants/e5b21fd4-fb62-4c40-8f56-4890a16bab51/locations/96fc27d9-164d-4fb5-a60f-799e9b2b2294", "templated": false}}, "id": "8afa2f4a-c724-4bc7-a152-78df3610dce4", "currency": "GBP", "amount": -24.45, "direction": "OUTBOUND", "created": "2018-02-17T23:39:10.226Z", "narrative": "Pret A Manger", "source": "MASTER_CARD", "mastercardTransactionMethod": "CHIP_AND_PIN", "status": "SETTLED", "sourceAmount": -24.45, "sourceCurrency": "GBP", "merchantId": "e5b21fd4-fb62-4c40-8f56-4890a16bab51", "merchantLocationId": "96fc27d9-164d-4fb5-a60f-799e9b2b2294", "spendingCategory": "HOLIDAYS", "country": "GBR", "posTimestamp": "23:39:10", "authorisationCode": "669308", "eventUid": "59310b32-52af-46f9-8eb6-1745bde16e59", "cardLast4": "6447"}, {"_links": {"merchant": {"href": "/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26", "templated": false}, "merchantLocation": {"href": "/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26/locations/b7b9f347-99ab-4a83-9317-ec9895f47755", "templated": false}}, "id": "4bbe21bd-d850-4685-9ff3-afcbe25aab69", "currency": "GBP", "amount": -22.89, "direction": "OUTBOUND", "created": "2018-02-17T23:39:10.140Z", "narrative": "Pret A Manger", "source": "MASTER_CARD", "mastercardTransactionMethod": "CHIP_AND_PIN", "status": "SETTLED", "sourceAmount": -22.89, "sourceCurrency": "GBP", "merchantId": "c052f76f-e919-427d-85fc-f46a75a3ff26", "merchantLocationId": "b7b9f347-99ab-4a83-9317-ec9895f47755", "spendingCategory": "HOLIDAYS", "country": "GBR", "posTimestamp": "23:39:10", "authorisationCode": "175089", "eventUid": "2d6c4c3d-e897-432c-b5e6-7aaa7f600fa1", "cardLast4": "6447"}, {"_links": {"merchant": {"href": "/api/v1/merchants/f700ecb4-dbc0-43a3-81c4-2d4db3d03e65", "templated": false}, "merchantLocation": {"href": "/api/v1/merchants/f700ecb4-dbc0-43a3-81c4-2d4db3d03e65/locations/a0113c80-e8f5-47cb-8606-9e4c042d82f6", "templated": false}}, "id": "2d9ba9c6-6b28-4904-91cc-754e6e600086", "currency": "GBP", "amount": -14.88, "direction": "OUTBOUND", "created": "2018-02-17T23:39:10.086Z", "narrative": "Sofitel", "source": "MASTER_CARD", "mastercardTransactionMethod": "CHIP_AND_PIN", "status": "SETTLED", "sourceAmount": -14.88, "sourceCurrency": "GBP", "merchantId": "f700ecb4-dbc0-43a3-81c4-2d4db3d03e65", "merchantLocationId": "a0113c80-e8f5-47cb-8606-9e4c042d82f6", "spendingCategory": "HOLIDAYS", "country": "GBR", "posTimestamp": "23:39:10", "authorisationCode": "784478", "eventUid": "6e4c32e2-bf62-424d-8fb3-2d7a7a038757", "cardLast4": "6447"}, {"_links": {"merchant": {"href": "/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26", "templated": false}, "merchantLocation": {"href": "/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26/locations/371c62bc-dcfc-4799-8b23-b070626772f7", "templated": false}}, "id": "8d8a054b-a249-4f87-ad16-b1d0302efe65", "currency": "GBP", "amount": -25.06, "direction": "OUTBOUND", "created": "2018-02-17T23:39:10.064Z", "narrative": "Pret A Manger", "source": "MASTER_CARD", "mastercardTransactionMethod": "CHIP_AND_PIN", "status": "SETTLED", "sourceAmount": -25.06, "sourceCurrency": "GBP", "merchantId": "c052f76f-e919-427d-85fc-f46a75a3ff26", "merchantLocationId": "371c62bc-dcfc-4799-8b23-b070626772f7", "spendingCategory": "HOLIDAYS", "country": "GBR", "posTimestamp": "23:39:10", "authorisationCode": "603265", "eventUid": "12044e77-3fcd-462f-8d8c-305d953d91f0", "cardLast4": "6447"}, {"_links": {"merchant": {"href": "/api/v1/merchants/d86542b9-a343-41af-a7b7-52f2aaf050a7", "templated": false}, "merchantLocation": {"href": "/api/v1/merchants/d86542b9-a343-41af-a7b7-52f2aaf050a7/locations/0b2fff36-3b2b-46f7-aad9-b160c5885291", "templated": false}}, "id": "c57bba68-8fb1-4be2-9f99-d003253fa452", "currency": "GBP", "amount": -8.61, "direction": "OUTBOUND", "created": "2018-02-17T23:39:09.921Z", "narrative": "Pret A Manger", "source": "MASTER_CARD", "mastercardTransactionMethod": "CHIP_AND_PIN", "status": "SETTLED", "sourceAmount": -8.61, "sourceCurrency": "GBP", "merchantId": "d86542b9-a343-41af-a7b7-52f2aaf050a7", "merchantLocationId": "0b2fff36-3b2b-46f7-aad9-b160c5885291", "spendingCategory": "HOLIDAYS", "country": "GBR", "posTimestamp": "23:39:09", "authorisationCode": "153189", "eventUid": "9c30d628-4509-4895-9333-0844004cb9ff", "cardLast4": "6447"}, {"_links": {"merchant": {"href": "/api/v1/merchants/e6dbe57e-7c23-4015-97a4-4afbbf7faa23", "templated": false}, "merchantLocation": {"href": "/api/v1/merchants/e6dbe57e-7c23-4015-97a4-4afbbf7faa23/locations/7679cd0b-17da-4842-936d-bedb1e73b786", "templated": false}}, "id": "a2a42a1a-0774-49f0-8ae7-b1dd2adc6689", "currency": "GBP", "amount": -12.35, "direction": "OUTBOUND", "created": "2018-02-17T23:39:09.774Z", "narrative": "Osprey London", "source": "MASTER_CARD", "mastercardTransactionMethod": "CHIP_AND_PIN", "status": "SETTLED", "sourceAmount": -12.35, "sourceCurrency": "GBP", "merchantId": "e6dbe57e-7c23-4015-97a4-4afbbf7faa23", "merchantLocationId": "7679cd0b-17da-4842-936d-bedb1e73b786", "spendingCategory": "HOLIDAYS", "country": "GBR", "posTimestamp": "23:39:09", "authorisationCode": "180899", "eventUid": "5e7dd264-9e2e-4c77-8457-1f224e040a04", "cardLast4": "6447"}, {"_links": {"merchant": {"href": "/api/v1/merchants/d86542b9-a343-41af-a7b7-52f2aaf050a7", "templated": false}, "merchantLocation": {"href": "/api/v1/merchants/d86542b9-a343-41af-a7b7-52f2aaf050a7/locations/0b2fff36-3b2b-46f7-aad9-b160c5885291", "templated": false}}, "id": "20a3f340-c6f2-44d4-a103-e502a0177db5", "currency": "GBP", "amount": -1.67, "direction": "OUTBOUND", "created": "2018-02-17T23:39:09.636Z", "narrative": "ING", "source": "MASTER_CARD", "mastercardTransactionMethod": "CHIP_AND_PIN", "status": "SETTLED", "sourceAmount": -1.67, "sourceCurrency": "GBP", "merchantId": "d86542b9-a343-41af-a7b7-52f2aaf050a7", "merchantLocationId": "0b2fff36-3b2b-46f7-aad9-b160c5885291", "spendingCategory": "HOLIDAYS", "country": "GBR", "posTimestamp": "23:39:09", "authorisationCode": "184579", "eventUid": "9f7735cf-3f23-47e0-ac1a-c033de259e3d", "cardLast4": "6447"}, {"_links": {"merchant": {"href": "/api/v1/merchants/f700ecb4-dbc0-43a3-81c4-2d4db3d03e65", "templated": false}, "merchantLocation": {"href": "/api/v1/merchants/f700ecb4-dbc0-43a3-81c4-2d4db3d03e65/locations/a0113c80-e8f5-47cb-8606-9e4c042d82f6", "templated": false}}, "id": "ab89c167-1109-4223-a0fe-b88e6a9d7cbb", "currency": "GBP", "amount": -7.95, "direction": "OUTBOUND", "created": "2018-02-17T23:39:09.601Z", "narrative": "Sofitel", "source": "MASTER_CARD", "mastercardTransactionMethod": "CHIP_AND_PIN", "status": "SETTLED", "sourceAmount": -7.95, "sourceCurrency": "GBP", "merchantId": "f700ecb4-dbc0-43a3-81c4-2d4db3d03e65", "merchantLocationId": "a0113c80-e8f5-47cb-8606-9e4c042d82f6", "spendingCategory": "HOLIDAYS", "country": "GBR", "posTimestamp": "23:39:09", "authorisationCode": "156804", "eventUid": "36393129-5f3e-4c7e-bbb8-5e32c9107105", "cardLast4": "6447"}, {"_links": {"merchant": {"href": "/api/v1/merchants/a358e5f4-085d-41bc-82fd-4033a03964d6", "templated": false}, "merchantLocation": {"href": "/api/v1/merchants/a358e5f4-085d-41bc-82fd-4033a03964d6/locations/fa7e4758-8a52-4353-8bb6-5f58ddaec732", "templated": false}}, "id": "30633b14-3319-4027-98d8-539451efed7b", "currency": "GBP", "amount": -6.94, "direction": "OUTBOUND", "created": "2018-02-17T23:39:09.556Z", "narrative": "Osprey London", "source": "MASTER_CARD", "mastercardTransactionMethod": "CHIP_AND_PIN", "status": "SETTLED", "sourceAmount": -6.94, "sourceCurrency": "GBP", "merchantId": "a358e5f4-085d-41bc-82fd-4033a03964d6", "merchantLocationId": "fa7e4758-8a52-4353-8bb6-5f58ddaec732", "spendingCategory": "BILLS_AND_SERVICES", "country": "GBR", "posTimestamp": "23:39:09", "authorisationCode": "270276", "eventUid": "48985402-62c3-48b6-8560-4380c10bcc4f", "cardLast4": "6447"}, {"_links": {"merchant": {"href": "/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26", "templated": false}, "merchantLocation": {"href": "/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26/locations/b7b9f347-99ab-4a83-9317-ec9895f47755", "templated": false}}, "id": "c95ae9ea-8518-4dc1-beb1-dc09413600b1", "currency": "GBP", "amount": -30.81, "direction": "OUTBOUND", "created": "2018-02-17T23:39:09.474Z", "narrative": "Mastercard", "source": "MASTER_CARD", "mastercardTransactionMethod": "CHIP_AND_PIN", "status": "SETTLED", "sourceAmount": -30.81, "sourceCurrency": "GBP", "merchantId": "c052f76f-e919-427d-85fc-f46a75a3ff26", "merchantLocationId": "b7b9f347-99ab-4a83-9317-ec9895f47755", "spendingCategory": "HOLIDAYS", "country": "GBR", "posTimestamp": "23:39:09", "authorisationCode": "008934", "eventUid": "efdd26a4-e346-4062-b93b-bd1b9216aca1", "cardLast4": "6447"}, {"_links": {"merchant": {"href": "/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26", "templated": false}, "merchantLocation": {"href": "/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26/locations/b7b9f347-99ab-4a83-9317-ec9895f47755", "templated": false}}, "id": "8444c8db-cc0d-4dc9-9b7b-e1065379f610", "currency": "GBP", "amount": -35.93, "direction": "OUTBOUND", "created": "2018-02-17T23:39:09.473Z", "narrative": "Pret A Manger", "source": "MASTER_CARD", "mastercardTransactionMethod": "CHIP_AND_PIN", "status": "SETTLED", "sourceAmount": -35.93, "sourceCurrency": "GBP", "merchantId": "c052f76f-e919-427d-85fc-f46a75a3ff26", "merchantLocationId": "b7b9f347-99ab-4a83-9317-ec9895f47755", "spendingCategory": "HOLIDAYS", "country": "GBR", "posTimestamp": "23:39:09", "authorisationCode": "739394", "eventUid": "afa990ed-7551-449e-a4d1-4c90355f1e4e", "cardLast4": "6447"}, {"_links": {"merchant": {"href": "/api/v1/merchants/acc81c26-071b-4e22-904d-5635e4bd6089", "templated": false}, "merchantLocation": {"href": "/api/v1/merchants/acc81c26-071b-4e22-904d-5635e4bd6089/locations/12303709-79d1-456f-a1b2-2d3332da7b92", "templated": false}}, "id": "2e4e623e-8fb0-4d7b-b0f1-cc1fcbfa6b32", "currency": "GBP", "amount": -1.84, "direction": "OUTBOUND", "created": "2018-02-17T23:39:09.472Z", "narrative": "Mastercard", "source": "MASTER_CARD", "mastercardTransactionMethod": "CHIP_AND_PIN", "status": "SETTLED", "sourceAmount": -1.84, "sourceCurrency": "GBP", "merchantId": "acc81c26-071b-4e22-904d-5635e4bd6089", "merchantLocationId": "12303709-79d1-456f-a1b2-2d3332da7b92", "spendingCategory": "HOLIDAYS", "country": "GBR", "posTimestamp": "23:39:09", "authorisationCode": "226350", "eventUid": "6b1753cd-20fa-4165-847c-6762750234a2", "cardLast4": "6447"}, {"_links": {"merchant": {"href": "/api/v1/merchants/e6dbe57e-7c23-4015-97a4-4afbbf7faa23", "templated": false}, "merchantLocation": {"href": "/api/v1/merchants/e6dbe57e-7c23-4015-97a4-4afbbf7faa23/locations/7679cd0b-17da-4842-936d-bedb1e73b786", "templated": false}}, "id": "48ac77b8-f8bd-4edb-b452-dcb1d03c02cc", "currency": "GBP", "amount": -31.99, "direction": "OUTBOUND", "created": "2018-02-17T23:39:07.123Z", "narrative": "Mastercard", "source": "MASTER_CARD", "mastercardTransactionMethod": "CHIP_AND_PIN", "status": "SETTLED", "sourceAmount": -31.99, "sourceCurrency": "GBP", "merchantId": "e6dbe57e-7c23-4015-97a4-4afbbf7faa23", "merchantLocationId": "7679cd0b-17da-4842-936d-bedb1e73b786", "spendingCategory": "HOLIDAYS", "country": "GBR", "posTimestamp": "23:39:07", "authorisationCode": "369609", "eventUid": "1899d7dd-6026-41c9-bab9-7bae88714529", "cardLast4": "6447"}, {"_links": {"merchant": {"href": "/api/v1/merchants/e6dbe57e-7c23-4015-97a4-4afbbf7faa23", "templated": false}, "merchantLocation": {"href": "/api/v1/merchants/e6dbe57e-7c23-4015-97a4-4afbbf7faa23/locations/7679cd0b-17da-4842-936d-bedb1e73b786", "templated": false}}, "id": "90bd70da-1ea8-41a0-8a31-34fbe4dee2f5", "currency": "GBP", "amount": -33.51, "direction": "OUTBOUND", "created": "2018-02-17T23:39:07.068Z", "narrative": "ING", "source": "MASTER_CARD", "mastercardTransactionMethod": "CHIP_AND_PIN", "status": "SETTLED", "sourceAmount": -33.51, "sourceCurrency": "GBP", "merchantId": "e6dbe57e-7c23-4015-97a4-4afbbf7faa23", "merchantLocationId": "7679cd0b-17da-4842-936d-bedb1e73b786", "spendingCategory": "HOLIDAYS", "country": "GBR", "posTimestamp": "23:39:07", "authorisationCode": "018610", "eventUid": "09a20bda-59eb-4e4a-84b0-638ef614117d", "cardLast4": "6447"}, {"_links": {"merchant": {"href": "/api/v1/merchants/5ef0556e-4f3b-45e3-8997-49cd6289c2f3", "templated": false}, "merchantLocation": {"href": "/api/v1/merchants/5ef0556e-4f3b-45e3-8997-49cd6289c2f3/locations/8798c74b-7c8d-4b39-922f-e07977e64d05", "templated": false}}, "id": "c0b74a24-3239-41d6-a80d-a8490bcf42fa", "currency": "GBP", "amount": -13.08, "direction": "OUTBOUND", "created": "2018-02-17T23:39:06.979Z", "narrative": "Mastercard", "source": "MASTER_CARD", "mastercardTransactionMethod": "CHIP_AND_PIN", "status": "SETTLED", "sourceAmount": -13.08, "sourceCurrency": "GBP", "merchantId": "5ef0556e-4f3b-45e3-8997-49cd6289c2f3", "merchantLocationId": "8798c74b-7c8d-4b39-922f-e07977e64d05", "spendingCategory": "SHOPPING", "country": "GBR", "posTimestamp": "23:39:06", "authorisationCode": "825962", "eventUid": "70b14961-cf3f-4672-8cb8-15b4f3dc5b3e", "cardLast4": "6447"}, {"_links": {"merchant": {"href": "/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26", "templated": false}, "merchantLocation": {"href": "/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26/locations/b7b9f347-99ab-4a83-9317-ec9895f47755", "templated": false}}, "id": "a1480e14-bdd7-4b8f-b1ff-6885fcf39ce9", "currency": "GBP", "amount": -35.71, "direction": "OUTBOUND", "created": "2018-02-17T23:39:06.854Z", "narrative": "Amazon", "source": "MASTER_CARD", "mastercardTransactionMethod": "CHIP_AND_PIN", "status": "SETTLED", "sourceAmount": -35.71, "sourceCurrency": "GBP", "merchantId": "c052f76f-e919-427d-85fc-f46a75a3ff26", "merchantLocationId": "b7b9f347-99ab-4a83-9317-ec9895f47755", "spendingCategory": "HOLIDAYS", "country": "GBR", "posTimestamp": "23:39:06", "authorisationCode": "683876", "eventUid": "bb99df12-5361-46c8-ae69-a47dbfe35431", "cardLast4": "6447"}, {"_links": {"merchant": {"href": "/api/v1/merchants/acc81c26-071b-4e22-904d-5635e4bd6089", "templated": false}, "merchantLocation": {"href": "/api/v1/merchants/acc81c26-071b-4e22-904d-5635e4bd6089/locations/12303709-79d1-456f-a1b2-2d3332da7b92", "templated": false}}, "id": "6a9baac1-c314-48b5-a862-4a7107153c96", "currency": "GBP", "amount": -38.39, "direction": "OUTBOUND", "created": "2018-02-17T23:39:06.729Z", "narrative": "Sofitel", "source": "MASTER_CARD", "mastercardTransactionMethod": "CHIP_AND_PIN", "status": "SETTLED", "sourceAmount": -38.39, "sourceCurrency": "GBP", "merchantId": "acc81c26-071b-4e22-904d-5635e4bd6089", "merchantLocationId": "12303709-79d1-456f-a1b2-2d3332da7b92", "spendingCategory": "HOLIDAYS", "country": "GBR", "posTimestamp": "23:39:06", "authorisationCode": "555510", "eventUid": "094835aa-4346-4fe4-addc-1a4a0d2f63ce", "cardLast4": "6447"}, {"_links": {"merchant": {"href": "/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26", "templated": false}, "merchantLocation": {"href": "/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26/locations/b7b9f347-99ab-4a83-9317-ec9895f47755", "templated": false}}, "id": "e28df46a-b6ba-4280-9bb0-bfd644e4bb1e", "currency": "GBP", "amount": -15.64, "direction": "OUTBOUND", "created": "2018-02-17T23:39:06.626Z", "narrative": "Osprey London", "source": "MASTER_CARD", "mastercardTransactionMethod": "CHIP_AND_PIN", "status": "SETTLED", "sourceAmount": -15.64, "sourceCurrency": "GBP", "merchantId": "c052f76f-e919-427d-85fc-f46a75a3ff26", "merchantLocationId": "b7b9f347-99ab-4a83-9317-ec9895f47755", "spendingCategory": "HOLIDAYS", "country": "GBR", "posTimestamp": "23:39:06", "authorisationCode": "249437", "eventUid": "5c2ce0b1-b829-47b8-a57e-dac59f31489d", "cardLast4": "6447"}, {"_links": {"merchant": {"href": "/api/v1/merchants/acc81c26-071b-4e22-904d-5635e4bd6089", "templated": false}, "merchantLocation": {"href": "/api/v1/merchants/acc81c26-071b-4e22-904d-5635e4bd6089/locations/12303709-79d1-456f-a1b2-2d3332da7b92", "templated": false}}, "id": "8c1c93d5-06c3-412b-bcc6-72bfdddac6ed", "currency": "GBP", "amount": -29.91, "direction": "OUTBOUND", "created": "2018-02-17T23:39:06.436Z", "narrative": "Pret A Manger", "source": "MASTER_CARD", "mastercardTransactionMethod": "CHIP_AND_PIN", "status": "SETTLED", "sourceAmount": -29.91, "sourceCurrency": "GBP", "merchantId": "acc81c26-071b-4e22-904d-5635e4bd6089", "merchantLocationId": "12303709-79d1-456f-a1b2-2d3332da7b92", "spendingCategory": "HOLIDAYS", "country": "GBR", "posTimestamp": "23:39:06", "authorisationCode": "568980", "eventUid": "8fae496e-f2d0-47fd-a2c6-22464a449727", "cardLast4": "6447"}, {"_links": {"merchant": {"href": "/api/v1/merchants/e6dbe57e-7c23-4015-97a4-4afbbf7faa23", "templated": false}, "merchantLocation": {"href": "/api/v1/merchants/e6dbe57e-7c23-4015-97a4-4afbbf7faa23/locations/7679cd0b-17da-4842-936d-bedb1e73b786", "templated": false}}, "id": "4ae0b94c-8563-4e7a-8dc9-f6dccbb724dc", "currency": "GBP", "amount": -9.36, "direction": "OUTBOUND", "created": "2018-02-17T23:39:06.423Z", "narrative": "Amazon", "source": "MASTER_CARD", "mastercardTransactionMethod": "CHIP_AND_PIN", "status": "SETTLED", "sourceAmount": -9.36, "sourceCurrency": "GBP", "merchantId": "e6dbe57e-7c23-4015-97a4-4afbbf7faa23", "merchantLocationId": "7679cd0b-17da-4842-936d-bedb1e73b786", "spendingCategory": "HOLIDAYS", "country": "GBR", "posTimestamp": "23:39:06", "authorisationCode": "698147", "eventUid": "fa2ce57c-3ddf-4677-acdb-87fd926fb670", "cardLast4": "6447"}, {"_links": {"merchant": {"href": "/api/v1/merchants/5ef0556e-4f3b-45e3-8997-49cd6289c2f3", "templated": false}, "merchantLocation": {"href": "/api/v1/merchants/5ef0556e-4f3b-45e3-8997-49cd6289c2f3/locations/8798c74b-7c8d-4b39-922f-e07977e64d05", "templated": false}}, "id": "c920e0e8-c225-4ef3-b2dc-d580c36dce6c", "currency": "GBP", "amount": -6.21, "direction": "OUTBOUND", "created": "2018-02-17T23:39:06.423Z", "narrative": "Mastercard", "source": "MASTER_CARD", "mastercardTransactionMethod": "CHIP_AND_PIN", "status": "SETTLED", "sourceAmount": -6.21, "sourceCurrency": "GBP", "merchantId": "5ef0556e-4f3b-45e3-8997-49cd6289c2f3", "merchantLocationId": "8798c74b-7c8d-4b39-922f-e07977e64d05", "spendingCategory": "SHOPPING", "country": "GBR", "posTimestamp": "23:39:06", "authorisationCode": "418383", "eventUid": "f65445d6-9d03-4f63-a1ac-f4ac43fdaa9a", "cardLast4": "6447"}, {"_links": {"merchant": {"href": "/api/v1/merchants/e6dbe57e-7c23-4015-97a4-4afbbf7faa23", "templated": false}, "merchantLocation": {"href": "/api/v1/merchants/e6dbe57e-7c23-4015-97a4-4afbbf7faa23/locations/7679cd0b-17da-4842-936d-bedb1e73b786", "templated": false}}, "id": "f9af96d6-e419-4c4f-baad-1e69de907154", "currency": "GBP", "amount": -5.15, "direction": "OUTBOUND", "created": "2018-02-17T23:39:06.375Z", "narrative": "Mastercard", "source": "MASTER_CARD", "mastercardTransactionMethod": "CHIP_AND_PIN", "status": "SETTLED", "sourceAmount": -5.15, "sourceCurrency": "GBP", "merchantId": "e6dbe57e-7c23-4015-97a4-4afbbf7faa23", "merchantLocationId": "7679cd0b-17da-4842-936d-bedb1e73b786", "spendingCategory": "HOLIDAYS", "country": "GBR", "posTimestamp": "23:39:06", "authorisationCode": "699374", "eventUid": "d9ded337-c5cd-488a-894f-cd697c0a7496", "cardLast4": "6447"}, {"_links": {"merchant": {"href": "/api/v1/merchants/e5b21fd4-fb62-4c40-8f56-4890a16bab51", "templated": false}, "merchantLocation": {"href": "/api/v1/merchants/e5b21fd4-fb62-4c40-8f56-4890a16bab51/locations/96fc27d9-164d-4fb5-a60f-799e9b2b2294", "templated": false}}, "id": "ad6b6816-a8b2-45cd-addc-2b204df4da75", "currency": "GBP", "amount": -10.4, "direction": "OUTBOUND", "created": "2018-02-17T23:39:06.281Z", "narrative": "Yorkshire Bank III", "source": "MASTER_CARD", "mastercardTransactionMethod": "CHIP_AND_PIN", "status": "SETTLED", "sourceAmount": -10.4, "sourceCurrency": "GBP", "merchantId": "e5b21fd4-fb62-4c40-8f56-4890a16bab51", "merchantLocationId": "96fc27d9-164d-4fb5-a60f-799e9b2b2294", "spendingCategory": "HOLIDAYS", "country": "GBR", "posTimestamp": "23:39:06", "authorisationCode": "010153", "eventUid": "83c68029-88bc-4011-994d-2eea109539ab", "cardLast4": "6447"}, {"_links": {"merchant": {"href": "/api/v1/merchants/e5b21fd4-fb62-4c40-8f56-4890a16bab51", "templated": false}, "merchantLocation": {"href": "/api/v1/merchants/e5b21fd4-fb62-4c40-8f56-4890a16bab51/locations/96fc27d9-164d-4fb5-a60f-799e9b2b2294", "templated": false}}, "id": "1319e1ef-c30c-41ba-a9a1-d25c57992052", "currency": "GBP", "amount": -2.55, "direction": "OUTBOUND", "created": "2018-02-17T23:39:06.280Z", "narrative": "Sofitel", "source": "MASTER_CARD", "mastercardTransactionMethod": "CHIP_AND_PIN", "status": "SETTLED", "sourceAmount": -2.55, "sourceCurrency": "GBP", "merchantId": "e5b21fd4-fb62-4c40-8f56-4890a16bab51", "merchantLocationId": "96fc27d9-164d-4fb5-a60f-799e9b2b2294", "spendingCategory": "HOLIDAYS", "country": "GBR", "posTimestamp": "23:39:06", "authorisationCode": "714495", "eventUid": "1152f674-eb4b-4036-85be-26bb2c6dea86", "cardLast4": "6447"}, {"_links": {"merchant": {"href": "/api/v1/merchants/5ef0556e-4f3b-45e3-8997-49cd6289c2f3", "templated": false}, "merchantLocation": {"href": "/api/v1/merchants/5ef0556e-4f3b-45e3-8997-49cd6289c2f3/locations/8798c74b-7c8d-4b39-922f-e07977e64d05", "templated": false}}, "id": "65afa690-e11a-48ef-8403-3150151d4e8d", "currency": "GBP", "amount": -35.61, "direction": "OUTBOUND", "created": "2018-02-17T23:39:06.146Z", "narrative": "Sofitel", "source": "MASTER_CARD", "mastercardTransactionMethod": "CHIP_AND_PIN", "status": "SETTLED", "sourceAmount": -35.61, "sourceCurrency": "GBP", "merchantId": "5ef0556e-4f3b-45e3-8997-49cd6289c2f3", "merchantLocationId": "8798c74b-7c8d-4b39-922f-e07977e64d05", "spendingCategory": "SHOPPING", "country": "GBR", "posTimestamp": "23:39:06", "authorisationCode": "674295", "eventUid": "e114e3f9-bb1c-4d49-bf8b-d5a1851a5c1f", "cardLast4": "6447"}, {"_links": {"merchant": {"href": "/api/v1/merchants/acc81c26-071b-4e22-904d-5635e4bd6089", "templated": false}, "merchantLocation": {"href": "/api/v1/merchants/acc81c26-071b-4e22-904d-5635e4bd6089/locations/12303709-79d1-456f-a1b2-2d3332da7b92", "templated": false}}, "id": "e7175b2e-22e4-4561-a508-16ff65590dc2", "currency": "GBP", "amount": -15.28, "direction": "OUTBOUND", "created": "2018-02-17T23:39:04.778Z", "narrative": "Yorkshire Bank III", "source": "MASTER_CARD", "mastercardTransactionMethod": "CHIP_AND_PIN", "status": "SETTLED", "sourceAmount": -15.28, "sourceCurrency": "GBP", "merchantId": "acc81c26-071b-4e22-904d-5635e4bd6089", "merchantLocationId": "12303709-79d1-456f-a1b2-2d3332da7b92", "spendingCategory": "HOLIDAYS", "country": "GBR", "posTimestamp": "23:39:04", "authorisationCode": "739491", "eventUid": "7585abb9-0085-4c1d-9fc9-d99cc342d3f6", "cardLast4": "6447"}, {"_links": {"merchant": {"href": "/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26", "templated": false}, "merchantLocation": {"href": "/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26/locations/b7b9f347-99ab-4a83-9317-ec9895f47755", "templated": false}}, "id": "7ded1dbd-769d-400f-998a-58b7771be128", "currency": "GBP", "amount": -16.37, "direction": "OUTBOUND", "created": "2018-02-17T23:39:04.536Z", "narrative": "Mastercard", "source": "MASTER_CARD", "mastercardTransactionMethod": "CHIP_AND_PIN", "status": "SETTLED", "sourceAmount": -16.37, "sourceCurrency": "GBP", "merchantId": "c052f76f-e919-427d-85fc-f46a75a3ff26", "merchantLocationId": "b7b9f347-99ab-4a83-9317-ec9895f47755", "spendingCategory": "HOLIDAYS", "country": "GBR", "posTimestamp": "23:39:04", "authorisationCode": "087342", "eventUid": "96e3f5c6-0c6c-4b87-b191-78bee7936756", "cardLast4": "6447"}, {"_links": {"merchant": {"href": "/api/v1/merchants/e6dbe57e-7c23-4015-97a4-4afbbf7faa23", "templated": false}, "merchantLocation": {"href": "/api/v1/merchants/e6dbe57e-7c23-4015-97a4-4afbbf7faa23/locations/7679cd0b-17da-4842-936d-bedb1e73b786", "templated": false}}, "id": "7310304a-3221-47f2-88a2-0ac9434ad0a8", "currency": "GBP", "amount": -36.3, "direction": "OUTBOUND", "created": "2018-02-17T23:39:04.444Z", "narrative": "Mastercard", "source": "MASTER_CARD", "mastercardTransactionMethod": "CHIP_AND_PIN", "status": "SETTLED", "sourceAmount": -36.3, "sourceCurrency": "GBP", "merchantId": "e6dbe57e-7c23-4015-97a4-4afbbf7faa23", "merchantLocationId": "7679cd0b-17da-4842-936d-bedb1e73b786", "spendingCategory": "HOLIDAYS", "country": "GBR", "posTimestamp": "23:39:04", "authorisationCode": "002192", "eventUid": "5dd6905d-44e6-4ad3-b7b3-db206ae042e8", "cardLast4": "6447"}, {"_links": {"merchant": {"href": "/api/v1/merchants/e6dbe57e-7c23-4015-97a4-4afbbf7faa23", "templated": false}, "merchantLocation": {"href": "/api/v1/merchants/e6dbe57e-7c23-4015-97a4-4afbbf7faa23/locations/7679cd0b-17da-4842-936d-bedb1e73b786", "templated": false}}, "id": "c8efc06a-c65d-47da-9004-f006a027d6b2", "currency": "GBP", "amount": -36.95, "direction": "OUTBOUND", "created": "2018-02-17T23:39:04.319Z", "narrative": "Mastercard", "source": "MASTER_CARD", "mastercardTransactionMethod": "CHIP_AND_PIN", "status": "SETTLED", "sourceAmount": -36.95, "sourceCurrency": "GBP", "merchantId": "e6dbe57e-7c23-4015-97a4-4afbbf7faa23", "merchantLocationId": "7679cd0b-17da-4842-936d-bedb1e73b786", "spendingCategory": "HOLIDAYS", "country": "GBR", "posTimestamp": "23:39:04", "authorisationCode": "196843", "eventUid": "c9703044-688d-4358-ab82-3cbf585e4e90", "cardLast4": "6447"}, {"_links": {"merchant": {"href": "/api/v1/merchants/d86542b9-a343-41af-a7b7-52f2aaf050a7", "templated": false}, "merchantLocation": {"href": "/api/v1/merchants/d86542b9-a343-41af-a7b7-52f2aaf050a7/locations/0b2fff36-3b2b-46f7-aad9-b160c5885291", "templated": false}}, "id": "5057b23f-2fb2-4072-b1c8-b30534d95a28", "currency": "GBP", "amount": -10.6, "direction": "OUTBOUND", "created": "2018-02-17T23:39:04.315Z", "narrative": "Villandry", "source": "MASTER_CARD", "mastercardTransactionMethod": "CHIP_AND_PIN", "status": "SETTLED", "sourceAmount": -10.6, "sourceCurrency": "GBP", "merchantId": "d86542b9-a343-41af-a7b7-52f2aaf050a7", "merchantLocationId": "0b2fff36-3b2b-46f7-aad9-b160c5885291", "spendingCategory": "HOLIDAYS", "country": "GBR", "posTimestamp": "23:39:04", "authorisationCode": "037616", "eventUid": "0396e69a-3ebd-423b-8c53-abcf1bbfbdd3", "cardLast4": "6447"}, {"_links": {"merchant": {"href": "/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26", "templated": false}, "merchantLocation": {"href": "/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26/locations/b7b9f347-99ab-4a83-9317-ec9895f47755", "templated": false}}, "id": "3317ed8f-5657-4eca-9799-eafec82218b5", "currency": "GBP", "amount": -38.14, "direction": "OUTBOUND", "created": "2018-02-17T23:39:04.315Z", "narrative": "Pret A Manger", "source": "MASTER_CARD", "mastercardTransactionMethod": "CHIP_AND_PIN", "status": "SETTLED", "sourceAmount": -38.14, "sourceCurrency": "GBP", "merchantId": "c052f76f-e919-427d-85fc-f46a75a3ff26", "merchantLocationId": "b7b9f347-99ab-4a83-9317-ec9895f47755", "spendingCategory": "HOLIDAYS", "country": "GBR", "posTimestamp": "23:39:04", "authorisationCode": "783714", "eventUid": "1fa840a8-4e0a-432d-93e4-1508094a6f33", "cardLast4": "6447"}, {"_links": {"merchant": {"href": "/api/v1/merchants/a358e5f4-085d-41bc-82fd-4033a03964d6", "templated": false}, "merchantLocation": {"href": "/api/v1/merchants/a358e5f4-085d-41bc-82fd-4033a03964d6/locations/fa7e4758-8a52-4353-8bb6-5f58ddaec732", "templated": false}}, "id": "3eda80b2-de84-4167-9931-4f3bf8687081", "currency": "GBP", "amount": -38.36, "direction": "OUTBOUND", "created": "2018-02-17T23:39:04.083Z", "narrative": "Osprey London", "source": "MASTER_CARD", "mastercardTransactionMethod": "CHIP_AND_PIN", "status": "SETTLED", "sourceAmount": -38.36, "sourceCurrency": "GBP", "merchantId": "a358e5f4-085d-41bc-82fd-4033a03964d6", "merchantLocationId": "fa7e4758-8a52-4353-8bb6-5f58ddaec732", "spendingCategory": "BILLS_AND_SERVICES", "country": "GBR", "posTimestamp": "23:39:04", "authorisationCode": "039256", "eventUid": "a42f8deb-e417-4cd1-bde1-98b29004419c", "cardLast4": "6447"}, {"_links": {"merchant": {"href": "/api/v1/merchants/5ef0556e-4f3b-45e3-8997-49cd6289c2f3", "templated": false}, "merchantLocation": {"href": "/api/v1/merchants/5ef0556e-4f3b-45e3-8997-49cd6289c2f3/locations/8798c74b-7c8d-4b39-922f-e07977e64d05", "templated": false}}, "id": "24ce66ee-79e2-45bb-8630-f62913547b0b", "currency": "GBP", "amount": -18.82, "direction": "OUTBOUND", "created": "2018-02-17T23:39:04.079Z", "narrative": "Mastercard", "source": "MASTER_CARD", "mastercardTransactionMethod": "CHIP_AND_PIN", "status": "SETTLED", "sourceAmount": -18.82, "sourceCurrency": "GBP", "merchantId": "5ef0556e-4f3b-45e3-8997-49cd6289c2f3", "merchantLocationId": "8798c74b-7c8d-4b39-922f-e07977e64d05", "spendingCategory": "SHOPPING", "country": "GBR", "posTimestamp": "23:39:04", "authorisationCode": "133369", "eventUid": "4ea62d02-2a83-4d97-b426-1284198fed7f", "cardLast4": "6447"}, {"_links": {"merchant": {"href": "/api/v1/merchants/5ef0556e-4f3b-45e3-8997-49cd6289c2f3", "templated": false}, "merchantLocation": {"href": "/api/v1/merchants/5ef0556e-4f3b-45e3-8997-49cd6289c2f3/locations/8798c74b-7c8d-4b39-922f-e07977e64d05", "templated": false}}, "id": "7bc5eacf-42aa-486e-adfe-b2d3e5d0814c", "currency": "GBP", "amount": -6.32, "direction": "OUTBOUND", "created": "2018-02-17T23:39:04.058Z", "narrative": "Pret A Manger", "source": "MASTER_CARD", "mastercardTransactionMethod": "CHIP_AND_PIN", "status": "SETTLED", "sourceAmount": -6.32, "sourceCurrency": "GBP", "merchantId": "5ef0556e-4f3b-45e3-8997-49cd6289c2f3", "merchantLocationId": "8798c74b-7c8d-4b39-922f-e07977e64d05", "spendingCategory": "SHOPPING", "country": "GBR", "posTimestamp": "23:39:03", "authorisationCode": "575681", "eventUid": "cd18459a-d87b-4102-85ed-fc83f3218174", "cardLast4": "6447"}, {"_links": {"merchant": {"href": "/api/v1/merchants/acc81c26-071b-4e22-904d-5635e4bd6089", "templated": false}, "merchantLocation": {"href": "/api/v1/merchants/acc81c26-071b-4e22-904d-5635e4bd6089/locations/5c1abdb1-8a8f-4a9f-a415-d8a5af8df0f6", "templated": false}}, "id": "b961d967-393e-4cf2-95ac-acb565f9faf3", "currency": "GBP", "amount": -10.25, "direction": "OUTBOUND", "created": "2018-02-17T23:39:03.879Z", "narrative": "Mastercard", "source": "MASTER_CARD", "mastercardTransactionMethod": "CHIP_AND_PIN", "status": "SETTLED", "sourceAmount": -10.25, "sourceCurrency": "GBP", "merchantId": "acc81c26-071b-4e22-904d-5635e4bd6089", "merchantLocationId": "5c1abdb1-8a8f-4a9f-a415-d8a5af8df0f6", "spendingCategory": "HOLIDAYS", "country": "GBR", "posTimestamp": "23:39:03", "authorisationCode": "810582", "eventUid": "83f2c7a4-d1a7-4258-9684-e6f77485ae86", "cardLast4": "6447"}, {"_links": {"merchant": {"href": "/api/v1/merchants/e6dbe57e-7c23-4015-97a4-4afbbf7faa23", "templated": false}, "merchantLocation": {"href": "/api/v1/merchants/e6dbe57e-7c23-4015-97a4-4afbbf7faa23/locations/7679cd0b-17da-4842-936d-bedb1e73b786", "templated": false}}, "id": "bac24ec2-a078-4c5c-97f3-f6b46d8f21e0", "currency": "GBP", "amount": -37.17, "direction": "OUTBOUND", "created": "2018-02-17T23:39:03.870Z", "narrative": "Mastercard", "source": "MASTER_CARD", "mastercardTransactionMethod": "CHIP_AND_PIN", "status": "SETTLED", "sourceAmount": -37.17, "sourceCurrency": "GBP", "merchantId": "e6dbe57e-7c23-4015-97a4-4afbbf7faa23", "merchantLocationId": "7679cd0b-17da-4842-936d-bedb1e73b786", "spendingCategory": "HOLIDAYS", "country": "GBR", "posTimestamp": "23:39:03", "authorisationCode": "799344", "eventUid": "1c574978-4039-4dc2-8408-e83fa388e77d", "cardLast4": "6447"}, {"_links": {"merchant": {"href": "/api/v1/merchants/d86542b9-a343-41af-a7b7-52f2aaf050a7", "templated": false}, "merchantLocation": {"href": "/api/v1/merchants/d86542b9-a343-41af-a7b7-52f2aaf050a7/locations/0b2fff36-3b2b-46f7-aad9-b160c5885291", "templated": false}}, "id": "73152dfa-20ed-4b5a-a6bf-e4b10343b3a0", "currency": "GBP", "amount": -32.79, "direction": "OUTBOUND", "created": "2018-02-17T23:39:03.787Z", "narrative": "ING", "source": "MASTER_CARD", "mastercardTransactionMethod": "CHIP_AND_PIN", "status": "SETTLED", "sourceAmount": -32.79, "sourceCurrency": "GBP", "merchantId": "d86542b9-a343-41af-a7b7-52f2aaf050a7", "merchantLocationId": "0b2fff36-3b2b-46f7-aad9-b160c5885291", "spendingCategory": "HOLIDAYS", "country": "GBR", "posTimestamp": "23:39:03", "authorisationCode": "499070", "eventUid": "8773e115-2fd3-4da1-aaa1-1b9ab35565c7", "cardLast4": "6447"}, {"_links": {"merchant": {"href": "/api/v1/merchants/06f89db7-eb27-479a-8cdb-1778ee0a0bc2", "templated": false}, "merchantLocation": {"href": "/api/v1/merchants/06f89db7-eb27-479a-8cdb-1778ee0a0bc2/locations/36d50c49-1a9b-4ad3-b20e-1fdf50b2709f", "templated": false}}, "id": "0ab4f4fd-3a99-44b9-a542-418987372abb", "currency": "GBP", "amount": -26.15, "direction": "OUTBOUND", "created": "2018-02-17T23:39:03.787Z", "narrative": "Mastercard", "source": "MASTER_CARD", "mastercardTransactionMethod": "CHIP_AND_PIN", "status": "SETTLED", "sourceAmount": -26.15, "sourceCurrency": "GBP", "merchantId": "06f89db7-eb27-479a-8cdb-1778ee0a0bc2", "merchantLocationId": "36d50c49-1a9b-4ad3-b20e-1fdf50b2709f", "spendingCategory": "TRANSPORT", "country": "GBR", "posTimestamp": "23:39:03", "authorisationCode": "472368", "eventUid": "3a5a7c92-57b8-43d1-beaa-f34457cb4045", "cardLast4": "6447"}, {"_links": {"merchant": {"href": "/api/v1/merchants/f700ecb4-dbc0-43a3-81c4-2d4db3d03e65", "templated": false}, "merchantLocation": {"href": "/api/v1/merchants/f700ecb4-dbc0-43a3-81c4-2d4db3d03e65/locations/863ad84b-debd-4306-943c-79c144685a6a", "templated": false}}, "id": "b0ea30cb-e025-4711-a622-75ea20935bbc", "currency": "GBP", "amount": -23.42, "direction": "OUTBOUND", "created": "2018-02-17T23:39:01.184Z", "narrative": "Osprey London", "source": "MASTER_CARD", "mastercardTransactionMethod": "CHIP_AND_PIN", "status": "SETTLED", "sourceAmount": -23.42, "sourceCurrency": "GBP", "merchantId": "f700ecb4-dbc0-43a3-81c4-2d4db3d03e65", "merchantLocationId": "863ad84b-debd-4306-943c-79c144685a6a", "spendingCategory": "HOLIDAYS", "country": "GBR", "posTimestamp": "23:39:01", "authorisationCode": "715074", "eventUid": "e06cce64-dfd9-40ca-8c50-bc42d91e6508", "cardLast4": "6447"}, {"_links": {"merchant": {"href": "/api/v1/merchants/e6dbe57e-7c23-4015-97a4-4afbbf7faa23", "templated": false}, "merchantLocation": {"href": "/api/v1/merchants/e6dbe57e-7c23-4015-97a4-4afbbf7faa23/locations/7679cd0b-17da-4842-936d-bedb1e73b786", "templated": false}}, "id": "81200867-ac60-4b52-85a4-212991c95216", "currency": "GBP", "amount": -20.22, "direction": "OUTBOUND", "created": "2018-02-17T23:39:01.027Z", "narrative": "Osprey London", "source": "MASTER_CARD", "mastercardTransactionMethod": "CHIP_AND_PIN", "status": "SETTLED", "sourceAmount": -20.22, "sourceCurrency": "GBP", "merchantId": "e6dbe57e-7c23-4015-97a4-4afbbf7faa23", "merchantLocationId": "7679cd0b-17da-4842-936d-bedb1e73b786", "spendingCategory": "HOLIDAYS", "country": "GBR", "posTimestamp": "23:39:01", "authorisationCode": "410182", "eventUid": "05f4178b-a481-4696-bb9d-3000197bb9e6", "cardLast4": "6447"}, {"_links": {"merchant": {"href": "/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26", "templated": false}, "merchantLocation": {"href": "/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26/locations/b7b9f347-99ab-4a83-9317-ec9895f47755", "templated": false}}, "id": "3154babd-8d6a-42a4-905d-593d8adb658b", "currency": "GBP", "amount": -16.47, "direction": "OUTBOUND", "created": "2018-02-17T23:39:00.916Z", "narrative": "Amazon", "source": "MASTER_CARD", "mastercardTransactionMethod": "CHIP_AND_PIN", "status": "SETTLED", "sourceAmount": -16.47, "sourceCurrency": "GBP", "merchantId": "c052f76f-e919-427d-85fc-f46a75a3ff26", "merchantLocationId": "b7b9f347-99ab-4a83-9317-ec9895f47755", "spendingCategory": "HOLIDAYS", "country": "GBR", "posTimestamp": "23:39", "authorisationCode": "344705", "eventUid": "2f071fc2-b728-40e2-97d6-4f3393be060d", "cardLast4": "6447"}, {"_links": {"merchant": {"href": "/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26", "templated": false}, "merchantLocation": {"href": "/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26/locations/b7b9f347-99ab-4a83-9317-ec9895f47755", "templated": false}}, "id": "289def69-19e8-4aac-ad5f-3944ac85f0d7", "currency": "GBP", "amount": -35.42, "direction": "OUTBOUND", "created": "2018-02-17T23:39:00.912Z", "narrative": "ING", "source": "MASTER_CARD", "mastercardTransactionMethod": "CHIP_AND_PIN", "status": "SETTLED", "sourceAmount": -35.42, "sourceCurrency": "GBP", "merchantId": "c052f76f-e919-427d-85fc-f46a75a3ff26", "merchantLocationId": "b7b9f347-99ab-4a83-9317-ec9895f47755", "spendingCategory": "HOLIDAYS", "country": "GBR", "posTimestamp": "23:39", "authorisationCode": "627702", "eventUid": "a9e9275d-33d9-4aea-9c01-12f12ad0fc80", "cardLast4": "6447"}, {"_links": {"merchant": {"href": "/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26", "templated": false}, "merchantLocation": {"href": "/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26/locations/b7b9f347-99ab-4a83-9317-ec9895f47755", "templated": false}}, "id": "5b29be06-9093-4f3f-8dd9-8492b9696574", "currency": "GBP", "amount": -19.82, "direction": "OUTBOUND", "created": "2018-02-17T23:39:00.727Z", "narrative": "Pret A Manger", "source": "MASTER_CARD", "mastercardTransactionMethod": "CHIP_AND_PIN", "status": "SETTLED", "sourceAmount": -19.82, "sourceCurrency": "GBP", "merchantId": "c052f76f-e919-427d-85fc-f46a75a3ff26", "merchantLocationId": "b7b9f347-99ab-4a83-9317-ec9895f47755", "spendingCategory": "HOLIDAYS", "country": "GBR", "posTimestamp": "23:39", "authorisationCode": "974020", "eventUid": "b15c7cc8-ef51-421a-a5b1-57f869f4fe0d", "cardLast4": "6447"}, {"_links": {"merchant": {"href": "/api/v1/merchants/e5b21fd4-fb62-4c40-8f56-4890a16bab51", "templated": false}, "merchantLocation": {"href": "/api/v1/merchants/e5b21fd4-fb62-4c40-8f56-4890a16bab51/locations/96fc27d9-164d-4fb5-a60f-799e9b2b2294", "templated": false}}, "id": "b609f601-4ed4-4044-bcf5-e14a7b2a441d", "currency": "GBP", "amount": -2.22, "direction": "OUTBOUND", "created": "2018-02-17T23:39:00.724Z", "narrative": "Yorkshire Bank III", "source": "MASTER_CARD", "mastercardTransactionMethod": "CHIP_AND_PIN", "status": "SETTLED", "sourceAmount": -2.22, "sourceCurrency": "GBP", "merchantId": "e5b21fd4-fb62-4c40-8f56-4890a16bab51", "merchantLocationId": "96fc27d9-164d-4fb5-a60f-799e9b2b2294", "spendingCategory": "HOLIDAYS", "country": "GBR", "posTimestamp": "23:39", "authorisationCode": "361477", "eventUid": "b7047574-77b2-40ff-b3c9-bb2a49a33660", "cardLast4": "6447"}, {"_links": {"merchant": {"href": "/api/v1/merchants/d86542b9-a343-41af-a7b7-52f2aaf050a7", "templated": false}, "merchantLocation": {"href": "/api/v1/merchants/d86542b9-a343-41af-a7b7-52f2aaf050a7/locations/0b2fff36-3b2b-46f7-aad9-b160c5885291", "templated": false}}, "id": "46889cae-c694-4908-ae49-ea6397f62a1a", "currency": "GBP", "amount": -9.93, "direction": "OUTBOUND", "created": "2018-02-17T23:39:00.723Z", "narrative": "Osprey London", "source": "MASTER_CARD", "mastercardTransactionMethod": "CHIP_AND_PIN", "status": "SETTLED", "sourceAmount": -9.93, "sourceCurrency": "GBP", "merchantId": "d86542b9-a343-41af-a7b7-52f2aaf050a7", "merchantLocationId": "0b2fff36-3b2b-46f7-aad9-b160c5885291", "spendingCategory": "HOLIDAYS", "country": "GBR", "posTimestamp": "23:39", "authorisationCode": "382685", "eventUid": "91487d3e-24d8-458d-a0e0-8989e31256f8", "cardLast4": "6447"}, {"_links": {"merchant": {"href": "/api/v1/merchants/5ef0556e-4f3b-45e3-8997-49cd6289c2f3", "templated": false}, "merchantLocation": {"href": "/api/v1/merchants/5ef0556e-4f3b-45e3-8997-49cd6289c2f3/locations/8798c74b-7c8d-4b39-922f-e07977e64d05", "templated": false}}, "id": "234df775-4d4d-4266-a697-fa3c35206644", "currency": "GBP", "amount": -27.78, "direction": "OUTBOUND", "created": "2018-02-17T23:39:00.570Z", "narrative": "Amazon", "source": "MASTER_CARD", "mastercardTransactionMethod": "CHIP_AND_PIN", "status": "SETTLED", "sourceAmount": -27.78, "sourceCurrency": "GBP", "merchantId": "5ef0556e-4f3b-45e3-8997-49cd6289c2f3", "merchantLocationId": "8798c74b-7c8d-4b39-922f-e07977e64d05", "spendingCategory": "SHOPPING", "country": "GBR", "posTimestamp": "23:39", "authorisationCode": "041824", "eventUid": "049a5e4a-3367-4035-8c60-45976f973efb", "cardLast4": "6447"}, {"_links": {"merchant": {"href": "/api/v1/merchants/e5b21fd4-fb62-4c40-8f56-4890a16bab51", "templated": false}, "merchantLocation": {"href": "/api/v1/merchants/e5b21fd4-fb62-4c40-8f56-4890a16bab51/locations/96fc27d9-164d-4fb5-a60f-799e9b2b2294", "templated": false}}, "id": "8407b602-1ead-4ed5-bb13-aa2a71ce7ec7", "currency": "GBP", "amount": -37.34, "direction": "OUTBOUND", "created": "2018-02-17T23:39:00.569Z", "narrative": "Sofitel", "source": "MASTER_CARD", "mastercardTransactionMethod": "CHIP_AND_PIN", "status": "SETTLED", "sourceAmount": -37.34, "sourceCurrency": "GBP", "merchantId": "e5b21fd4-fb62-4c40-8f56-4890a16bab51", "merchantLocationId": "96fc27d9-164d-4fb5-a60f-799e9b2b2294", "spendingCategory": "HOLIDAYS", "country": "GBR", "posTimestamp": "23:39", "authorisationCode": "815013", "eventUid": "904a9040-e83c-4d78-82a5-a834ebb3d73e", "cardLast4": "6447"}, {"_links": {"merchant": {"href": "/api/v1/merchants/acc81c26-071b-4e22-904d-5635e4bd6089", "templated": false}, "merchantLocation": {"href": "/api/v1/merchants/acc81c26-071b-4e22-904d-5635e4bd6089/locations/12303709-79d1-456f-a1b2-2d3332da7b92", "templated": false}}, "id": "4277ecf1-b77b-4d7f-9389-424dbb5a13be", "currency": "GBP", "amount": -13.75, "direction": "OUTBOUND", "created": "2018-02-17T23:39:00.503Z", "narrative": "ING", "source": "MASTER_CARD", "mastercardTransactionMethod": "CHIP_AND_PIN", "status": "SETTLED", "sourceAmount": -13.75, "sourceCurrency": "GBP", "merchantId": "acc81c26-071b-4e22-904d-5635e4bd6089", "merchantLocationId": "12303709-79d1-456f-a1b2-2d3332da7b92", "spendingCategory": "HOLIDAYS", "country": "GBR", "posTimestamp": "23:39", "authorisationCode": "966582", "eventUid": "b73cc0f9-5977-41e9-a47f-ea5c890e423d", "cardLast4": "6447"}, {"_links": {"merchant": {"href": "/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26", "templated": false}, "merchantLocation": {"href": "/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26/locations/b7b9f347-99ab-4a83-9317-ec9895f47755", "templated": false}}, "id": "c050df86-f48a-4f8f-b718-28e8460f9892", "currency": "GBP", "amount": -36.55, "direction": "OUTBOUND", "created": "2018-02-17T23:39:00.411Z", "narrative": "Mastercard", "source": "MASTER_CARD", "mastercardTransactionMethod": "CHIP_AND_PIN", "status": "SETTLED", "sourceAmount": -36.55, "sourceCurrency": "GBP", "merchantId": "c052f76f-e919-427d-85fc-f46a75a3ff26", "merchantLocationId": "b7b9f347-99ab-4a83-9317-ec9895f47755", "spendingCategory": "HOLIDAYS", "country": "GBR", "posTimestamp": "23:39", "authorisationCode": "658520", "eventUid": "1d2e8b70-285d-4362-820c-6e96eb7cb75e", "cardLast4": "6447"}, {"_links": {"merchant": {"href": "/api/v1/merchants/e5b21fd4-fb62-4c40-8f56-4890a16bab51", "templated": false}, "merchantLocation": {"href": "/api/v1/merchants/e5b21fd4-fb62-4c40-8f56-4890a16bab51/locations/96fc27d9-164d-4fb5-a60f-799e9b2b2294", "templated": false}}, "id": "6b4fa093-dd03-4db7-b749-8bcddc9cb907", "currency": "GBP", "amount": -10.02, "direction": "OUTBOUND", "created": "2018-02-17T23:39:00.373Z", "narrative": "Sofitel", "source": "MASTER_CARD", "mastercardTransactionMethod": "CHIP_AND_PIN", "status": "SETTLED", "sourceAmount": -10.02, "sourceCurrency": "GBP", "merchantId": "e5b21fd4-fb62-4c40-8f56-4890a16bab51", "merchantLocationId": "96fc27d9-164d-4fb5-a60f-799e9b2b2294", "spendingCategory": "HOLIDAYS", "country": "GBR", "posTimestamp": "23:39", "authorisationCode": "561193", "eventUid": "41937c42-4711-4f51-b899-bc6bd7c8e14c", "cardLast4": "6447"}, {"_links": {"merchant": {"href": "/api/v1/merchants/f700ecb4-dbc0-43a3-81c4-2d4db3d03e65", "templated": false}, "merchantLocation": {"href": "/api/v1/merchants/f700ecb4-dbc0-43a3-81c4-2d4db3d03e65/locations/a0113c80-e8f5-47cb-8606-9e4c042d82f6", "templated": false}}, "id": "ae49ea46-4f0f-48cf-963d-7cfcf3a11bb6", "currency": "GBP", "amount": -7.56, "direction": "OUTBOUND", "created": "2018-02-17T23:39:00.370Z", "narrative": "Osprey London", "source": "MASTER_CARD", "mastercardTransactionMethod": "CHIP_AND_PIN", "status": "SETTLED", "sourceAmount": -7.56, "sourceCurrency": "GBP", "merchantId": "f700ecb4-dbc0-43a3-81c4-2d4db3d03e65", "merchantLocationId": "a0113c80-e8f5-47cb-8606-9e4c042d82f6", "spendingCategory": "HOLIDAYS", "country": "GBR", "posTimestamp": "23:39", "authorisationCode": "835063", "eventUid": "997e1e0f-bae5-4da5-b7af-d4ad9033acbd", "cardLast4": "6447"}, {"_links": {"merchant": {"href": "/api/v1/merchants/f700ecb4-dbc0-43a3-81c4-2d4db3d03e65", "templated": false}, "merchantLocation": {"href": "/api/v1/merchants/f700ecb4-dbc0-43a3-81c4-2d4db3d03e65/locations/863ad84b-debd-4306-943c-79c144685a6a", "templated": false}}, "id": "bd69f523-f263-43c7-b46e-19929eb32e37", "currency": "GBP", "amount": -25.43, "direction": "OUTBOUND", "created": "2018-02-17T23:12:10.215Z", "narrative": "Mastercard", "source": "MASTER_CARD", "mastercardTransactionMethod": "CHIP_AND_PIN", "status": "SETTLED", "sourceAmount": -25.43, "sourceCurrency": "GBP", "merchantId": "f700ecb4-dbc0-43a3-81c4-2d4db3d03e65", "merchantLocationId": "863ad84b-debd-4306-943c-79c144685a6a", "spendingCategory": "HOLIDAYS", "country": "GBR", "posTimestamp": "23:12:10", "authorisationCode": "335429", "eventUid": "f358898f-8499-490a-a71c-df4e6c81680e", "cardLast4": "6447"}, {"_links": {"merchant": {"href": "/api/v1/merchants/d86542b9-a343-41af-a7b7-52f2aaf050a7", "templated": false}, "merchantLocation": {"href": "/api/v1/merchants/d86542b9-a343-41af-a7b7-52f2aaf050a7/locations/0b2fff36-3b2b-46f7-aad9-b160c5885291", "templated": false}}, "id": "d9b49218-df38-4ad9-a36d-5243c64c011e", "currency": "GBP", "amount": -10.79, "direction": "OUTBOUND", "created": "2018-02-17T23:12:10.126Z", "narrative": "Yorkshire Bank III", "source": "MASTER_CARD", "mastercardTransactionMethod": "CHIP_AND_PIN", "status": "SETTLED", "sourceAmount": -10.79, "sourceCurrency": "GBP", "merchantId": "d86542b9-a343-41af-a7b7-52f2aaf050a7", "merchantLocationId": "0b2fff36-3b2b-46f7-aad9-b160c5885291", "spendingCategory": "HOLIDAYS", "country": "GBR", "posTimestamp": "23:12:10", "authorisationCode": "322293", "eventUid": "dfe74122-a478-4a91-9e05-b0eb890f1654", "cardLast4": "6447"}, {"_links": {"merchant": {"href": "/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26", "templated": false}, "merchantLocation": {"href": "/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26/locations/b7b9f347-99ab-4a83-9317-ec9895f47755", "templated": false}}, "id": "b8a02e39-0a44-4b26-9c0f-4aac80aa8c29", "currency": "GBP", "amount": -9.96, "direction": "OUTBOUND", "created": "2018-02-17T23:12:10.124Z", "narrative": "Villandry", "source": "MASTER_CARD", "mastercardTransactionMethod": "CHIP_AND_PIN", "status": "SETTLED", "sourceAmount": -9.96, "sourceCurrency": "GBP", "merchantId": "c052f76f-e919-427d-85fc-f46a75a3ff26", "merchantLocationId": "b7b9f347-99ab-4a83-9317-ec9895f47755", "spendingCategory": "HOLIDAYS", "country": "GBR", "posTimestamp": "23:12:10", "authorisationCode": "017662", "eventUid": "21e3b0d6-5a87-4f39-ae42-98697ab8010b", "cardLast4": "6447"}, {"_links": {"merchant": {"href": "/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26", "templated": false}, "merchantLocation": {"href": "/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26/locations/b7b9f347-99ab-4a83-9317-ec9895f47755", "templated": false}}, "id": "0c41edc5-0332-4173-bc92-bf0dd4a676e9", "currency": "GBP", "amount": -8.08, "direction": "OUTBOUND", "created": "2018-02-17T23:12:10.102Z", "narrative": "NatWest", "source": "MASTER_CARD", "mastercardTransactionMethod": "CHIP_AND_PIN", "status": "SETTLED", "sourceAmount": -8.08, "sourceCurrency": "GBP", "merchantId": "c052f76f-e919-427d-85fc-f46a75a3ff26", "merchantLocationId": "b7b9f347-99ab-4a83-9317-ec9895f47755", "spendingCategory": "HOLIDAYS", "country": "GBR", "posTimestamp": "23:12:10", "authorisationCode": "523698", "eventUid": "ac06f79e-22c8-4b1e-843a-1b5b0396b98c", "cardLast4": "6447"}, {"_links": {"merchant": {"href": "/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26", "templated": false}, "merchantLocation": {"href": "/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26/locations/371c62bc-dcfc-4799-8b23-b070626772f7", "templated": false}}, "id": "6bcdaab9-d894-446d-83cf-4fd42215b2d3", "currency": "GBP", "amount": -37.06, "direction": "OUTBOUND", "created": "2018-02-17T23:12:09.888Z", "narrative": "Amazon", "source": "MASTER_CARD", "mastercardTransactionMethod": "CHIP_AND_PIN", "status": "SETTLED", "sourceAmount": -37.06, "sourceCurrency": "GBP", "merchantId": "c052f76f-e919-427d-85fc-f46a75a3ff26", "merchantLocationId": "371c62bc-dcfc-4799-8b23-b070626772f7", "spendingCategory": "HOLIDAYS", "country": "GBR", "posTimestamp": "23:12:09", "authorisationCode": "925937", "eventUid": "fe286374-f06b-4096-9a18-094fa8745353", "cardLast4": "6447"}, {"_links": {"merchant": {"href": "/api/v1/merchants/f700ecb4-dbc0-43a3-81c4-2d4db3d03e65", "templated": false}, "merchantLocation": {"href": "/api/v1/merchants/f700ecb4-dbc0-43a3-81c4-2d4db3d03e65/locations/863ad84b-debd-4306-943c-79c144685a6a", "templated": false}}, "id": "832e622c-3475-49f2-9f6a-3f3fd631cd3b", "currency": "GBP", "amount": -24.09, "direction": "OUTBOUND", "created": "2018-02-17T23:12:09.849Z", "narrative": "Sofitel", "source": "MASTER_CARD", "mastercardTransactionMethod": "CHIP_AND_PIN", "status": "SETTLED", "sourceAmount": -24.09, "sourceCurrency": "GBP", "merchantId": "f700ecb4-dbc0-43a3-81c4-2d4db3d03e65", "merchantLocationId": "863ad84b-debd-4306-943c-79c144685a6a", "spendingCategory": "HOLIDAYS", "country": "GBR", "posTimestamp": "23:12:09", "authorisationCode": "514555", "eventUid": "8f0c4670-5bd2-4a77-a3e2-37d147277ce1", "cardLast4": "6447"}, {"_links": {"merchant": {"href": "/api/v1/merchants/acc81c26-071b-4e22-904d-5635e4bd6089", "templated": false}, "merchantLocation": {"href": "/api/v1/merchants/acc81c26-071b-4e22-904d-5635e4bd6089/locations/12303709-79d1-456f-a1b2-2d3332da7b92", "templated": false}}, "id": "5d4c5646-bb86-4afb-af3c-ec71d73d4542", "currency": "GBP", "amount": -4.17, "direction": "OUTBOUND", "created": "2018-02-17T23:12:09.792Z", "narrative": "ING", "source": "MASTER_CARD", "mastercardTransactionMethod": "CHIP_AND_PIN", "status": "SETTLED", "sourceAmount": -4.17, "sourceCurrency": "GBP", "merchantId": "acc81c26-071b-4e22-904d-5635e4bd6089", "merchantLocationId": "12303709-79d1-456f-a1b2-2d3332da7b92", "spendingCategory": "HOLIDAYS", "country": "GBR", "posTimestamp": "23:12:09", "authorisationCode": "591230", "eventUid": "90cf04d2-ebae-4b80-bce0-46e2ef87b27a", "cardLast4": "6447"}, {"_links": {"merchant": {"href": "/api/v1/merchants/f700ecb4-dbc0-43a3-81c4-2d4db3d03e65", "templated": false}, "merchantLocation": {"href": "/api/v1/merchants/f700ecb4-dbc0-43a3-81c4-2d4db3d03e65/locations/863ad84b-debd-4306-943c-79c144685a6a", "templated": false}}, "id": "00cbd529-d01b-4f52-9973-5941f6d8a3bc", "currency": "GBP", "amount": -20.88, "direction": "OUTBOUND", "created": "2018-02-17T23:12:09.684Z", "narrative": "Sofitel", "source": "MASTER_CARD", "mastercardTransactionMethod": "CHIP_AND_PIN", "status": "SETTLED", "sourceAmount": -20.88, "sourceCurrency": "GBP", "merchantId": "f700ecb4-dbc0-43a3-81c4-2d4db3d03e65", "merchantLocationId": "863ad84b-debd-4306-943c-79c144685a6a", "spendingCategory": "HOLIDAYS", "country": "GBR", "posTimestamp": "23:12:09", "authorisationCode": "492873", "eventUid": "49cd3739-dfce-4e7e-af55-33f072291c78", "cardLast4": "6447"}, {"_links": {"merchant": {"href": "/api/v1/merchants/5ef0556e-4f3b-45e3-8997-49cd6289c2f3", "templated": false}, "merchantLocation": {"href": "/api/v1/merchants/5ef0556e-4f3b-45e3-8997-49cd6289c2f3/locations/8798c74b-7c8d-4b39-922f-e07977e64d05", "templated": false}}, "id": "770e22b7-7856-4360-9f29-058baeccb85d", "currency": "GBP", "amount": -35.67, "direction": "OUTBOUND", "created": "2018-02-17T23:12:09.561Z", "narrative": "NatWest", "source": "MASTER_CARD", "mastercardTransactionMethod": "CHIP_AND_PIN", "status": "SETTLED", "sourceAmount": -35.67, "sourceCurrency": "GBP", "merchantId": "5ef0556e-4f3b-45e3-8997-49cd6289c2f3", "merchantLocationId": "8798c74b-7c8d-4b39-922f-e07977e64d05", "spendingCategory": "SHOPPING", "country": "GBR", "posTimestamp": "23:12:09", "authorisationCode": "911522", "eventUid": "2921b7d0-45f9-44f7-b4fd-10e00baab20b", "cardLast4": "6447"}, {"_links": {"merchant": {"href": "/api/v1/merchants/acc81c26-071b-4e22-904d-5635e4bd6089", "templated": false}, "merchantLocation": {"href": "/api/v1/merchants/acc81c26-071b-4e22-904d-5635e4bd6089/locations/5c1abdb1-8a8f-4a9f-a415-d8a5af8df0f6", "templated": false}}, "id": "7313dac2-9858-44e2-9fff-05c94b9e3500", "currency": "GBP", "amount": -16.66, "direction": "OUTBOUND", "created": "2018-02-17T23:12:09.373Z", "narrative": "Mastercard", "source": "MASTER_CARD", "mastercardTransactionMethod": "CHIP_AND_PIN", "status": "SETTLED", "sourceAmount": -16.66, "sourceCurrency": "GBP", "merchantId": "acc81c26-071b-4e22-904d-5635e4bd6089", "merchantLocationId": "5c1abdb1-8a8f-4a9f-a415-d8a5af8df0f6", "spendingCategory": "HOLIDAYS", "country": "GBR", "posTimestamp": "23:12:09", "authorisationCode": "498128", "eventUid": "744cb444-6c0e-4d65-b47a-84d18ca02c0e", "cardLast4": "6447"}, {"_links": {"merchant": {"href": "/api/v1/merchants/acc81c26-071b-4e22-904d-5635e4bd6089", "templated": false}, "merchantLocation": {"href": "/api/v1/merchants/acc81c26-071b-4e22-904d-5635e4bd6089/locations/12303709-79d1-456f-a1b2-2d3332da7b92", "templated": false}}, "id": "768182fa-6bf2-49aa-bf39-f503483b5b5e", "currency": "GBP", "amount": -20.28, "direction": "OUTBOUND", "created": "2018-02-17T23:12:09.293Z", "narrative": "Osprey London", "source": "MASTER_CARD", "mastercardTransactionMethod": "CHIP_AND_PIN", "status": "SETTLED", "sourceAmount": -20.28, "sourceCurrency": "GBP", "merchantId": "acc81c26-071b-4e22-904d-5635e4bd6089", "merchantLocationId": "12303709-79d1-456f-a1b2-2d3332da7b92", "spendingCategory": "HOLIDAYS", "country": "GBR", "posTimestamp": "23:12:09", "authorisationCode": "413580", "eventUid": "93387e16-95af-4372-8364-0de3d03ce58d", "cardLast4": "6447"}, {"_links": {"merchant": {"href": "/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26", "templated": false}, "merchantLocation": {"href": "/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26/locations/b7b9f347-99ab-4a83-9317-ec9895f47755", "templated": false}}, "id": "7b5339fb-9631-495b-8235-d58fb3afc264", "currency": "GBP", "amount": -28.82, "direction": "OUTBOUND", "created": "2018-02-17T23:12:09.272Z", "narrative": "ING", "source": "MASTER_CARD", "mastercardTransactionMethod": "CHIP_AND_PIN", "status": "SETTLED", "sourceAmount": -28.82, "sourceCurrency": "GBP", "merchantId": "c052f76f-e919-427d-85fc-f46a75a3ff26", "merchantLocationId": "b7b9f347-99ab-4a83-9317-ec9895f47755", "spendingCategory": "HOLIDAYS", "country": "GBR", "posTimestamp": "23:12:09", "authorisationCode": "701061", "eventUid": "0e21c73b-654d-45b0-b63e-352266b170bc", "cardLast4": "6447"}, {"_links": {"merchant": {"href": "/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26", "templated": false}, "merchantLocation": {"href": "/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26/locations/b7b9f347-99ab-4a83-9317-ec9895f47755", "templated": false}}, "id": "eb1c5c5d-1ce4-41f1-844b-0ce8de21f9c2", "currency": "GBP", "amount": -39.01, "direction": "OUTBOUND", "created": "2018-02-17T23:12:09.272Z", "narrative": "Pret A Manger", "source": "MASTER_CARD", "mastercardTransactionMethod": "CHIP_AND_PIN", "status": "SETTLED", "sourceAmount": -39.01, "sourceCurrency": "GBP", "merchantId": "c052f76f-e919-427d-85fc-f46a75a3ff26", "merchantLocationId": "b7b9f347-99ab-4a83-9317-ec9895f47755", "spendingCategory": "HOLIDAYS", "country": "GBR", "posTimestamp": "23:12:09", "authorisationCode": "081846", "eventUid": "977e64e8-27cc-4928-9c88-bdcfab6ec596", "cardLast4": "6447"}]}}
+{
+  "_links": {
+    "nextPage": {
+      "href": "NOT_YET_IMPLEMENTED"
+    }
+  },
+  "_embedded": {
+    "transactions": [
+      {
+        "_links": {
+          "merchant": {
+            "href": "/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26",
+            "templated": false
+          },
+          "merchantLocation": {
+            "href": "/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26/locations/371c62bc-dcfc-4799-8b23-b070626772f7",
+            "templated": false
+          }
+        },
+        "id": "72f5eead-5d92-41ff-bc61-237e3561ae29",
+        "currency": "GBP",
+        "amount": -11.81,
+        "direction": "OUTBOUND",
+        "created": "2018-02-17T23:39:10.247Z",
+        "narrative": "Pret A Manger",
+        "source": "MASTER_CARD",
+        "mastercardTransactionMethod": "CHIP_AND_PIN",
+        "status": "SETTLED",
+        "sourceAmount": -11.81,
+        "sourceCurrency": "GBP",
+        "merchantId": "c052f76f-e919-427d-85fc-f46a75a3ff26",
+        "merchantLocationId": "371c62bc-dcfc-4799-8b23-b070626772f7",
+        "spendingCategory": "HOLIDAYS",
+        "country": "GBR",
+        "posTimestamp": "23:39:10",
+        "authorisationCode": "650165",
+        "eventUid": "048a54a9-989b-45dd-bd04-8b0386b0e8ae",
+        "cardLast4": "6447"
+      },
+      {
+        "_links": {
+          "merchant": {
+            "href": "/api/v1/merchants/e5b21fd4-fb62-4c40-8f56-4890a16bab51",
+            "templated": false
+          },
+          "merchantLocation": {
+            "href": "/api/v1/merchants/e5b21fd4-fb62-4c40-8f56-4890a16bab51/locations/96fc27d9-164d-4fb5-a60f-799e9b2b2294",
+            "templated": false
+          }
+        },
+        "id": "8afa2f4a-c724-4bc7-a152-78df3610dce4",
+        "currency": "GBP",
+        "amount": -24.45,
+        "direction": "OUTBOUND",
+        "created": "2018-02-17T23:39:10.226Z",
+        "narrative": "Pret A Manger",
+        "source": "MASTER_CARD",
+        "mastercardTransactionMethod": "CHIP_AND_PIN",
+        "status": "SETTLED",
+        "sourceAmount": -24.45,
+        "sourceCurrency": "GBP",
+        "merchantId": "e5b21fd4-fb62-4c40-8f56-4890a16bab51",
+        "merchantLocationId": "96fc27d9-164d-4fb5-a60f-799e9b2b2294",
+        "spendingCategory": "HOLIDAYS",
+        "country": "GBR",
+        "posTimestamp": "23:39:10",
+        "authorisationCode": "669308",
+        "eventUid": "59310b32-52af-46f9-8eb6-1745bde16e59",
+        "cardLast4": "6447"
+      },
+      {
+        "_links": {
+          "merchant": {
+            "href": "/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26",
+            "templated": false
+          },
+          "merchantLocation": {
+            "href": "/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26/locations/b7b9f347-99ab-4a83-9317-ec9895f47755",
+            "templated": false
+          }
+        },
+        "id": "4bbe21bd-d850-4685-9ff3-afcbe25aab69",
+        "currency": "GBP",
+        "amount": -22.89,
+        "direction": "OUTBOUND",
+        "created": "2018-02-17T23:39:10.140Z",
+        "narrative": "Pret A Manger",
+        "source": "MASTER_CARD",
+        "mastercardTransactionMethod": "CHIP_AND_PIN",
+        "status": "SETTLED",
+        "sourceAmount": -22.89,
+        "sourceCurrency": "GBP",
+        "merchantId": "c052f76f-e919-427d-85fc-f46a75a3ff26",
+        "merchantLocationId": "b7b9f347-99ab-4a83-9317-ec9895f47755",
+        "spendingCategory": "HOLIDAYS",
+        "country": "GBR",
+        "posTimestamp": "23:39:10",
+        "authorisationCode": "175089",
+        "eventUid": "2d6c4c3d-e897-432c-b5e6-7aaa7f600fa1",
+        "cardLast4": "6447"
+      },
+      {
+        "_links": {
+          "merchant": {
+            "href": "/api/v1/merchants/f700ecb4-dbc0-43a3-81c4-2d4db3d03e65",
+            "templated": false
+          },
+          "merchantLocation": {
+            "href": "/api/v1/merchants/f700ecb4-dbc0-43a3-81c4-2d4db3d03e65/locations/a0113c80-e8f5-47cb-8606-9e4c042d82f6",
+            "templated": false
+          }
+        },
+        "id": "2d9ba9c6-6b28-4904-91cc-754e6e600086",
+        "currency": "GBP",
+        "amount": -14.88,
+        "direction": "OUTBOUND",
+        "created": "2018-02-17T23:39:10.086Z",
+        "narrative": "Sofitel",
+        "source": "MASTER_CARD",
+        "mastercardTransactionMethod": "CHIP_AND_PIN",
+        "status": "SETTLED",
+        "sourceAmount": -14.88,
+        "sourceCurrency": "GBP",
+        "merchantId": "f700ecb4-dbc0-43a3-81c4-2d4db3d03e65",
+        "merchantLocationId": "a0113c80-e8f5-47cb-8606-9e4c042d82f6",
+        "spendingCategory": "HOLIDAYS",
+        "country": "GBR",
+        "posTimestamp": "23:39:10",
+        "authorisationCode": "784478",
+        "eventUid": "6e4c32e2-bf62-424d-8fb3-2d7a7a038757",
+        "cardLast4": "6447"
+      },
+      {
+        "_links": {
+          "merchant": {
+            "href": "/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26",
+            "templated": false
+          },
+          "merchantLocation": {
+            "href": "/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26/locations/371c62bc-dcfc-4799-8b23-b070626772f7",
+            "templated": false
+          }
+        },
+        "id": "8d8a054b-a249-4f87-ad16-b1d0302efe65",
+        "currency": "GBP",
+        "amount": -25.06,
+        "direction": "OUTBOUND",
+        "created": "2018-02-17T23:39:10.064Z",
+        "narrative": "Pret A Manger",
+        "source": "MASTER_CARD",
+        "mastercardTransactionMethod": "CHIP_AND_PIN",
+        "status": "SETTLED",
+        "sourceAmount": -25.06,
+        "sourceCurrency": "GBP",
+        "merchantId": "c052f76f-e919-427d-85fc-f46a75a3ff26",
+        "merchantLocationId": "371c62bc-dcfc-4799-8b23-b070626772f7",
+        "spendingCategory": "HOLIDAYS",
+        "country": "GBR",
+        "posTimestamp": "23:39:10",
+        "authorisationCode": "603265",
+        "eventUid": "12044e77-3fcd-462f-8d8c-305d953d91f0",
+        "cardLast4": "6447"
+      },
+      {
+        "_links": {
+          "merchant": {
+            "href": "/api/v1/merchants/d86542b9-a343-41af-a7b7-52f2aaf050a7",
+            "templated": false
+          },
+          "merchantLocation": {
+            "href": "/api/v1/merchants/d86542b9-a343-41af-a7b7-52f2aaf050a7/locations/0b2fff36-3b2b-46f7-aad9-b160c5885291",
+            "templated": false
+          }
+        },
+        "id": "c57bba68-8fb1-4be2-9f99-d003253fa452",
+        "currency": "GBP",
+        "amount": -8.61,
+        "direction": "OUTBOUND",
+        "created": "2018-02-17T23:39:09.921Z",
+        "narrative": "Pret A Manger",
+        "source": "MASTER_CARD",
+        "mastercardTransactionMethod": "CHIP_AND_PIN",
+        "status": "SETTLED",
+        "sourceAmount": -8.61,
+        "sourceCurrency": "GBP",
+        "merchantId": "d86542b9-a343-41af-a7b7-52f2aaf050a7",
+        "merchantLocationId": "0b2fff36-3b2b-46f7-aad9-b160c5885291",
+        "spendingCategory": "HOLIDAYS",
+        "country": "GBR",
+        "posTimestamp": "23:39:09",
+        "authorisationCode": "153189",
+        "eventUid": "9c30d628-4509-4895-9333-0844004cb9ff",
+        "cardLast4": "6447"
+      },
+      {
+        "_links": {
+          "merchant": {
+            "href": "/api/v1/merchants/e6dbe57e-7c23-4015-97a4-4afbbf7faa23",
+            "templated": false
+          },
+          "merchantLocation": {
+            "href": "/api/v1/merchants/e6dbe57e-7c23-4015-97a4-4afbbf7faa23/locations/7679cd0b-17da-4842-936d-bedb1e73b786",
+            "templated": false
+          }
+        },
+        "id": "a2a42a1a-0774-49f0-8ae7-b1dd2adc6689",
+        "currency": "GBP",
+        "amount": -12.35,
+        "direction": "OUTBOUND",
+        "created": "2018-02-17T23:39:09.774Z",
+        "narrative": "Osprey London",
+        "source": "MASTER_CARD",
+        "mastercardTransactionMethod": "CHIP_AND_PIN",
+        "status": "SETTLED",
+        "sourceAmount": -12.35,
+        "sourceCurrency": "GBP",
+        "merchantId": "e6dbe57e-7c23-4015-97a4-4afbbf7faa23",
+        "merchantLocationId": "7679cd0b-17da-4842-936d-bedb1e73b786",
+        "spendingCategory": "HOLIDAYS",
+        "country": "GBR",
+        "posTimestamp": "23:39:09",
+        "authorisationCode": "180899",
+        "eventUid": "5e7dd264-9e2e-4c77-8457-1f224e040a04",
+        "cardLast4": "6447"
+      },
+      {
+        "_links": {
+          "merchant": {
+            "href": "/api/v1/merchants/d86542b9-a343-41af-a7b7-52f2aaf050a7",
+            "templated": false
+          },
+          "merchantLocation": {
+            "href": "/api/v1/merchants/d86542b9-a343-41af-a7b7-52f2aaf050a7/locations/0b2fff36-3b2b-46f7-aad9-b160c5885291",
+            "templated": false
+          }
+        },
+        "id": "20a3f340-c6f2-44d4-a103-e502a0177db5",
+        "currency": "GBP",
+        "amount": -1.67,
+        "direction": "OUTBOUND",
+        "created": "2018-02-17T23:39:09.636Z",
+        "narrative": "ING",
+        "source": "MASTER_CARD",
+        "mastercardTransactionMethod": "CHIP_AND_PIN",
+        "status": "SETTLED",
+        "sourceAmount": -1.67,
+        "sourceCurrency": "GBP",
+        "merchantId": "d86542b9-a343-41af-a7b7-52f2aaf050a7",
+        "merchantLocationId": "0b2fff36-3b2b-46f7-aad9-b160c5885291",
+        "spendingCategory": "HOLIDAYS",
+        "country": "GBR",
+        "posTimestamp": "23:39:09",
+        "authorisationCode": "184579",
+        "eventUid": "9f7735cf-3f23-47e0-ac1a-c033de259e3d",
+        "cardLast4": "6447"
+      },
+      {
+        "_links": {
+          "merchant": {
+            "href": "/api/v1/merchants/f700ecb4-dbc0-43a3-81c4-2d4db3d03e65",
+            "templated": false
+          },
+          "merchantLocation": {
+            "href": "/api/v1/merchants/f700ecb4-dbc0-43a3-81c4-2d4db3d03e65/locations/a0113c80-e8f5-47cb-8606-9e4c042d82f6",
+            "templated": false
+          }
+        },
+        "id": "ab89c167-1109-4223-a0fe-b88e6a9d7cbb",
+        "currency": "GBP",
+        "amount": -7.95,
+        "direction": "OUTBOUND",
+        "created": "2018-02-17T23:39:09.601Z",
+        "narrative": "Sofitel",
+        "source": "MASTER_CARD",
+        "mastercardTransactionMethod": "CHIP_AND_PIN",
+        "status": "SETTLED",
+        "sourceAmount": -7.95,
+        "sourceCurrency": "GBP",
+        "merchantId": "f700ecb4-dbc0-43a3-81c4-2d4db3d03e65",
+        "merchantLocationId": "a0113c80-e8f5-47cb-8606-9e4c042d82f6",
+        "spendingCategory": "HOLIDAYS",
+        "country": "GBR",
+        "posTimestamp": "23:39:09",
+        "authorisationCode": "156804",
+        "eventUid": "36393129-5f3e-4c7e-bbb8-5e32c9107105",
+        "cardLast4": "6447"
+      },
+      {
+        "_links": {
+          "merchant": {
+            "href": "/api/v1/merchants/a358e5f4-085d-41bc-82fd-4033a03964d6",
+            "templated": false
+          },
+          "merchantLocation": {
+            "href": "/api/v1/merchants/a358e5f4-085d-41bc-82fd-4033a03964d6/locations/fa7e4758-8a52-4353-8bb6-5f58ddaec732",
+            "templated": false
+          }
+        },
+        "id": "30633b14-3319-4027-98d8-539451efed7b",
+        "currency": "GBP",
+        "amount": -6.94,
+        "direction": "OUTBOUND",
+        "created": "2018-02-17T23:39:09.556Z",
+        "narrative": "Osprey London",
+        "source": "MASTER_CARD",
+        "mastercardTransactionMethod": "CHIP_AND_PIN",
+        "status": "SETTLED",
+        "sourceAmount": -6.94,
+        "sourceCurrency": "GBP",
+        "merchantId": "a358e5f4-085d-41bc-82fd-4033a03964d6",
+        "merchantLocationId": "fa7e4758-8a52-4353-8bb6-5f58ddaec732",
+        "spendingCategory": "BILLS_AND_SERVICES",
+        "country": "GBR",
+        "posTimestamp": "23:39:09",
+        "authorisationCode": "270276",
+        "eventUid": "48985402-62c3-48b6-8560-4380c10bcc4f",
+        "cardLast4": "6447"
+      },
+      {
+        "_links": {
+          "merchant": {
+            "href": "/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26",
+            "templated": false
+          },
+          "merchantLocation": {
+            "href": "/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26/locations/b7b9f347-99ab-4a83-9317-ec9895f47755",
+            "templated": false
+          }
+        },
+        "id": "c95ae9ea-8518-4dc1-beb1-dc09413600b1",
+        "currency": "GBP",
+        "amount": -30.81,
+        "direction": "OUTBOUND",
+        "created": "2018-02-17T23:39:09.474Z",
+        "narrative": "Mastercard",
+        "source": "MASTER_CARD",
+        "mastercardTransactionMethod": "CHIP_AND_PIN",
+        "status": "SETTLED",
+        "sourceAmount": -30.81,
+        "sourceCurrency": "GBP",
+        "merchantId": "c052f76f-e919-427d-85fc-f46a75a3ff26",
+        "merchantLocationId": "b7b9f347-99ab-4a83-9317-ec9895f47755",
+        "spendingCategory": "HOLIDAYS",
+        "country": "GBR",
+        "posTimestamp": "23:39:09",
+        "authorisationCode": "008934",
+        "eventUid": "efdd26a4-e346-4062-b93b-bd1b9216aca1",
+        "cardLast4": "6447"
+      },
+      {
+        "_links": {
+          "merchant": {
+            "href": "/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26",
+            "templated": false
+          },
+          "merchantLocation": {
+            "href": "/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26/locations/b7b9f347-99ab-4a83-9317-ec9895f47755",
+            "templated": false
+          }
+        },
+        "id": "8444c8db-cc0d-4dc9-9b7b-e1065379f610",
+        "currency": "GBP",
+        "amount": -35.93,
+        "direction": "OUTBOUND",
+        "created": "2018-02-17T23:39:09.473Z",
+        "narrative": "Pret A Manger",
+        "source": "MASTER_CARD",
+        "mastercardTransactionMethod": "CHIP_AND_PIN",
+        "status": "SETTLED",
+        "sourceAmount": -35.93,
+        "sourceCurrency": "GBP",
+        "merchantId": "c052f76f-e919-427d-85fc-f46a75a3ff26",
+        "merchantLocationId": "b7b9f347-99ab-4a83-9317-ec9895f47755",
+        "spendingCategory": "HOLIDAYS",
+        "country": "GBR",
+        "posTimestamp": "23:39:09",
+        "authorisationCode": "739394",
+        "eventUid": "afa990ed-7551-449e-a4d1-4c90355f1e4e",
+        "cardLast4": "6447"
+      },
+      {
+        "_links": {
+          "merchant": {
+            "href": "/api/v1/merchants/acc81c26-071b-4e22-904d-5635e4bd6089",
+            "templated": false
+          },
+          "merchantLocation": {
+            "href": "/api/v1/merchants/acc81c26-071b-4e22-904d-5635e4bd6089/locations/12303709-79d1-456f-a1b2-2d3332da7b92",
+            "templated": false
+          }
+        },
+        "id": "2e4e623e-8fb0-4d7b-b0f1-cc1fcbfa6b32",
+        "currency": "GBP",
+        "amount": -1.84,
+        "direction": "OUTBOUND",
+        "created": "2018-02-17T23:39:09.472Z",
+        "narrative": "Mastercard",
+        "source": "MASTER_CARD",
+        "mastercardTransactionMethod": "CHIP_AND_PIN",
+        "status": "SETTLED",
+        "sourceAmount": -1.84,
+        "sourceCurrency": "GBP",
+        "merchantId": "acc81c26-071b-4e22-904d-5635e4bd6089",
+        "merchantLocationId": "12303709-79d1-456f-a1b2-2d3332da7b92",
+        "spendingCategory": "HOLIDAYS",
+        "country": "GBR",
+        "posTimestamp": "23:39:09",
+        "authorisationCode": "226350",
+        "eventUid": "6b1753cd-20fa-4165-847c-6762750234a2",
+        "cardLast4": "6447"
+      },
+      {
+        "_links": {
+          "merchant": {
+            "href": "/api/v1/merchants/e6dbe57e-7c23-4015-97a4-4afbbf7faa23",
+            "templated": false
+          },
+          "merchantLocation": {
+            "href": "/api/v1/merchants/e6dbe57e-7c23-4015-97a4-4afbbf7faa23/locations/7679cd0b-17da-4842-936d-bedb1e73b786",
+            "templated": false
+          }
+        },
+        "id": "48ac77b8-f8bd-4edb-b452-dcb1d03c02cc",
+        "currency": "GBP",
+        "amount": -31.99,
+        "direction": "OUTBOUND",
+        "created": "2018-02-17T23:39:07.123Z",
+        "narrative": "Mastercard",
+        "source": "MASTER_CARD",
+        "mastercardTransactionMethod": "CHIP_AND_PIN",
+        "status": "SETTLED",
+        "sourceAmount": -31.99,
+        "sourceCurrency": "GBP",
+        "merchantId": "e6dbe57e-7c23-4015-97a4-4afbbf7faa23",
+        "merchantLocationId": "7679cd0b-17da-4842-936d-bedb1e73b786",
+        "spendingCategory": "HOLIDAYS",
+        "country": "GBR",
+        "posTimestamp": "23:39:07",
+        "authorisationCode": "369609",
+        "eventUid": "1899d7dd-6026-41c9-bab9-7bae88714529",
+        "cardLast4": "6447"
+      },
+      {
+        "_links": {
+          "merchant": {
+            "href": "/api/v1/merchants/e6dbe57e-7c23-4015-97a4-4afbbf7faa23",
+            "templated": false
+          },
+          "merchantLocation": {
+            "href": "/api/v1/merchants/e6dbe57e-7c23-4015-97a4-4afbbf7faa23/locations/7679cd0b-17da-4842-936d-bedb1e73b786",
+            "templated": false
+          }
+        },
+        "id": "90bd70da-1ea8-41a0-8a31-34fbe4dee2f5",
+        "currency": "GBP",
+        "amount": -33.51,
+        "direction": "OUTBOUND",
+        "created": "2018-02-17T23:39:07.068Z",
+        "narrative": "ING",
+        "source": "MASTER_CARD",
+        "mastercardTransactionMethod": "CHIP_AND_PIN",
+        "status": "SETTLED",
+        "sourceAmount": -33.51,
+        "sourceCurrency": "GBP",
+        "merchantId": "e6dbe57e-7c23-4015-97a4-4afbbf7faa23",
+        "merchantLocationId": "7679cd0b-17da-4842-936d-bedb1e73b786",
+        "spendingCategory": "HOLIDAYS",
+        "country": "GBR",
+        "posTimestamp": "23:39:07",
+        "authorisationCode": "018610",
+        "eventUid": "09a20bda-59eb-4e4a-84b0-638ef614117d",
+        "cardLast4": "6447"
+      },
+      {
+        "_links": {
+          "merchant": {
+            "href": "/api/v1/merchants/5ef0556e-4f3b-45e3-8997-49cd6289c2f3",
+            "templated": false
+          },
+          "merchantLocation": {
+            "href": "/api/v1/merchants/5ef0556e-4f3b-45e3-8997-49cd6289c2f3/locations/8798c74b-7c8d-4b39-922f-e07977e64d05",
+            "templated": false
+          }
+        },
+        "id": "c0b74a24-3239-41d6-a80d-a8490bcf42fa",
+        "currency": "GBP",
+        "amount": -13.08,
+        "direction": "OUTBOUND",
+        "created": "2018-02-17T23:39:06.979Z",
+        "narrative": "Mastercard",
+        "source": "MASTER_CARD",
+        "mastercardTransactionMethod": "CHIP_AND_PIN",
+        "status": "SETTLED",
+        "sourceAmount": -13.08,
+        "sourceCurrency": "GBP",
+        "merchantId": "5ef0556e-4f3b-45e3-8997-49cd6289c2f3",
+        "merchantLocationId": "8798c74b-7c8d-4b39-922f-e07977e64d05",
+        "spendingCategory": "SHOPPING",
+        "country": "GBR",
+        "posTimestamp": "23:39:06",
+        "authorisationCode": "825962",
+        "eventUid": "70b14961-cf3f-4672-8cb8-15b4f3dc5b3e",
+        "cardLast4": "6447"
+      },
+      {
+        "_links": {
+          "merchant": {
+            "href": "/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26",
+            "templated": false
+          },
+          "merchantLocation": {
+            "href": "/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26/locations/b7b9f347-99ab-4a83-9317-ec9895f47755",
+            "templated": false
+          }
+        },
+        "id": "a1480e14-bdd7-4b8f-b1ff-6885fcf39ce9",
+        "currency": "GBP",
+        "amount": -35.71,
+        "direction": "OUTBOUND",
+        "created": "2018-02-17T23:39:06.854Z",
+        "narrative": "Amazon",
+        "source": "MASTER_CARD",
+        "mastercardTransactionMethod": "CHIP_AND_PIN",
+        "status": "SETTLED",
+        "sourceAmount": -35.71,
+        "sourceCurrency": "GBP",
+        "merchantId": "c052f76f-e919-427d-85fc-f46a75a3ff26",
+        "merchantLocationId": "b7b9f347-99ab-4a83-9317-ec9895f47755",
+        "spendingCategory": "HOLIDAYS",
+        "country": "GBR",
+        "posTimestamp": "23:39:06",
+        "authorisationCode": "683876",
+        "eventUid": "bb99df12-5361-46c8-ae69-a47dbfe35431",
+        "cardLast4": "6447"
+      },
+      {
+        "_links": {
+          "merchant": {
+            "href": "/api/v1/merchants/acc81c26-071b-4e22-904d-5635e4bd6089",
+            "templated": false
+          },
+          "merchantLocation": {
+            "href": "/api/v1/merchants/acc81c26-071b-4e22-904d-5635e4bd6089/locations/12303709-79d1-456f-a1b2-2d3332da7b92",
+            "templated": false
+          }
+        },
+        "id": "6a9baac1-c314-48b5-a862-4a7107153c96",
+        "currency": "GBP",
+        "amount": -38.39,
+        "direction": "OUTBOUND",
+        "created": "2018-02-17T23:39:06.729Z",
+        "narrative": "Sofitel",
+        "source": "MASTER_CARD",
+        "mastercardTransactionMethod": "CHIP_AND_PIN",
+        "status": "SETTLED",
+        "sourceAmount": -38.39,
+        "sourceCurrency": "GBP",
+        "merchantId": "acc81c26-071b-4e22-904d-5635e4bd6089",
+        "merchantLocationId": "12303709-79d1-456f-a1b2-2d3332da7b92",
+        "spendingCategory": "HOLIDAYS",
+        "country": "GBR",
+        "posTimestamp": "23:39:06",
+        "authorisationCode": "555510",
+        "eventUid": "094835aa-4346-4fe4-addc-1a4a0d2f63ce",
+        "cardLast4": "6447"
+      },
+      {
+        "_links": {
+          "merchant": {
+            "href": "/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26",
+            "templated": false
+          },
+          "merchantLocation": {
+            "href": "/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26/locations/b7b9f347-99ab-4a83-9317-ec9895f47755",
+            "templated": false
+          }
+        },
+        "id": "e28df46a-b6ba-4280-9bb0-bfd644e4bb1e",
+        "currency": "GBP",
+        "amount": -15.64,
+        "direction": "OUTBOUND",
+        "created": "2018-02-17T23:39:06.626Z",
+        "narrative": "Osprey London",
+        "source": "MASTER_CARD",
+        "mastercardTransactionMethod": "CHIP_AND_PIN",
+        "status": "SETTLED",
+        "sourceAmount": -15.64,
+        "sourceCurrency": "GBP",
+        "merchantId": "c052f76f-e919-427d-85fc-f46a75a3ff26",
+        "merchantLocationId": "b7b9f347-99ab-4a83-9317-ec9895f47755",
+        "spendingCategory": "HOLIDAYS",
+        "country": "GBR",
+        "posTimestamp": "23:39:06",
+        "authorisationCode": "249437",
+        "eventUid": "5c2ce0b1-b829-47b8-a57e-dac59f31489d",
+        "cardLast4": "6447"
+      },
+      {
+        "_links": {
+          "merchant": {
+            "href": "/api/v1/merchants/acc81c26-071b-4e22-904d-5635e4bd6089",
+            "templated": false
+          },
+          "merchantLocation": {
+            "href": "/api/v1/merchants/acc81c26-071b-4e22-904d-5635e4bd6089/locations/12303709-79d1-456f-a1b2-2d3332da7b92",
+            "templated": false
+          }
+        },
+        "id": "8c1c93d5-06c3-412b-bcc6-72bfdddac6ed",
+        "currency": "GBP",
+        "amount": -29.91,
+        "direction": "OUTBOUND",
+        "created": "2018-02-17T23:39:06.436Z",
+        "narrative": "Pret A Manger",
+        "source": "MASTER_CARD",
+        "mastercardTransactionMethod": "CHIP_AND_PIN",
+        "status": "SETTLED",
+        "sourceAmount": -29.91,
+        "sourceCurrency": "GBP",
+        "merchantId": "acc81c26-071b-4e22-904d-5635e4bd6089",
+        "merchantLocationId": "12303709-79d1-456f-a1b2-2d3332da7b92",
+        "spendingCategory": "HOLIDAYS",
+        "country": "GBR",
+        "posTimestamp": "23:39:06",
+        "authorisationCode": "568980",
+        "eventUid": "8fae496e-f2d0-47fd-a2c6-22464a449727",
+        "cardLast4": "6447"
+      },
+      {
+        "_links": {
+          "merchant": {
+            "href": "/api/v1/merchants/e6dbe57e-7c23-4015-97a4-4afbbf7faa23",
+            "templated": false
+          },
+          "merchantLocation": {
+            "href": "/api/v1/merchants/e6dbe57e-7c23-4015-97a4-4afbbf7faa23/locations/7679cd0b-17da-4842-936d-bedb1e73b786",
+            "templated": false
+          }
+        },
+        "id": "4ae0b94c-8563-4e7a-8dc9-f6dccbb724dc",
+        "currency": "GBP",
+        "amount": -9.36,
+        "direction": "OUTBOUND",
+        "created": "2018-02-17T23:39:06.423Z",
+        "narrative": "Amazon",
+        "source": "MASTER_CARD",
+        "mastercardTransactionMethod": "CHIP_AND_PIN",
+        "status": "SETTLED",
+        "sourceAmount": -9.36,
+        "sourceCurrency": "GBP",
+        "merchantId": "e6dbe57e-7c23-4015-97a4-4afbbf7faa23",
+        "merchantLocationId": "7679cd0b-17da-4842-936d-bedb1e73b786",
+        "spendingCategory": "HOLIDAYS",
+        "country": "GBR",
+        "posTimestamp": "23:39:06",
+        "authorisationCode": "698147",
+        "eventUid": "fa2ce57c-3ddf-4677-acdb-87fd926fb670",
+        "cardLast4": "6447"
+      },
+      {
+        "_links": {
+          "merchant": {
+            "href": "/api/v1/merchants/5ef0556e-4f3b-45e3-8997-49cd6289c2f3",
+            "templated": false
+          },
+          "merchantLocation": {
+            "href": "/api/v1/merchants/5ef0556e-4f3b-45e3-8997-49cd6289c2f3/locations/8798c74b-7c8d-4b39-922f-e07977e64d05",
+            "templated": false
+          }
+        },
+        "id": "c920e0e8-c225-4ef3-b2dc-d580c36dce6c",
+        "currency": "GBP",
+        "amount": -6.21,
+        "direction": "OUTBOUND",
+        "created": "2018-02-17T23:39:06.423Z",
+        "narrative": "Mastercard",
+        "source": "MASTER_CARD",
+        "mastercardTransactionMethod": "CHIP_AND_PIN",
+        "status": "SETTLED",
+        "sourceAmount": -6.21,
+        "sourceCurrency": "GBP",
+        "merchantId": "5ef0556e-4f3b-45e3-8997-49cd6289c2f3",
+        "merchantLocationId": "8798c74b-7c8d-4b39-922f-e07977e64d05",
+        "spendingCategory": "SHOPPING",
+        "country": "GBR",
+        "posTimestamp": "23:39:06",
+        "authorisationCode": "418383",
+        "eventUid": "f65445d6-9d03-4f63-a1ac-f4ac43fdaa9a",
+        "cardLast4": "6447"
+      },
+      {
+        "_links": {
+          "merchant": {
+            "href": "/api/v1/merchants/e6dbe57e-7c23-4015-97a4-4afbbf7faa23",
+            "templated": false
+          },
+          "merchantLocation": {
+            "href": "/api/v1/merchants/e6dbe57e-7c23-4015-97a4-4afbbf7faa23/locations/7679cd0b-17da-4842-936d-bedb1e73b786",
+            "templated": false
+          }
+        },
+        "id": "f9af96d6-e419-4c4f-baad-1e69de907154",
+        "currency": "GBP",
+        "amount": -5.15,
+        "direction": "OUTBOUND",
+        "created": "2018-02-17T23:39:06.375Z",
+        "narrative": "Mastercard",
+        "source": "MASTER_CARD",
+        "mastercardTransactionMethod": "CHIP_AND_PIN",
+        "status": "SETTLED",
+        "sourceAmount": -5.15,
+        "sourceCurrency": "GBP",
+        "merchantId": "e6dbe57e-7c23-4015-97a4-4afbbf7faa23",
+        "merchantLocationId": "7679cd0b-17da-4842-936d-bedb1e73b786",
+        "spendingCategory": "HOLIDAYS",
+        "country": "GBR",
+        "posTimestamp": "23:39:06",
+        "authorisationCode": "699374",
+        "eventUid": "d9ded337-c5cd-488a-894f-cd697c0a7496",
+        "cardLast4": "6447"
+      },
+      {
+        "_links": {
+          "merchant": {
+            "href": "/api/v1/merchants/e5b21fd4-fb62-4c40-8f56-4890a16bab51",
+            "templated": false
+          },
+          "merchantLocation": {
+            "href": "/api/v1/merchants/e5b21fd4-fb62-4c40-8f56-4890a16bab51/locations/96fc27d9-164d-4fb5-a60f-799e9b2b2294",
+            "templated": false
+          }
+        },
+        "id": "ad6b6816-a8b2-45cd-addc-2b204df4da75",
+        "currency": "GBP",
+        "amount": -10.4,
+        "direction": "OUTBOUND",
+        "created": "2018-02-17T23:39:06.281Z",
+        "narrative": "Yorkshire Bank III",
+        "source": "MASTER_CARD",
+        "mastercardTransactionMethod": "CHIP_AND_PIN",
+        "status": "SETTLED",
+        "sourceAmount": -10.4,
+        "sourceCurrency": "GBP",
+        "merchantId": "e5b21fd4-fb62-4c40-8f56-4890a16bab51",
+        "merchantLocationId": "96fc27d9-164d-4fb5-a60f-799e9b2b2294",
+        "spendingCategory": "HOLIDAYS",
+        "country": "GBR",
+        "posTimestamp": "23:39:06",
+        "authorisationCode": "010153",
+        "eventUid": "83c68029-88bc-4011-994d-2eea109539ab",
+        "cardLast4": "6447"
+      },
+      {
+        "_links": {
+          "merchant": {
+            "href": "/api/v1/merchants/e5b21fd4-fb62-4c40-8f56-4890a16bab51",
+            "templated": false
+          },
+          "merchantLocation": {
+            "href": "/api/v1/merchants/e5b21fd4-fb62-4c40-8f56-4890a16bab51/locations/96fc27d9-164d-4fb5-a60f-799e9b2b2294",
+            "templated": false
+          }
+        },
+        "id": "1319e1ef-c30c-41ba-a9a1-d25c57992052",
+        "currency": "GBP",
+        "amount": -2.55,
+        "direction": "OUTBOUND",
+        "created": "2018-02-17T23:39:06.280Z",
+        "narrative": "Sofitel",
+        "source": "MASTER_CARD",
+        "mastercardTransactionMethod": "CHIP_AND_PIN",
+        "status": "SETTLED",
+        "sourceAmount": -2.55,
+        "sourceCurrency": "GBP",
+        "merchantId": "e5b21fd4-fb62-4c40-8f56-4890a16bab51",
+        "merchantLocationId": "96fc27d9-164d-4fb5-a60f-799e9b2b2294",
+        "spendingCategory": "HOLIDAYS",
+        "country": "GBR",
+        "posTimestamp": "23:39:06",
+        "authorisationCode": "714495",
+        "eventUid": "1152f674-eb4b-4036-85be-26bb2c6dea86",
+        "cardLast4": "6447"
+      },
+      {
+        "_links": {
+          "merchant": {
+            "href": "/api/v1/merchants/5ef0556e-4f3b-45e3-8997-49cd6289c2f3",
+            "templated": false
+          },
+          "merchantLocation": {
+            "href": "/api/v1/merchants/5ef0556e-4f3b-45e3-8997-49cd6289c2f3/locations/8798c74b-7c8d-4b39-922f-e07977e64d05",
+            "templated": false
+          }
+        },
+        "id": "65afa690-e11a-48ef-8403-3150151d4e8d",
+        "currency": "GBP",
+        "amount": -35.61,
+        "direction": "OUTBOUND",
+        "created": "2018-02-17T23:39:06.146Z",
+        "narrative": "Sofitel",
+        "source": "MASTER_CARD",
+        "mastercardTransactionMethod": "CHIP_AND_PIN",
+        "status": "SETTLED",
+        "sourceAmount": -35.61,
+        "sourceCurrency": "GBP",
+        "merchantId": "5ef0556e-4f3b-45e3-8997-49cd6289c2f3",
+        "merchantLocationId": "8798c74b-7c8d-4b39-922f-e07977e64d05",
+        "spendingCategory": "SHOPPING",
+        "country": "GBR",
+        "posTimestamp": "23:39:06",
+        "authorisationCode": "674295",
+        "eventUid": "e114e3f9-bb1c-4d49-bf8b-d5a1851a5c1f",
+        "cardLast4": "6447"
+      },
+      {
+        "_links": {
+          "merchant": {
+            "href": "/api/v1/merchants/acc81c26-071b-4e22-904d-5635e4bd6089",
+            "templated": false
+          },
+          "merchantLocation": {
+            "href": "/api/v1/merchants/acc81c26-071b-4e22-904d-5635e4bd6089/locations/12303709-79d1-456f-a1b2-2d3332da7b92",
+            "templated": false
+          }
+        },
+        "id": "e7175b2e-22e4-4561-a508-16ff65590dc2",
+        "currency": "GBP",
+        "amount": -15.28,
+        "direction": "OUTBOUND",
+        "created": "2018-02-17T23:39:04.778Z",
+        "narrative": "Yorkshire Bank III",
+        "source": "MASTER_CARD",
+        "mastercardTransactionMethod": "CHIP_AND_PIN",
+        "status": "SETTLED",
+        "sourceAmount": -15.28,
+        "sourceCurrency": "GBP",
+        "merchantId": "acc81c26-071b-4e22-904d-5635e4bd6089",
+        "merchantLocationId": "12303709-79d1-456f-a1b2-2d3332da7b92",
+        "spendingCategory": "HOLIDAYS",
+        "country": "GBR",
+        "posTimestamp": "23:39:04",
+        "authorisationCode": "739491",
+        "eventUid": "7585abb9-0085-4c1d-9fc9-d99cc342d3f6",
+        "cardLast4": "6447"
+      },
+      {
+        "_links": {
+          "merchant": {
+            "href": "/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26",
+            "templated": false
+          },
+          "merchantLocation": {
+            "href": "/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26/locations/b7b9f347-99ab-4a83-9317-ec9895f47755",
+            "templated": false
+          }
+        },
+        "id": "7ded1dbd-769d-400f-998a-58b7771be128",
+        "currency": "GBP",
+        "amount": -16.37,
+        "direction": "OUTBOUND",
+        "created": "2018-02-17T23:39:04.536Z",
+        "narrative": "Mastercard",
+        "source": "MASTER_CARD",
+        "mastercardTransactionMethod": "CHIP_AND_PIN",
+        "status": "SETTLED",
+        "sourceAmount": -16.37,
+        "sourceCurrency": "GBP",
+        "merchantId": "c052f76f-e919-427d-85fc-f46a75a3ff26",
+        "merchantLocationId": "b7b9f347-99ab-4a83-9317-ec9895f47755",
+        "spendingCategory": "HOLIDAYS",
+        "country": "GBR",
+        "posTimestamp": "23:39:04",
+        "authorisationCode": "087342",
+        "eventUid": "96e3f5c6-0c6c-4b87-b191-78bee7936756",
+        "cardLast4": "6447"
+      },
+      {
+        "_links": {
+          "merchant": {
+            "href": "/api/v1/merchants/e6dbe57e-7c23-4015-97a4-4afbbf7faa23",
+            "templated": false
+          },
+          "merchantLocation": {
+            "href": "/api/v1/merchants/e6dbe57e-7c23-4015-97a4-4afbbf7faa23/locations/7679cd0b-17da-4842-936d-bedb1e73b786",
+            "templated": false
+          }
+        },
+        "id": "7310304a-3221-47f2-88a2-0ac9434ad0a8",
+        "currency": "GBP",
+        "amount": -36.3,
+        "direction": "OUTBOUND",
+        "created": "2018-02-17T23:39:04.444Z",
+        "narrative": "Mastercard",
+        "source": "MASTER_CARD",
+        "mastercardTransactionMethod": "CHIP_AND_PIN",
+        "status": "SETTLED",
+        "sourceAmount": -36.3,
+        "sourceCurrency": "GBP",
+        "merchantId": "e6dbe57e-7c23-4015-97a4-4afbbf7faa23",
+        "merchantLocationId": "7679cd0b-17da-4842-936d-bedb1e73b786",
+        "spendingCategory": "HOLIDAYS",
+        "country": "GBR",
+        "posTimestamp": "23:39:04",
+        "authorisationCode": "002192",
+        "eventUid": "5dd6905d-44e6-4ad3-b7b3-db206ae042e8",
+        "cardLast4": "6447"
+      },
+      {
+        "_links": {
+          "merchant": {
+            "href": "/api/v1/merchants/e6dbe57e-7c23-4015-97a4-4afbbf7faa23",
+            "templated": false
+          },
+          "merchantLocation": {
+            "href": "/api/v1/merchants/e6dbe57e-7c23-4015-97a4-4afbbf7faa23/locations/7679cd0b-17da-4842-936d-bedb1e73b786",
+            "templated": false
+          }
+        },
+        "id": "c8efc06a-c65d-47da-9004-f006a027d6b2",
+        "currency": "GBP",
+        "amount": -36.95,
+        "direction": "OUTBOUND",
+        "created": "2018-02-17T23:39:04.319Z",
+        "narrative": "Mastercard",
+        "source": "MASTER_CARD",
+        "mastercardTransactionMethod": "CHIP_AND_PIN",
+        "status": "SETTLED",
+        "sourceAmount": -36.95,
+        "sourceCurrency": "GBP",
+        "merchantId": "e6dbe57e-7c23-4015-97a4-4afbbf7faa23",
+        "merchantLocationId": "7679cd0b-17da-4842-936d-bedb1e73b786",
+        "spendingCategory": "HOLIDAYS",
+        "country": "GBR",
+        "posTimestamp": "23:39:04",
+        "authorisationCode": "196843",
+        "eventUid": "c9703044-688d-4358-ab82-3cbf585e4e90",
+        "cardLast4": "6447"
+      },
+      {
+        "_links": {
+          "merchant": {
+            "href": "/api/v1/merchants/d86542b9-a343-41af-a7b7-52f2aaf050a7",
+            "templated": false
+          },
+          "merchantLocation": {
+            "href": "/api/v1/merchants/d86542b9-a343-41af-a7b7-52f2aaf050a7/locations/0b2fff36-3b2b-46f7-aad9-b160c5885291",
+            "templated": false
+          }
+        },
+        "id": "5057b23f-2fb2-4072-b1c8-b30534d95a28",
+        "currency": "GBP",
+        "amount": -10.6,
+        "direction": "OUTBOUND",
+        "created": "2018-02-17T23:39:04.315Z",
+        "narrative": "Villandry",
+        "source": "MASTER_CARD",
+        "mastercardTransactionMethod": "CHIP_AND_PIN",
+        "status": "SETTLED",
+        "sourceAmount": -10.6,
+        "sourceCurrency": "GBP",
+        "merchantId": "d86542b9-a343-41af-a7b7-52f2aaf050a7",
+        "merchantLocationId": "0b2fff36-3b2b-46f7-aad9-b160c5885291",
+        "spendingCategory": "HOLIDAYS",
+        "country": "GBR",
+        "posTimestamp": "23:39:04",
+        "authorisationCode": "037616",
+        "eventUid": "0396e69a-3ebd-423b-8c53-abcf1bbfbdd3",
+        "cardLast4": "6447"
+      },
+      {
+        "_links": {
+          "merchant": {
+            "href": "/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26",
+            "templated": false
+          },
+          "merchantLocation": {
+            "href": "/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26/locations/b7b9f347-99ab-4a83-9317-ec9895f47755",
+            "templated": false
+          }
+        },
+        "id": "3317ed8f-5657-4eca-9799-eafec82218b5",
+        "currency": "GBP",
+        "amount": -38.14,
+        "direction": "OUTBOUND",
+        "created": "2018-02-17T23:39:04.315Z",
+        "narrative": "Pret A Manger",
+        "source": "MASTER_CARD",
+        "mastercardTransactionMethod": "CHIP_AND_PIN",
+        "status": "SETTLED",
+        "sourceAmount": -38.14,
+        "sourceCurrency": "GBP",
+        "merchantId": "c052f76f-e919-427d-85fc-f46a75a3ff26",
+        "merchantLocationId": "b7b9f347-99ab-4a83-9317-ec9895f47755",
+        "spendingCategory": "HOLIDAYS",
+        "country": "GBR",
+        "posTimestamp": "23:39:04",
+        "authorisationCode": "783714",
+        "eventUid": "1fa840a8-4e0a-432d-93e4-1508094a6f33",
+        "cardLast4": "6447"
+      },
+      {
+        "_links": {
+          "merchant": {
+            "href": "/api/v1/merchants/a358e5f4-085d-41bc-82fd-4033a03964d6",
+            "templated": false
+          },
+          "merchantLocation": {
+            "href": "/api/v1/merchants/a358e5f4-085d-41bc-82fd-4033a03964d6/locations/fa7e4758-8a52-4353-8bb6-5f58ddaec732",
+            "templated": false
+          }
+        },
+        "id": "3eda80b2-de84-4167-9931-4f3bf8687081",
+        "currency": "GBP",
+        "amount": -38.36,
+        "direction": "OUTBOUND",
+        "created": "2018-02-17T23:39:04.083Z",
+        "narrative": "Osprey London",
+        "source": "MASTER_CARD",
+        "mastercardTransactionMethod": "CHIP_AND_PIN",
+        "status": "SETTLED",
+        "sourceAmount": -38.36,
+        "sourceCurrency": "GBP",
+        "merchantId": "a358e5f4-085d-41bc-82fd-4033a03964d6",
+        "merchantLocationId": "fa7e4758-8a52-4353-8bb6-5f58ddaec732",
+        "spendingCategory": "BILLS_AND_SERVICES",
+        "country": "GBR",
+        "posTimestamp": "23:39:04",
+        "authorisationCode": "039256",
+        "eventUid": "a42f8deb-e417-4cd1-bde1-98b29004419c",
+        "cardLast4": "6447"
+      },
+      {
+        "_links": {
+          "merchant": {
+            "href": "/api/v1/merchants/5ef0556e-4f3b-45e3-8997-49cd6289c2f3",
+            "templated": false
+          },
+          "merchantLocation": {
+            "href": "/api/v1/merchants/5ef0556e-4f3b-45e3-8997-49cd6289c2f3/locations/8798c74b-7c8d-4b39-922f-e07977e64d05",
+            "templated": false
+          }
+        },
+        "id": "24ce66ee-79e2-45bb-8630-f62913547b0b",
+        "currency": "GBP",
+        "amount": -18.82,
+        "direction": "OUTBOUND",
+        "created": "2018-02-17T23:39:04.079Z",
+        "narrative": "Mastercard",
+        "source": "MASTER_CARD",
+        "mastercardTransactionMethod": "CHIP_AND_PIN",
+        "status": "SETTLED",
+        "sourceAmount": -18.82,
+        "sourceCurrency": "GBP",
+        "merchantId": "5ef0556e-4f3b-45e3-8997-49cd6289c2f3",
+        "merchantLocationId": "8798c74b-7c8d-4b39-922f-e07977e64d05",
+        "spendingCategory": "SHOPPING",
+        "country": "GBR",
+        "posTimestamp": "23:39:04",
+        "authorisationCode": "133369",
+        "eventUid": "4ea62d02-2a83-4d97-b426-1284198fed7f",
+        "cardLast4": "6447"
+      },
+      {
+        "_links": {
+          "merchant": {
+            "href": "/api/v1/merchants/5ef0556e-4f3b-45e3-8997-49cd6289c2f3",
+            "templated": false
+          },
+          "merchantLocation": {
+            "href": "/api/v1/merchants/5ef0556e-4f3b-45e3-8997-49cd6289c2f3/locations/8798c74b-7c8d-4b39-922f-e07977e64d05",
+            "templated": false
+          }
+        },
+        "id": "7bc5eacf-42aa-486e-adfe-b2d3e5d0814c",
+        "currency": "GBP",
+        "amount": -6.32,
+        "direction": "OUTBOUND",
+        "created": "2018-02-17T23:39:04.058Z",
+        "narrative": "Pret A Manger",
+        "source": "MASTER_CARD",
+        "mastercardTransactionMethod": "CHIP_AND_PIN",
+        "status": "SETTLED",
+        "sourceAmount": -6.32,
+        "sourceCurrency": "GBP",
+        "merchantId": "5ef0556e-4f3b-45e3-8997-49cd6289c2f3",
+        "merchantLocationId": "8798c74b-7c8d-4b39-922f-e07977e64d05",
+        "spendingCategory": "SHOPPING",
+        "country": "GBR",
+        "posTimestamp": "23:39:03",
+        "authorisationCode": "575681",
+        "eventUid": "cd18459a-d87b-4102-85ed-fc83f3218174",
+        "cardLast4": "6447"
+      },
+      {
+        "_links": {
+          "merchant": {
+            "href": "/api/v1/merchants/acc81c26-071b-4e22-904d-5635e4bd6089",
+            "templated": false
+          },
+          "merchantLocation": {
+            "href": "/api/v1/merchants/acc81c26-071b-4e22-904d-5635e4bd6089/locations/5c1abdb1-8a8f-4a9f-a415-d8a5af8df0f6",
+            "templated": false
+          }
+        },
+        "id": "b961d967-393e-4cf2-95ac-acb565f9faf3",
+        "currency": "GBP",
+        "amount": -10.25,
+        "direction": "OUTBOUND",
+        "created": "2018-02-17T23:39:03.879Z",
+        "narrative": "Mastercard",
+        "source": "MASTER_CARD",
+        "mastercardTransactionMethod": "CHIP_AND_PIN",
+        "status": "SETTLED",
+        "sourceAmount": -10.25,
+        "sourceCurrency": "GBP",
+        "merchantId": "acc81c26-071b-4e22-904d-5635e4bd6089",
+        "merchantLocationId": "5c1abdb1-8a8f-4a9f-a415-d8a5af8df0f6",
+        "spendingCategory": "HOLIDAYS",
+        "country": "GBR",
+        "posTimestamp": "23:39:03",
+        "authorisationCode": "810582",
+        "eventUid": "83f2c7a4-d1a7-4258-9684-e6f77485ae86",
+        "cardLast4": "6447"
+      },
+      {
+        "_links": {
+          "merchant": {
+            "href": "/api/v1/merchants/e6dbe57e-7c23-4015-97a4-4afbbf7faa23",
+            "templated": false
+          },
+          "merchantLocation": {
+            "href": "/api/v1/merchants/e6dbe57e-7c23-4015-97a4-4afbbf7faa23/locations/7679cd0b-17da-4842-936d-bedb1e73b786",
+            "templated": false
+          }
+        },
+        "id": "bac24ec2-a078-4c5c-97f3-f6b46d8f21e0",
+        "currency": "GBP",
+        "amount": -37.17,
+        "direction": "OUTBOUND",
+        "created": "2018-02-17T23:39:03.870Z",
+        "narrative": "Mastercard",
+        "source": "MASTER_CARD",
+        "mastercardTransactionMethod": "CHIP_AND_PIN",
+        "status": "SETTLED",
+        "sourceAmount": -37.17,
+        "sourceCurrency": "GBP",
+        "merchantId": "e6dbe57e-7c23-4015-97a4-4afbbf7faa23",
+        "merchantLocationId": "7679cd0b-17da-4842-936d-bedb1e73b786",
+        "spendingCategory": "HOLIDAYS",
+        "country": "GBR",
+        "posTimestamp": "23:39:03",
+        "authorisationCode": "799344",
+        "eventUid": "1c574978-4039-4dc2-8408-e83fa388e77d",
+        "cardLast4": "6447"
+      },
+      {
+        "_links": {
+          "merchant": {
+            "href": "/api/v1/merchants/d86542b9-a343-41af-a7b7-52f2aaf050a7",
+            "templated": false
+          },
+          "merchantLocation": {
+            "href": "/api/v1/merchants/d86542b9-a343-41af-a7b7-52f2aaf050a7/locations/0b2fff36-3b2b-46f7-aad9-b160c5885291",
+            "templated": false
+          }
+        },
+        "id": "73152dfa-20ed-4b5a-a6bf-e4b10343b3a0",
+        "currency": "GBP",
+        "amount": -32.79,
+        "direction": "OUTBOUND",
+        "created": "2018-02-17T23:39:03.787Z",
+        "narrative": "ING",
+        "source": "MASTER_CARD",
+        "mastercardTransactionMethod": "CHIP_AND_PIN",
+        "status": "SETTLED",
+        "sourceAmount": -32.79,
+        "sourceCurrency": "GBP",
+        "merchantId": "d86542b9-a343-41af-a7b7-52f2aaf050a7",
+        "merchantLocationId": "0b2fff36-3b2b-46f7-aad9-b160c5885291",
+        "spendingCategory": "HOLIDAYS",
+        "country": "GBR",
+        "posTimestamp": "23:39:03",
+        "authorisationCode": "499070",
+        "eventUid": "8773e115-2fd3-4da1-aaa1-1b9ab35565c7",
+        "cardLast4": "6447"
+      },
+      {
+        "_links": {
+          "merchant": {
+            "href": "/api/v1/merchants/06f89db7-eb27-479a-8cdb-1778ee0a0bc2",
+            "templated": false
+          },
+          "merchantLocation": {
+            "href": "/api/v1/merchants/06f89db7-eb27-479a-8cdb-1778ee0a0bc2/locations/36d50c49-1a9b-4ad3-b20e-1fdf50b2709f",
+            "templated": false
+          }
+        },
+        "id": "0ab4f4fd-3a99-44b9-a542-418987372abb",
+        "currency": "GBP",
+        "amount": -26.15,
+        "direction": "OUTBOUND",
+        "created": "2018-02-17T23:39:03.787Z",
+        "narrative": "Mastercard",
+        "source": "MASTER_CARD",
+        "mastercardTransactionMethod": "CHIP_AND_PIN",
+        "status": "SETTLED",
+        "sourceAmount": -26.15,
+        "sourceCurrency": "GBP",
+        "merchantId": "06f89db7-eb27-479a-8cdb-1778ee0a0bc2",
+        "merchantLocationId": "36d50c49-1a9b-4ad3-b20e-1fdf50b2709f",
+        "spendingCategory": "TRANSPORT",
+        "country": "GBR",
+        "posTimestamp": "23:39:03",
+        "authorisationCode": "472368",
+        "eventUid": "3a5a7c92-57b8-43d1-beaa-f34457cb4045",
+        "cardLast4": "6447"
+      },
+      {
+        "_links": {
+          "merchant": {
+            "href": "/api/v1/merchants/f700ecb4-dbc0-43a3-81c4-2d4db3d03e65",
+            "templated": false
+          },
+          "merchantLocation": {
+            "href": "/api/v1/merchants/f700ecb4-dbc0-43a3-81c4-2d4db3d03e65/locations/863ad84b-debd-4306-943c-79c144685a6a",
+            "templated": false
+          }
+        },
+        "id": "b0ea30cb-e025-4711-a622-75ea20935bbc",
+        "currency": "GBP",
+        "amount": -23.42,
+        "direction": "OUTBOUND",
+        "created": "2018-02-17T23:39:01.184Z",
+        "narrative": "Osprey London",
+        "source": "MASTER_CARD",
+        "mastercardTransactionMethod": "CHIP_AND_PIN",
+        "status": "SETTLED",
+        "sourceAmount": -23.42,
+        "sourceCurrency": "GBP",
+        "merchantId": "f700ecb4-dbc0-43a3-81c4-2d4db3d03e65",
+        "merchantLocationId": "863ad84b-debd-4306-943c-79c144685a6a",
+        "spendingCategory": "HOLIDAYS",
+        "country": "GBR",
+        "posTimestamp": "23:39:01",
+        "authorisationCode": "715074",
+        "eventUid": "e06cce64-dfd9-40ca-8c50-bc42d91e6508",
+        "cardLast4": "6447"
+      },
+      {
+        "_links": {
+          "merchant": {
+            "href": "/api/v1/merchants/e6dbe57e-7c23-4015-97a4-4afbbf7faa23",
+            "templated": false
+          },
+          "merchantLocation": {
+            "href": "/api/v1/merchants/e6dbe57e-7c23-4015-97a4-4afbbf7faa23/locations/7679cd0b-17da-4842-936d-bedb1e73b786",
+            "templated": false
+          }
+        },
+        "id": "81200867-ac60-4b52-85a4-212991c95216",
+        "currency": "GBP",
+        "amount": -20.22,
+        "direction": "OUTBOUND",
+        "created": "2018-02-17T23:39:01.027Z",
+        "narrative": "Osprey London",
+        "source": "MASTER_CARD",
+        "mastercardTransactionMethod": "CHIP_AND_PIN",
+        "status": "SETTLED",
+        "sourceAmount": -20.22,
+        "sourceCurrency": "GBP",
+        "merchantId": "e6dbe57e-7c23-4015-97a4-4afbbf7faa23",
+        "merchantLocationId": "7679cd0b-17da-4842-936d-bedb1e73b786",
+        "spendingCategory": "HOLIDAYS",
+        "country": "GBR",
+        "posTimestamp": "23:39:01",
+        "authorisationCode": "410182",
+        "eventUid": "05f4178b-a481-4696-bb9d-3000197bb9e6",
+        "cardLast4": "6447"
+      },
+      {
+        "_links": {
+          "merchant": {
+            "href": "/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26",
+            "templated": false
+          },
+          "merchantLocation": {
+            "href": "/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26/locations/b7b9f347-99ab-4a83-9317-ec9895f47755",
+            "templated": false
+          }
+        },
+        "id": "3154babd-8d6a-42a4-905d-593d8adb658b",
+        "currency": "GBP",
+        "amount": -16.47,
+        "direction": "OUTBOUND",
+        "created": "2018-02-17T23:39:00.916Z",
+        "narrative": "Amazon",
+        "source": "MASTER_CARD",
+        "mastercardTransactionMethod": "CHIP_AND_PIN",
+        "status": "SETTLED",
+        "sourceAmount": -16.47,
+        "sourceCurrency": "GBP",
+        "merchantId": "c052f76f-e919-427d-85fc-f46a75a3ff26",
+        "merchantLocationId": "b7b9f347-99ab-4a83-9317-ec9895f47755",
+        "spendingCategory": "HOLIDAYS",
+        "country": "GBR",
+        "posTimestamp": "23:39",
+        "authorisationCode": "344705",
+        "eventUid": "2f071fc2-b728-40e2-97d6-4f3393be060d",
+        "cardLast4": "6447"
+      },
+      {
+        "_links": {
+          "merchant": {
+            "href": "/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26",
+            "templated": false
+          },
+          "merchantLocation": {
+            "href": "/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26/locations/b7b9f347-99ab-4a83-9317-ec9895f47755",
+            "templated": false
+          }
+        },
+        "id": "289def69-19e8-4aac-ad5f-3944ac85f0d7",
+        "currency": "GBP",
+        "amount": -35.42,
+        "direction": "OUTBOUND",
+        "created": "2018-02-17T23:39:00.912Z",
+        "narrative": "ING",
+        "source": "MASTER_CARD",
+        "mastercardTransactionMethod": "CHIP_AND_PIN",
+        "status": "SETTLED",
+        "sourceAmount": -35.42,
+        "sourceCurrency": "GBP",
+        "merchantId": "c052f76f-e919-427d-85fc-f46a75a3ff26",
+        "merchantLocationId": "b7b9f347-99ab-4a83-9317-ec9895f47755",
+        "spendingCategory": "HOLIDAYS",
+        "country": "GBR",
+        "posTimestamp": "23:39",
+        "authorisationCode": "627702",
+        "eventUid": "a9e9275d-33d9-4aea-9c01-12f12ad0fc80",
+        "cardLast4": "6447"
+      },
+      {
+        "_links": {
+          "merchant": {
+            "href": "/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26",
+            "templated": false
+          },
+          "merchantLocation": {
+            "href": "/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26/locations/b7b9f347-99ab-4a83-9317-ec9895f47755",
+            "templated": false
+          }
+        },
+        "id": "5b29be06-9093-4f3f-8dd9-8492b9696574",
+        "currency": "GBP",
+        "amount": -19.82,
+        "direction": "OUTBOUND",
+        "created": "2018-02-17T23:39:00.727Z",
+        "narrative": "Pret A Manger",
+        "source": "MASTER_CARD",
+        "mastercardTransactionMethod": "CHIP_AND_PIN",
+        "status": "SETTLED",
+        "sourceAmount": -19.82,
+        "sourceCurrency": "GBP",
+        "merchantId": "c052f76f-e919-427d-85fc-f46a75a3ff26",
+        "merchantLocationId": "b7b9f347-99ab-4a83-9317-ec9895f47755",
+        "spendingCategory": "HOLIDAYS",
+        "country": "GBR",
+        "posTimestamp": "23:39",
+        "authorisationCode": "974020",
+        "eventUid": "b15c7cc8-ef51-421a-a5b1-57f869f4fe0d",
+        "cardLast4": "6447"
+      },
+      {
+        "_links": {
+          "merchant": {
+            "href": "/api/v1/merchants/e5b21fd4-fb62-4c40-8f56-4890a16bab51",
+            "templated": false
+          },
+          "merchantLocation": {
+            "href": "/api/v1/merchants/e5b21fd4-fb62-4c40-8f56-4890a16bab51/locations/96fc27d9-164d-4fb5-a60f-799e9b2b2294",
+            "templated": false
+          }
+        },
+        "id": "b609f601-4ed4-4044-bcf5-e14a7b2a441d",
+        "currency": "GBP",
+        "amount": -2.22,
+        "direction": "OUTBOUND",
+        "created": "2018-02-17T23:39:00.724Z",
+        "narrative": "Yorkshire Bank III",
+        "source": "MASTER_CARD",
+        "mastercardTransactionMethod": "CHIP_AND_PIN",
+        "status": "SETTLED",
+        "sourceAmount": -2.22,
+        "sourceCurrency": "GBP",
+        "merchantId": "e5b21fd4-fb62-4c40-8f56-4890a16bab51",
+        "merchantLocationId": "96fc27d9-164d-4fb5-a60f-799e9b2b2294",
+        "spendingCategory": "HOLIDAYS",
+        "country": "GBR",
+        "posTimestamp": "23:39",
+        "authorisationCode": "361477",
+        "eventUid": "b7047574-77b2-40ff-b3c9-bb2a49a33660",
+        "cardLast4": "6447"
+      },
+      {
+        "_links": {
+          "merchant": {
+            "href": "/api/v1/merchants/d86542b9-a343-41af-a7b7-52f2aaf050a7",
+            "templated": false
+          },
+          "merchantLocation": {
+            "href": "/api/v1/merchants/d86542b9-a343-41af-a7b7-52f2aaf050a7/locations/0b2fff36-3b2b-46f7-aad9-b160c5885291",
+            "templated": false
+          }
+        },
+        "id": "46889cae-c694-4908-ae49-ea6397f62a1a",
+        "currency": "GBP",
+        "amount": -9.93,
+        "direction": "OUTBOUND",
+        "created": "2018-02-17T23:39:00.723Z",
+        "narrative": "Osprey London",
+        "source": "MASTER_CARD",
+        "mastercardTransactionMethod": "CHIP_AND_PIN",
+        "status": "SETTLED",
+        "sourceAmount": -9.93,
+        "sourceCurrency": "GBP",
+        "merchantId": "d86542b9-a343-41af-a7b7-52f2aaf050a7",
+        "merchantLocationId": "0b2fff36-3b2b-46f7-aad9-b160c5885291",
+        "spendingCategory": "HOLIDAYS",
+        "country": "GBR",
+        "posTimestamp": "23:39",
+        "authorisationCode": "382685",
+        "eventUid": "91487d3e-24d8-458d-a0e0-8989e31256f8",
+        "cardLast4": "6447"
+      },
+      {
+        "_links": {
+          "merchant": {
+            "href": "/api/v1/merchants/5ef0556e-4f3b-45e3-8997-49cd6289c2f3",
+            "templated": false
+          },
+          "merchantLocation": {
+            "href": "/api/v1/merchants/5ef0556e-4f3b-45e3-8997-49cd6289c2f3/locations/8798c74b-7c8d-4b39-922f-e07977e64d05",
+            "templated": false
+          }
+        },
+        "id": "234df775-4d4d-4266-a697-fa3c35206644",
+        "currency": "GBP",
+        "amount": -27.78,
+        "direction": "OUTBOUND",
+        "created": "2018-02-17T23:39:00.570Z",
+        "narrative": "Amazon",
+        "source": "MASTER_CARD",
+        "mastercardTransactionMethod": "CHIP_AND_PIN",
+        "status": "SETTLED",
+        "sourceAmount": -27.78,
+        "sourceCurrency": "GBP",
+        "merchantId": "5ef0556e-4f3b-45e3-8997-49cd6289c2f3",
+        "merchantLocationId": "8798c74b-7c8d-4b39-922f-e07977e64d05",
+        "spendingCategory": "SHOPPING",
+        "country": "GBR",
+        "posTimestamp": "23:39",
+        "authorisationCode": "041824",
+        "eventUid": "049a5e4a-3367-4035-8c60-45976f973efb",
+        "cardLast4": "6447"
+      },
+      {
+        "_links": {
+          "merchant": {
+            "href": "/api/v1/merchants/e5b21fd4-fb62-4c40-8f56-4890a16bab51",
+            "templated": false
+          },
+          "merchantLocation": {
+            "href": "/api/v1/merchants/e5b21fd4-fb62-4c40-8f56-4890a16bab51/locations/96fc27d9-164d-4fb5-a60f-799e9b2b2294",
+            "templated": false
+          }
+        },
+        "id": "8407b602-1ead-4ed5-bb13-aa2a71ce7ec7",
+        "currency": "GBP",
+        "amount": -37.34,
+        "direction": "OUTBOUND",
+        "created": "2018-02-17T23:39:00.569Z",
+        "narrative": "Sofitel",
+        "source": "MASTER_CARD",
+        "mastercardTransactionMethod": "CHIP_AND_PIN",
+        "status": "SETTLED",
+        "sourceAmount": -37.34,
+        "sourceCurrency": "GBP",
+        "merchantId": "e5b21fd4-fb62-4c40-8f56-4890a16bab51",
+        "merchantLocationId": "96fc27d9-164d-4fb5-a60f-799e9b2b2294",
+        "spendingCategory": "HOLIDAYS",
+        "country": "GBR",
+        "posTimestamp": "23:39",
+        "authorisationCode": "815013",
+        "eventUid": "904a9040-e83c-4d78-82a5-a834ebb3d73e",
+        "cardLast4": "6447"
+      },
+      {
+        "_links": {
+          "merchant": {
+            "href": "/api/v1/merchants/acc81c26-071b-4e22-904d-5635e4bd6089",
+            "templated": false
+          },
+          "merchantLocation": {
+            "href": "/api/v1/merchants/acc81c26-071b-4e22-904d-5635e4bd6089/locations/12303709-79d1-456f-a1b2-2d3332da7b92",
+            "templated": false
+          }
+        },
+        "id": "4277ecf1-b77b-4d7f-9389-424dbb5a13be",
+        "currency": "GBP",
+        "amount": -13.75,
+        "direction": "OUTBOUND",
+        "created": "2018-02-17T23:39:00.503Z",
+        "narrative": "ING",
+        "source": "MASTER_CARD",
+        "mastercardTransactionMethod": "CHIP_AND_PIN",
+        "status": "SETTLED",
+        "sourceAmount": -13.75,
+        "sourceCurrency": "GBP",
+        "merchantId": "acc81c26-071b-4e22-904d-5635e4bd6089",
+        "merchantLocationId": "12303709-79d1-456f-a1b2-2d3332da7b92",
+        "spendingCategory": "HOLIDAYS",
+        "country": "GBR",
+        "posTimestamp": "23:39",
+        "authorisationCode": "966582",
+        "eventUid": "b73cc0f9-5977-41e9-a47f-ea5c890e423d",
+        "cardLast4": "6447"
+      },
+      {
+        "_links": {
+          "merchant": {
+            "href": "/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26",
+            "templated": false
+          },
+          "merchantLocation": {
+            "href": "/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26/locations/b7b9f347-99ab-4a83-9317-ec9895f47755",
+            "templated": false
+          }
+        },
+        "id": "c050df86-f48a-4f8f-b718-28e8460f9892",
+        "currency": "GBP",
+        "amount": -36.55,
+        "direction": "OUTBOUND",
+        "created": "2018-02-17T23:39:00.411Z",
+        "narrative": "Mastercard",
+        "source": "MASTER_CARD",
+        "mastercardTransactionMethod": "CHIP_AND_PIN",
+        "status": "SETTLED",
+        "sourceAmount": -36.55,
+        "sourceCurrency": "GBP",
+        "merchantId": "c052f76f-e919-427d-85fc-f46a75a3ff26",
+        "merchantLocationId": "b7b9f347-99ab-4a83-9317-ec9895f47755",
+        "spendingCategory": "HOLIDAYS",
+        "country": "GBR",
+        "posTimestamp": "23:39",
+        "authorisationCode": "658520",
+        "eventUid": "1d2e8b70-285d-4362-820c-6e96eb7cb75e",
+        "cardLast4": "6447"
+      },
+      {
+        "_links": {
+          "merchant": {
+            "href": "/api/v1/merchants/e5b21fd4-fb62-4c40-8f56-4890a16bab51",
+            "templated": false
+          },
+          "merchantLocation": {
+            "href": "/api/v1/merchants/e5b21fd4-fb62-4c40-8f56-4890a16bab51/locations/96fc27d9-164d-4fb5-a60f-799e9b2b2294",
+            "templated": false
+          }
+        },
+        "id": "6b4fa093-dd03-4db7-b749-8bcddc9cb907",
+        "currency": "GBP",
+        "amount": -10.02,
+        "direction": "OUTBOUND",
+        "created": "2018-02-17T23:39:00.373Z",
+        "narrative": "Sofitel",
+        "source": "MASTER_CARD",
+        "mastercardTransactionMethod": "CHIP_AND_PIN",
+        "status": "SETTLED",
+        "sourceAmount": -10.02,
+        "sourceCurrency": "GBP",
+        "merchantId": "e5b21fd4-fb62-4c40-8f56-4890a16bab51",
+        "merchantLocationId": "96fc27d9-164d-4fb5-a60f-799e9b2b2294",
+        "spendingCategory": "HOLIDAYS",
+        "country": "GBR",
+        "posTimestamp": "23:39",
+        "authorisationCode": "561193",
+        "eventUid": "41937c42-4711-4f51-b899-bc6bd7c8e14c",
+        "cardLast4": "6447"
+      },
+      {
+        "_links": {
+          "merchant": {
+            "href": "/api/v1/merchants/f700ecb4-dbc0-43a3-81c4-2d4db3d03e65",
+            "templated": false
+          },
+          "merchantLocation": {
+            "href": "/api/v1/merchants/f700ecb4-dbc0-43a3-81c4-2d4db3d03e65/locations/a0113c80-e8f5-47cb-8606-9e4c042d82f6",
+            "templated": false
+          }
+        },
+        "id": "ae49ea46-4f0f-48cf-963d-7cfcf3a11bb6",
+        "currency": "GBP",
+        "amount": -7.56,
+        "direction": "OUTBOUND",
+        "created": "2018-02-17T23:39:00.370Z",
+        "narrative": "Osprey London",
+        "source": "MASTER_CARD",
+        "mastercardTransactionMethod": "CHIP_AND_PIN",
+        "status": "SETTLED",
+        "sourceAmount": -7.56,
+        "sourceCurrency": "GBP",
+        "merchantId": "f700ecb4-dbc0-43a3-81c4-2d4db3d03e65",
+        "merchantLocationId": "a0113c80-e8f5-47cb-8606-9e4c042d82f6",
+        "spendingCategory": "HOLIDAYS",
+        "country": "GBR",
+        "posTimestamp": "23:39",
+        "authorisationCode": "835063",
+        "eventUid": "997e1e0f-bae5-4da5-b7af-d4ad9033acbd",
+        "cardLast4": "6447"
+      },
+      {
+        "_links": {
+          "merchant": {
+            "href": "/api/v1/merchants/f700ecb4-dbc0-43a3-81c4-2d4db3d03e65",
+            "templated": false
+          },
+          "merchantLocation": {
+            "href": "/api/v1/merchants/f700ecb4-dbc0-43a3-81c4-2d4db3d03e65/locations/863ad84b-debd-4306-943c-79c144685a6a",
+            "templated": false
+          }
+        },
+        "id": "bd69f523-f263-43c7-b46e-19929eb32e37",
+        "currency": "GBP",
+        "amount": -25.43,
+        "direction": "OUTBOUND",
+        "created": "2018-02-17T23:12:10.215Z",
+        "narrative": "Mastercard",
+        "source": "MASTER_CARD",
+        "mastercardTransactionMethod": "CHIP_AND_PIN",
+        "status": "SETTLED",
+        "sourceAmount": -25.43,
+        "sourceCurrency": "GBP",
+        "merchantId": "f700ecb4-dbc0-43a3-81c4-2d4db3d03e65",
+        "merchantLocationId": "863ad84b-debd-4306-943c-79c144685a6a",
+        "spendingCategory": "HOLIDAYS",
+        "country": "GBR",
+        "posTimestamp": "23:12:10",
+        "authorisationCode": "335429",
+        "eventUid": "f358898f-8499-490a-a71c-df4e6c81680e",
+        "cardLast4": "6447"
+      },
+      {
+        "_links": {
+          "merchant": {
+            "href": "/api/v1/merchants/d86542b9-a343-41af-a7b7-52f2aaf050a7",
+            "templated": false
+          },
+          "merchantLocation": {
+            "href": "/api/v1/merchants/d86542b9-a343-41af-a7b7-52f2aaf050a7/locations/0b2fff36-3b2b-46f7-aad9-b160c5885291",
+            "templated": false
+          }
+        },
+        "id": "d9b49218-df38-4ad9-a36d-5243c64c011e",
+        "currency": "GBP",
+        "amount": -10.79,
+        "direction": "OUTBOUND",
+        "created": "2018-02-17T23:12:10.126Z",
+        "narrative": "Yorkshire Bank III",
+        "source": "MASTER_CARD",
+        "mastercardTransactionMethod": "CHIP_AND_PIN",
+        "status": "SETTLED",
+        "sourceAmount": -10.79,
+        "sourceCurrency": "GBP",
+        "merchantId": "d86542b9-a343-41af-a7b7-52f2aaf050a7",
+        "merchantLocationId": "0b2fff36-3b2b-46f7-aad9-b160c5885291",
+        "spendingCategory": "HOLIDAYS",
+        "country": "GBR",
+        "posTimestamp": "23:12:10",
+        "authorisationCode": "322293",
+        "eventUid": "dfe74122-a478-4a91-9e05-b0eb890f1654",
+        "cardLast4": "6447"
+      },
+      {
+        "_links": {
+          "merchant": {
+            "href": "/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26",
+            "templated": false
+          },
+          "merchantLocation": {
+            "href": "/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26/locations/b7b9f347-99ab-4a83-9317-ec9895f47755",
+            "templated": false
+          }
+        },
+        "id": "b8a02e39-0a44-4b26-9c0f-4aac80aa8c29",
+        "currency": "GBP",
+        "amount": -9.96,
+        "direction": "OUTBOUND",
+        "created": "2018-02-17T23:12:10.124Z",
+        "narrative": "Villandry",
+        "source": "MASTER_CARD",
+        "mastercardTransactionMethod": "CHIP_AND_PIN",
+        "status": "SETTLED",
+        "sourceAmount": -9.96,
+        "sourceCurrency": "GBP",
+        "merchantId": "c052f76f-e919-427d-85fc-f46a75a3ff26",
+        "merchantLocationId": "b7b9f347-99ab-4a83-9317-ec9895f47755",
+        "spendingCategory": "HOLIDAYS",
+        "country": "GBR",
+        "posTimestamp": "23:12:10",
+        "authorisationCode": "017662",
+        "eventUid": "21e3b0d6-5a87-4f39-ae42-98697ab8010b",
+        "cardLast4": "6447"
+      },
+      {
+        "_links": {
+          "merchant": {
+            "href": "/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26",
+            "templated": false
+          },
+          "merchantLocation": {
+            "href": "/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26/locations/b7b9f347-99ab-4a83-9317-ec9895f47755",
+            "templated": false
+          }
+        },
+        "id": "0c41edc5-0332-4173-bc92-bf0dd4a676e9",
+        "currency": "GBP",
+        "amount": -8.08,
+        "direction": "OUTBOUND",
+        "created": "2018-02-17T23:12:10.102Z",
+        "narrative": "NatWest",
+        "source": "MASTER_CARD",
+        "mastercardTransactionMethod": "CHIP_AND_PIN",
+        "status": "SETTLED",
+        "sourceAmount": -8.08,
+        "sourceCurrency": "GBP",
+        "merchantId": "c052f76f-e919-427d-85fc-f46a75a3ff26",
+        "merchantLocationId": "b7b9f347-99ab-4a83-9317-ec9895f47755",
+        "spendingCategory": "HOLIDAYS",
+        "country": "GBR",
+        "posTimestamp": "23:12:10",
+        "authorisationCode": "523698",
+        "eventUid": "ac06f79e-22c8-4b1e-843a-1b5b0396b98c",
+        "cardLast4": "6447"
+      },
+      {
+        "_links": {
+          "merchant": {
+            "href": "/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26",
+            "templated": false
+          },
+          "merchantLocation": {
+            "href": "/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26/locations/371c62bc-dcfc-4799-8b23-b070626772f7",
+            "templated": false
+          }
+        },
+        "id": "6bcdaab9-d894-446d-83cf-4fd42215b2d3",
+        "currency": "GBP",
+        "amount": -37.06,
+        "direction": "OUTBOUND",
+        "created": "2018-02-17T23:12:09.888Z",
+        "narrative": "Amazon",
+        "source": "MASTER_CARD",
+        "mastercardTransactionMethod": "CHIP_AND_PIN",
+        "status": "SETTLED",
+        "sourceAmount": -37.06,
+        "sourceCurrency": "GBP",
+        "merchantId": "c052f76f-e919-427d-85fc-f46a75a3ff26",
+        "merchantLocationId": "371c62bc-dcfc-4799-8b23-b070626772f7",
+        "spendingCategory": "HOLIDAYS",
+        "country": "GBR",
+        "posTimestamp": "23:12:09",
+        "authorisationCode": "925937",
+        "eventUid": "fe286374-f06b-4096-9a18-094fa8745353",
+        "cardLast4": "6447"
+      },
+      {
+        "_links": {
+          "merchant": {
+            "href": "/api/v1/merchants/f700ecb4-dbc0-43a3-81c4-2d4db3d03e65",
+            "templated": false
+          },
+          "merchantLocation": {
+            "href": "/api/v1/merchants/f700ecb4-dbc0-43a3-81c4-2d4db3d03e65/locations/863ad84b-debd-4306-943c-79c144685a6a",
+            "templated": false
+          }
+        },
+        "id": "832e622c-3475-49f2-9f6a-3f3fd631cd3b",
+        "currency": "GBP",
+        "amount": -24.09,
+        "direction": "OUTBOUND",
+        "created": "2018-02-17T23:12:09.849Z",
+        "narrative": "Sofitel",
+        "source": "MASTER_CARD",
+        "mastercardTransactionMethod": "CHIP_AND_PIN",
+        "status": "SETTLED",
+        "sourceAmount": -24.09,
+        "sourceCurrency": "GBP",
+        "merchantId": "f700ecb4-dbc0-43a3-81c4-2d4db3d03e65",
+        "merchantLocationId": "863ad84b-debd-4306-943c-79c144685a6a",
+        "spendingCategory": "HOLIDAYS",
+        "country": "GBR",
+        "posTimestamp": "23:12:09",
+        "authorisationCode": "514555",
+        "eventUid": "8f0c4670-5bd2-4a77-a3e2-37d147277ce1",
+        "cardLast4": "6447"
+      },
+      {
+        "_links": {
+          "merchant": {
+            "href": "/api/v1/merchants/acc81c26-071b-4e22-904d-5635e4bd6089",
+            "templated": false
+          },
+          "merchantLocation": {
+            "href": "/api/v1/merchants/acc81c26-071b-4e22-904d-5635e4bd6089/locations/12303709-79d1-456f-a1b2-2d3332da7b92",
+            "templated": false
+          }
+        },
+        "id": "5d4c5646-bb86-4afb-af3c-ec71d73d4542",
+        "currency": "GBP",
+        "amount": -4.17,
+        "direction": "OUTBOUND",
+        "created": "2018-02-17T23:12:09.792Z",
+        "narrative": "ING",
+        "source": "MASTER_CARD",
+        "mastercardTransactionMethod": "CHIP_AND_PIN",
+        "status": "SETTLED",
+        "sourceAmount": -4.17,
+        "sourceCurrency": "GBP",
+        "merchantId": "acc81c26-071b-4e22-904d-5635e4bd6089",
+        "merchantLocationId": "12303709-79d1-456f-a1b2-2d3332da7b92",
+        "spendingCategory": "HOLIDAYS",
+        "country": "GBR",
+        "posTimestamp": "23:12:09",
+        "authorisationCode": "591230",
+        "eventUid": "90cf04d2-ebae-4b80-bce0-46e2ef87b27a",
+        "cardLast4": "6447"
+      },
+      {
+        "_links": {
+          "merchant": {
+            "href": "/api/v1/merchants/f700ecb4-dbc0-43a3-81c4-2d4db3d03e65",
+            "templated": false
+          },
+          "merchantLocation": {
+            "href": "/api/v1/merchants/f700ecb4-dbc0-43a3-81c4-2d4db3d03e65/locations/863ad84b-debd-4306-943c-79c144685a6a",
+            "templated": false
+          }
+        },
+        "id": "00cbd529-d01b-4f52-9973-5941f6d8a3bc",
+        "currency": "GBP",
+        "amount": -20.88,
+        "direction": "OUTBOUND",
+        "created": "2018-02-17T23:12:09.684Z",
+        "narrative": "Sofitel",
+        "source": "MASTER_CARD",
+        "mastercardTransactionMethod": "CHIP_AND_PIN",
+        "status": "SETTLED",
+        "sourceAmount": -20.88,
+        "sourceCurrency": "GBP",
+        "merchantId": "f700ecb4-dbc0-43a3-81c4-2d4db3d03e65",
+        "merchantLocationId": "863ad84b-debd-4306-943c-79c144685a6a",
+        "spendingCategory": "HOLIDAYS",
+        "country": "GBR",
+        "posTimestamp": "23:12:09",
+        "authorisationCode": "492873",
+        "eventUid": "49cd3739-dfce-4e7e-af55-33f072291c78",
+        "cardLast4": "6447"
+      },
+      {
+        "_links": {
+          "merchant": {
+            "href": "/api/v1/merchants/5ef0556e-4f3b-45e3-8997-49cd6289c2f3",
+            "templated": false
+          },
+          "merchantLocation": {
+            "href": "/api/v1/merchants/5ef0556e-4f3b-45e3-8997-49cd6289c2f3/locations/8798c74b-7c8d-4b39-922f-e07977e64d05",
+            "templated": false
+          }
+        },
+        "id": "770e22b7-7856-4360-9f29-058baeccb85d",
+        "currency": "GBP",
+        "amount": -35.67,
+        "direction": "OUTBOUND",
+        "created": "2018-02-17T23:12:09.561Z",
+        "narrative": "NatWest",
+        "source": "MASTER_CARD",
+        "mastercardTransactionMethod": "CHIP_AND_PIN",
+        "status": "SETTLED",
+        "sourceAmount": -35.67,
+        "sourceCurrency": "GBP",
+        "merchantId": "5ef0556e-4f3b-45e3-8997-49cd6289c2f3",
+        "merchantLocationId": "8798c74b-7c8d-4b39-922f-e07977e64d05",
+        "spendingCategory": "SHOPPING",
+        "country": "GBR",
+        "posTimestamp": "23:12:09",
+        "authorisationCode": "911522",
+        "eventUid": "2921b7d0-45f9-44f7-b4fd-10e00baab20b",
+        "cardLast4": "6447"
+      },
+      {
+        "_links": {
+          "merchant": {
+            "href": "/api/v1/merchants/acc81c26-071b-4e22-904d-5635e4bd6089",
+            "templated": false
+          },
+          "merchantLocation": {
+            "href": "/api/v1/merchants/acc81c26-071b-4e22-904d-5635e4bd6089/locations/5c1abdb1-8a8f-4a9f-a415-d8a5af8df0f6",
+            "templated": false
+          }
+        },
+        "id": "7313dac2-9858-44e2-9fff-05c94b9e3500",
+        "currency": "GBP",
+        "amount": -16.66,
+        "direction": "OUTBOUND",
+        "created": "2018-02-17T23:12:09.373Z",
+        "narrative": "Mastercard",
+        "source": "MASTER_CARD",
+        "mastercardTransactionMethod": "CHIP_AND_PIN",
+        "status": "SETTLED",
+        "sourceAmount": -16.66,
+        "sourceCurrency": "GBP",
+        "merchantId": "acc81c26-071b-4e22-904d-5635e4bd6089",
+        "merchantLocationId": "5c1abdb1-8a8f-4a9f-a415-d8a5af8df0f6",
+        "spendingCategory": "HOLIDAYS",
+        "country": "GBR",
+        "posTimestamp": "23:12:09",
+        "authorisationCode": "498128",
+        "eventUid": "744cb444-6c0e-4d65-b47a-84d18ca02c0e",
+        "cardLast4": "6447"
+      },
+      {
+        "_links": {
+          "merchant": {
+            "href": "/api/v1/merchants/acc81c26-071b-4e22-904d-5635e4bd6089",
+            "templated": false
+          },
+          "merchantLocation": {
+            "href": "/api/v1/merchants/acc81c26-071b-4e22-904d-5635e4bd6089/locations/12303709-79d1-456f-a1b2-2d3332da7b92",
+            "templated": false
+          }
+        },
+        "id": "768182fa-6bf2-49aa-bf39-f503483b5b5e",
+        "currency": "GBP",
+        "amount": -20.28,
+        "direction": "OUTBOUND",
+        "created": "2018-02-17T23:12:09.293Z",
+        "narrative": "Osprey London",
+        "source": "MASTER_CARD",
+        "mastercardTransactionMethod": "CHIP_AND_PIN",
+        "status": "SETTLED",
+        "sourceAmount": -20.28,
+        "sourceCurrency": "GBP",
+        "merchantId": "acc81c26-071b-4e22-904d-5635e4bd6089",
+        "merchantLocationId": "12303709-79d1-456f-a1b2-2d3332da7b92",
+        "spendingCategory": "HOLIDAYS",
+        "country": "GBR",
+        "posTimestamp": "23:12:09",
+        "authorisationCode": "413580",
+        "eventUid": "93387e16-95af-4372-8364-0de3d03ce58d",
+        "cardLast4": "6447"
+      },
+      {
+        "_links": {
+          "merchant": {
+            "href": "/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26",
+            "templated": false
+          },
+          "merchantLocation": {
+            "href": "/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26/locations/b7b9f347-99ab-4a83-9317-ec9895f47755",
+            "templated": false
+          }
+        },
+        "id": "7b5339fb-9631-495b-8235-d58fb3afc264",
+        "currency": "GBP",
+        "amount": -28.82,
+        "direction": "OUTBOUND",
+        "created": "2018-02-17T23:12:09.272Z",
+        "narrative": "ING",
+        "source": "MASTER_CARD",
+        "mastercardTransactionMethod": "CHIP_AND_PIN",
+        "status": "SETTLED",
+        "sourceAmount": -28.82,
+        "sourceCurrency": "GBP",
+        "merchantId": "c052f76f-e919-427d-85fc-f46a75a3ff26",
+        "merchantLocationId": "b7b9f347-99ab-4a83-9317-ec9895f47755",
+        "spendingCategory": "HOLIDAYS",
+        "country": "GBR",
+        "posTimestamp": "23:12:09",
+        "authorisationCode": "701061",
+        "eventUid": "0e21c73b-654d-45b0-b63e-352266b170bc",
+        "cardLast4": "6447"
+      },
+      {
+        "_links": {
+          "merchant": {
+            "href": "/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26",
+            "templated": false
+          },
+          "merchantLocation": {
+            "href": "/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26/locations/b7b9f347-99ab-4a83-9317-ec9895f47755",
+            "templated": false
+          }
+        },
+        "id": "eb1c5c5d-1ce4-41f1-844b-0ce8de21f9c2",
+        "currency": "GBP",
+        "amount": -39.01,
+        "direction": "OUTBOUND",
+        "created": "2018-02-17T23:12:09.272Z",
+        "narrative": "Pret A Manger",
+        "source": "MASTER_CARD",
+        "mastercardTransactionMethod": "CHIP_AND_PIN",
+        "status": "SETTLED",
+        "sourceAmount": -39.01,
+        "sourceCurrency": "GBP",
+        "merchantId": "c052f76f-e919-427d-85fc-f46a75a3ff26",
+        "merchantLocationId": "b7b9f347-99ab-4a83-9317-ec9895f47755",
+        "spendingCategory": "HOLIDAYS",
+        "country": "GBR",
+        "posTimestamp": "23:12:09",
+        "authorisationCode": "081846",
+        "eventUid": "977e64e8-27cc-4928-9c88-bdcfab6ec596",
+        "cardLast4": "6447"
+      }
+    ]
+  }
+}

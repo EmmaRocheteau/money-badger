@@ -60,7 +60,7 @@ class Starling(BaseView):
     #@splitwise.authorized_handler
     def authed(self):
         access_token = "idBjil3J7CS0ZCa1wqSN4vReAiM3oq2Sl0iaE6MY1MN9Bj0B0skZBxdd3X7vMRKY"
-        session['starling_access_token']  = access_token
+        session['starling_access_token'] = access_token
         #getreq = 'transactions/mastercard'
 
         # with open('card_transactions.json', 'w') as f:
