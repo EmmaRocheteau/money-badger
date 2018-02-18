@@ -4,20 +4,20 @@
 <h3>People whom you owe</h3>
 <br>
 <center>
-    <table class="table table-hover">
+    <table cellpadding="10" width="75%" class="table table-hover">
         <thead>
         <tr>
-            <th scope="col">Debtor</th>
-            <th scope="col">Amount</th>
-            <th scope="col"></th>
+            <th width="25%" scope="col">Debtor</th>
+            <th width="25%" scope="col">Amount</th>
+            <th width="25%" scope="col"></th>
         </tr>
         </thead>
         <tbody>
         {% for debtor in debtors %}
         <tr class="table-active">
-            <td>{{ debtor.name }}</td>
-            <td><b>{{ debtor.amount }}</b></td>
-            <td>
+            <td  width="25%">{{ debtor.name }}</td>
+            <td width="25%"><b>{{ debtor.amount }}</b></td>
+            <td width="25%" align="left">
                 <button type="button" class="btn btn-primary btn-sm settle">Settle Up</button>
             </td>
         </tr>
