@@ -6,6 +6,7 @@ import pandas as pd
 from itertools import combinations
 from datetime import timedelta as td
 
+
 def get_sample_data():
 
     # Get data from starling and format to a pandas dataframe.
@@ -85,9 +86,8 @@ def get_sample_data():
                                              'Source'])
     return compare_and_merge(cleaned, df3)
 
-if __name__=="__main__":
 
+if __name__=="__main__":
     df = get_sample_data()
     df.to_csv('sample_data.csv')
-
     print(df)
