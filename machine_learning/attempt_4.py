@@ -89,37 +89,6 @@ def build_model(look_back: int, batch_size: int=1) -> Sequential:
     return model
 
 
-def plot_data(dataset: numpy.ndarray,
-              look_back: int,
-              train_predict: numpy.ndarray,
-              test_predict: numpy.ndarray,
-              forecast_predict: numpy.ndarray):
-    """
-    Plots baseline and predictions.
-    blue: baseline
-    green: prediction with training data
-    red: prediction with test data
-    cyan: prediction based on predictions
-    :param dataset: dataset used for predictions
-    :param look_back: number of previous time steps as int
-    :param train_predict: predicted values based on training data
-    :param test_predict: predicted values based on test data
-    :param forecast_predict: predicted values based on previous predictions
-    :return: None
-    """
-    plt.plot(dataset)
-    plt.plot([None for _ in range(look_back)] +
-             [x for x in train_predict])
-    plt.plot([None for _ in range(look_back)] +
-             [None for _ in train_predict] +
-             [x for x in test_predict])
-    plt.plot([None for _ in range(look_back)] +
-             [None for _ in train_predict] +
-             [None for _ in test_predict] +
-             [x for x in forecast_predict])
-    plt.show()
-
-
 def make_forecast(model: Sequential, look_back_buffer: numpy.ndarray, timesteps: int=1, batch_size: int=1):
     forecast_predict = numpy.empty((0, 1), dtype=numpy.float32)
     for _ in trange(timesteps, desc='predicting data\t', mininterval=1.0):
@@ -151,7 +120,7 @@ def main():
     dataset = scaler.fit_transform(dataset)
 
     # split into train and test sets
-    look_back = int(len(dataset) * 0.05)
+    look_back = int(len(dataset) * 0.20)
     train_size = int(len(dataset) * 0.70)
     train, test = split_dataset(dataset, train_size, look_back)
 
@@ -167,10 +136,10 @@ def main():
     batch_size = 1
     model = build_model(look_back, batch_size=batch_size)
     for _ in trange(100, desc='fitting model\t', mininterval=1.0):
-        model.fit(train_x, train_y, nb_epoch=10, batch_size=batch_size, verbose=0, shuffle=False)
+        model.fit(train_x, train_y, nb_epoch=1, batch_size=batch_size, verbose=0, shuffle=False)
         model.reset_states()
 
-    model.save('../saved_model_short.h5')
+    model.save('../saved_model_short_4.h5')
 
     '''
 
