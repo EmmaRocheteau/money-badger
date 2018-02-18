@@ -1,3 +1,4 @@
+import app.views
 import matchup as m
 import numpy as np
 
@@ -39,5 +40,5 @@ def create_records(sample_data):
 
 
 if __name__ == '__main__':
-    df = m.get_sample_data()
+    df = app.views.get_sample_data()
     print(len(create_records(df)))

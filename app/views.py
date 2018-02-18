@@ -1,6 +1,14 @@
+from datetime import timedelta as td
+from itertools import combinations
+
+import numpy as np
+import pandas as pd
 from flask import session, redirect, flash, request, url_for, render_template, jsonify
 from flask_appbuilder.models.sqla.interface import SQLAInterface
 from flask_appbuilder import ModelView, BaseView, expose, has_access
+
+import parsing_splitwise as sp
+import parsing_starling as st
 from app import appbuilder, db
 from flask_login import current_user
 from flask_oauth import OAuth
@@ -24,6 +32,7 @@ access_token_url='https://secure.splitwise.com/oauth/access_token',
 authorize_url='https://secure.splitwise.com/oauth/authorize',
 consumer_key='QhKCiloQAS3UKPQm9yrI59WGfIsJcv2VO0llHsmX',
 consumer_secret='yPIQ0El2AwF8kg4RjdPjZIBKHRHTKBviycTqyHOh')
+
 
 def get_merchants(file_name):
     json1_file = open(file_name)
@@ -53,6 +62,65 @@ def get_merchants(file_name):
                            row['Place ID'], row['Cost']))
 
     return ms
+
+
+def get_sample_data():
+
+    # Get data from starling and format to a pandas dataframe.
+    #stdata = st.json_read('data/sample-starling-data.txt')
+    stdata = get_starling(
+        "idBjil3J7CS0ZCa1wqSN4vReAiM3oq2Sl0iaE6MY1MN9Bj0B0skZBxdd3X7vMRKY",
+        'transactions/')
+    cleaned = st.cleanup(stdata)
+
+    # Get data from spltwise and format to a pandas dataframe.
+    spdata = sp.yaml_read('./data/expenses.yaml')
+    #spdata = session['expenses']
+    mine = sp.get_owed(spdata, user_id=5090950)
+    df = sp.cleanup(mine, user_id=5090950)
+
+    # For now, isolate to GBP.
+    df = df[df['Currency'] == 'GBP']
+    df2 = sp.date_filter(df, date_from='01/01/2017', to='26/12/2017')
+
+    df3 = df2.rename(index=str, columns={"Paid": "Cost"})
+
+    def compare_and_merge(df1, df2):
+        df1['Category'] = np.nan
+        df1['Group ID'] = np.nan
+        df1['Payment'] = False
+        df1['Owe'] = df1['Cost']
+        df1['Source'] = 'Starling'
+        df2['Source'] = 'Splitwise'
+        combined = pd.concat([df1, df2])
+        sorted = combined.sort_values('Date')
+        unique_costs = np.unique(pd.to_numeric(sorted['Cost']))
+        rows_to_delete = []
+        rows_to_both = []
+        for cost in unique_costs:
+            repeats = np.where(sorted['Cost'] == cost)[0]
+            if len(repeats) >= 2:
+                for pair in list(combinations(repeats, 2)):
+                    if sorted.iloc[pair[0], 2] - td(days=5) <= sorted.iloc[pair[1], 2] <= sorted.iloc[pair[0], 2] + td(days=5):
+                        # repeated transaction
+                        if sorted.iloc[pair[0], -1] == 'starling':
+                            #sorted = sorted.drop(sorted.index[pair[0]])
+                            #sorted.iloc[pair[1], -1] = 'both'
+                            rows_to_delete.append(pair[0])
+                            rows_to_both.append(pair[1])
+                        else:
+                            #sorted = sorted.drop(sorted.index[pair[1]])
+                            #sorted.iloc[pair[0], -1] = 'both'
+                            rows_to_delete.append(pair[1])
+                            rows_to_both.append(pair[0])
+        sorted.iloc[rows_to_both, -1] = 'both'
+        rows_to_delete.sort(reverse=True)
+        sorted = np.delete(np.array(sorted), rows_to_delete, 0)
+        return pd.DataFrame(sorted, columns=['Category', 'Cost', 'Currency',
+                                             'Date', 'Description',
+                                             'Group ID', 'Owe', 'Payment',
+                                             'Source'])
+    return compare_and_merge(cleaned, df3)
 
 
 @appbuilder.sm.oauth_user_info_getter
@@ -189,7 +257,7 @@ class Home(BaseView):
     @expose('/home')
     def root(self):
         if 'calculated_records' not in session:
-            df = m.get_sample_data()
+            df = get_sample_data()
             self.r = create_records(df)
             session['calculated_records'] = True
         return render2("root.html", records=self.r)
@@ -258,5 +326,3 @@ appbuilder.add_link("Transactions", "/home/home", label="Transactions")
 # appbuilder.add_view(Home, '/balance', category="Analytics")
   
 db.create_all()
-
-
