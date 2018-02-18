@@ -21,7 +21,6 @@
   <body>
     <div id="map"></div>
     <script>
-
       function initMap() {
         var myLatLng = {lat: -25.363, lng: 131.044};
 
@@ -29,12 +28,13 @@
           zoom: 4,
           center: myLatLng
         });
-
+        {% for id in ids %}
         var marker = new google.maps.Marker({
-          place: {placeId: {{}}},
+          place: {placeId: {{ id.placeid }} },
           map: map,
-          title: 'Hello World!'
+          title: {{ id.title }}
         });
+        {% endfor %}
       }
     </script>
     <script async defer

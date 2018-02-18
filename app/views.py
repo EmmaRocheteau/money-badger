@@ -1,4 +1,4 @@
-from flask import session, redirect, flash, request, url_for, render_template
+from flask import session, redirect, flash, request, url_for, render_template, jsonify
 from flask_appbuilder.models.sqla.interface import SQLAInterface
 from flask_appbuilder import ModelView, BaseView, expose, has_access
 from app import appbuilder, db
@@ -135,14 +135,28 @@ class Home(BaseView):
 
     @expose('/settle')
     def settle(self):
-
-
         d = []
         d.append(Debtor("Hugh Mungus", 69.0))
         d.append(Debtor("Gareth Funk", 100000))
         d.append(Debtor("The Queen", 1000000000.01))
-
         return render2("settle.html", debtors=self.debtors)
+
+    @expose('/remove_debtor')
+    def remove_debtor(self):
+        print("remove_debtor called")
+        nm = request.args.get('nm', "", type=str)
+        print(nm)
+        for i, debtor in enumerate(self.debtors):
+            if debtor.name == nm:
+                del(self.debtors[i])
+                print("Deleting debtor " + str(i) + " called " + debtor.name)
+                break
+        return jsonify(False)
+
+    @expose('/map')
+    def map(self):
+        ids = []
+        return render2("test_map2.html", ids=ids)
 
     @expose('/home')
     def root(self):
