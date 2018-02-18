@@ -218,9 +218,11 @@ appbuilder.add_view_no_menu(Home())
 #appbuilder.add_view(Welcome, "Welcome", category='Charts')
 # appbuilder.add_view(Home, "/home/home")
 appbuilder.add_link("Settle", "/home/settle", label="Settle")
+appbuilder.add_link("Analytics", "/home/balance", label="Analytics")
+appbuilder.add_link("Transactions", "/home/home", label="Transactions")
 # appbuilder.add_view_no_menu(Welcome())
 # appbuilder.add_link("Splitwise", href='/splitwise_login/', category='Login')
-
+# appbuilder.add_view(Home, '/balance', category="Analytics")
   
 db.create_all()
 

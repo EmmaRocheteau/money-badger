@@ -23,7 +23,7 @@ CSRF_ENABLED = True
 APP_NAME = "Money Badger"
 
 # Uncomment to setup Setup an App icon
-#APP_ICON = "static/img/logo.jpg"
+APP_ICON = "/static/moneybadger.png"
 
 #----------------------------------------------------
 # AUTHENTICATION CONFIG
