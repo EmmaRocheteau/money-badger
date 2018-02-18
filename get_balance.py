@@ -16,9 +16,9 @@ def get_balance(data_path, start_balance=1000):
     for i in range(len(cost_data)):
         current_balance -= cost_data[i]
         balance_data[i] = current_balance
+    return balance_data.reset_index()
 
-    return balance_data
 
 if __name__ == "__main__" :
-    print(get_balance('../../sample_data.csv'))
+    print(get_balance('../sample_data.csv'))
 
