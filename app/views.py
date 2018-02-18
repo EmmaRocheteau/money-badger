@@ -68,20 +68,18 @@ class Starling(BaseView):
         # print("\n\n\n\n\n\n")
         # print(url)
         #print(data)
-
+        #print(get_starling(access_token, 'transactions/mastercard/', transactionUid='bc5e394-1829-4368-ac59-9b6b6b2d9892'))
         return redirect('/home/login')
 
     @expose('/hint')
     def starling(self):
-        return render_template('welcome.html', top_text="Now log in to your banking Provider",
-                               auth="Starling Bank", redirect="/starling/login", img="starling",
-                               base_template=appbuilder.base_template, appbuilder=appbuilder)
+        return render2('welcome.html', top_text="Now log in to your banking Provider",
+                               auth="Starling Bank", redirect="/starling/login", img="starling")
 
-
-def get_starling(access_token, getreq):
+def get_starling(access_token, getreq, **kwargs):
     
     url = "https://api-sandbox.starlingbank.com/api/v1/"+getreq
-    return requests.get(url, headers={'Authorization': 'Bearer '+ access_token}).json()
+    return requests.get(url, headers={'Authorization': 'Bearer '+ access_token}, data=kwargs).json()
 
 class Welcome(BaseView):
     route_base = '/welcome'
@@ -89,9 +87,8 @@ class Welcome(BaseView):
 
     @expose('/')
     def welcome(self):
-        return render_template('welcome.html', top_text="Get started by logging in to Splitwise",
-                               auth="Splitwise", redirect="/splitwise/login", img="splitwise",
-                               base_template=appbuilder.base_template, appbuilder=appbuilder)
+        return render2('welcome.html', top_text="Get started by logging in to Splitwise",
+                               auth="Splitwise", redirect="/splitwise/login", img="splitwise")
 
 
 @splitwise.tokengetter
@@ -139,7 +136,7 @@ class Splitwise(BaseView):
         session['expenses'] = content
         #print("\n\n\n\n\n\n" , content)
         #resp = splitwise.get('get_current_user')
-        return render_template('output.html', getresp="waddup pimps", base_template=appbuilder.base_template, appbuilder=appbuilder)
+        return render2('output.html', getresp="waddup pimps")
 
 
 class Home(BaseView):
@@ -159,8 +156,7 @@ class Home(BaseView):
         d.append(Debtor("Gareth Funk", 100000))
         d.append(Debtor("The Queen", 1000000000.01))
 
-        return render_template("settle.html", debtors=d,
-                               base_template=appbuilder.base_template, appbuilder=appbuilder)
+        return render2("settle.html", debtors=d)
 
     @expose('/home')
     def root(self):
@@ -168,14 +164,13 @@ class Home(BaseView):
             df = m.get_sample_data()
             self.r = create_records(df)
             session['calculated_records'] = True
-        return render_template("root.html", records=self.r,
-                               base_template=appbuilder.base_template, appbuilder=appbuilder)
+        return render2("root.html", records=self.r)
     
     @expose('/balance')
     def balance(self):
         chart = line_balance("data")
         script, div = components(chart)
-        return render_template("graphs.html", script=script, div=div, base_template=appbuilder.base_template, appbuilder=appbuilder)
+        return render2("graphs.html", script=script, div=div)
 
 # class Root(BaseView):
 

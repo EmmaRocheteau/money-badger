@@ -1,0 +1,856 @@
+[
+  {
+    'merchantUid': 'c052f76f-e919-427d-85fc-f46a75a3ff26',
+    'merchant': {
+      'href': '/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26',
+      'templated': False
+    },
+    'merchantLocationUid': '371c62bc-dcfc-4799-8b23-b070626772f7',
+    'merchantName': 'Mastercard',
+    'locationName': 'Mastercard UK',
+    'googlePlaceId': 'ChIJJ9ZEdgG4h0gRqJZP_Z5tgCc',
+    'mastercardMerchantCategoryCode': 3619
+  },
+  {
+    'merchantUid': 'e5b21fd4-fb62-4c40-8f56-4890a16bab51',
+    'merchant': {
+      'href': '/api/v1/merchants/e5b21fd4-fb62-4c40-8f56-4890a16bab51',
+      'templated': False
+    },
+    'merchantLocationUid': '96fc27d9-164d-4fb5-a60f-799e9b2b2294',
+    'merchantName': 'Sofitel',
+    'locationName': 'Sofitel St. James',
+    'address': "6 Waterloo Pl, St. James's, London SW1Y 4AN",
+    'phoneNumber': '+442077472200',
+    'googlePlaceId': 'ChIJKU7H_9AEdkgR4yo4FD1eNXc',
+    'mastercardMerchantCategoryCode': 3686
+  },
+  {
+    'merchantUid': 'c052f76f-e919-427d-85fc-f46a75a3ff26',
+    'merchant': {
+      'href': '/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26',
+      'templated': False
+    },
+    'merchantLocationUid': 'b7b9f347-99ab-4a83-9317-ec9895f47755',
+    'merchantName': 'Mastercard',
+    'locationName': 'Mastercard Europe',
+    'googlePlaceId': 'ChIJkSyl5M_xd0gRvnIIm_kNiqg',
+    'mastercardMerchantCategoryCode': 3431
+  },
+  {
+    'merchantUid': 'f700ecb4-dbc0-43a3-81c4-2d4db3d03e65',
+    'merchant': {
+      'href': '/api/v1/merchants/f700ecb4-dbc0-43a3-81c4-2d4db3d03e65',
+      'templated': False
+    },
+    'merchantLocationUid': 'a0113c80-e8f5-47cb-8606-9e4c042d82f6',
+    'merchantName': 'Amazon',
+    'locationName': 'Amazon UK',
+    'googlePlaceId': 'ChIJ3XmGiVIbdkgRo1qRGtJQ4MI',
+    'mastercardMerchantCategoryCode': 0
+  },
+  {
+    'merchantUid': 'c052f76f-e919-427d-85fc-f46a75a3ff26',
+    'merchant': {
+      'href': '/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26',
+      'templated': False
+    },
+    'merchantLocationUid': '371c62bc-dcfc-4799-8b23-b070626772f7',
+    'merchantName': 'Mastercard',
+    'locationName': 'Mastercard UK',
+    'googlePlaceId': 'ChIJJ9ZEdgG4h0gRqJZP_Z5tgCc',
+    'mastercardMerchantCategoryCode': 3619
+  },
+  {
+    'merchantUid': 'd86542b9-a343-41af-a7b7-52f2aaf050a7',
+    'merchant': {
+      'href': '/api/v1/merchants/d86542b9-a343-41af-a7b7-52f2aaf050a7',
+      'templated': False
+    },
+    'merchantLocationUid': '0b2fff36-3b2b-46f7-aad9-b160c5885291',
+    'merchantName': 'ING',
+    'locationName': 'ING Waterloo Park',
+    'address': 'Waterloo Park, Brussels',
+    'googlePlaceId': 'ChIJv6LhNsbRw0cRPdhacABgOwI',
+    'mastercardMerchantCategoryCode': 7230
+  },
+  {
+    'merchantUid': 'e6dbe57e-7c23-4015-97a4-4afbbf7faa23',
+    'merchant': {
+      'href': '/api/v1/merchants/e6dbe57e-7c23-4015-97a4-4afbbf7faa23',
+      'templated': False
+    },
+    'merchantLocationUid': '7679cd0b-17da-4842-936d-bedb1e73b786',
+    'merchantName': 'Yorkshire Bank III',
+    'locationName': '35 Regent Street',
+    'address': '35 Regent Street',
+    'phoneNumber': '020987555777',
+    'googlePlaceId': 'ChIJAy40VNEEdkgR-9Ds6vFkYbk',
+    'mastercardMerchantCategoryCode': 0
+  },
+  {
+    'merchantUid': 'd86542b9-a343-41af-a7b7-52f2aaf050a7',
+    'merchant': {
+      'href': '/api/v1/merchants/d86542b9-a343-41af-a7b7-52f2aaf050a7',
+      'templated': False
+    },
+    'merchantLocationUid': '0b2fff36-3b2b-46f7-aad9-b160c5885291',
+    'merchantName': 'ING',
+    'locationName': 'ING Waterloo Park',
+    'address': 'Waterloo Park, Brussels',
+    'googlePlaceId': 'ChIJv6LhNsbRw0cRPdhacABgOwI',
+    'mastercardMerchantCategoryCode': 7230
+  },
+  {
+    'merchantUid': 'f700ecb4-dbc0-43a3-81c4-2d4db3d03e65',
+    'merchant': {
+      'href': '/api/v1/merchants/f700ecb4-dbc0-43a3-81c4-2d4db3d03e65',
+      'templated': False
+    },
+    'merchantLocationUid': 'a0113c80-e8f5-47cb-8606-9e4c042d82f6',
+    'merchantName': 'Amazon',
+    'locationName': 'Amazon UK',
+    'googlePlaceId': 'ChIJ3XmGiVIbdkgRo1qRGtJQ4MI',
+    'mastercardMerchantCategoryCode': 0
+  },
+  {
+    'merchantUid': 'a358e5f4-085d-41bc-82fd-4033a03964d6',
+    'merchant': {
+      'href': '/api/v1/merchants/a358e5f4-085d-41bc-82fd-4033a03964d6',
+      'templated': False
+    },
+    'merchantLocationUid': 'fa7e4758-8a52-4353-8bb6-5f58ddaec732',
+    'merchantName': 'NatWest',
+    'locationName': 'Fenchurch Street',
+    'address': '120-122 Fenchurch St, London EC3M 5BA',
+    'phoneNumber': '0345 788 8444',
+    'googlePlaceId': 'ChIJO4aRsSoFdkgRIAxRvL40NZ4',
+    'mastercardMerchantCategoryCode': 5542
+  },
+  {
+    'merchantUid': 'c052f76f-e919-427d-85fc-f46a75a3ff26',
+    'merchant': {
+      'href': '/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26',
+      'templated': False
+    },
+    'merchantLocationUid': 'b7b9f347-99ab-4a83-9317-ec9895f47755',
+    'merchantName': 'Mastercard',
+    'locationName': 'Mastercard Europe',
+    'googlePlaceId': 'ChIJkSyl5M_xd0gRvnIIm_kNiqg',
+    'mastercardMerchantCategoryCode': 3431
+  },
+  {
+    'merchantUid': 'c052f76f-e919-427d-85fc-f46a75a3ff26',
+    'merchant': {
+      'href': '/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26',
+      'templated': False
+    },
+    'merchantLocationUid': 'b7b9f347-99ab-4a83-9317-ec9895f47755',
+    'merchantName': 'Mastercard',
+    'locationName': 'Mastercard Europe',
+    'googlePlaceId': 'ChIJkSyl5M_xd0gRvnIIm_kNiqg',
+    'mastercardMerchantCategoryCode': 3431
+  },
+  {
+    'merchantUid': 'acc81c26-071b-4e22-904d-5635e4bd6089',
+    'merchant': {
+      'href': '/api/v1/merchants/acc81c26-071b-4e22-904d-5635e4bd6089',
+      'templated': False
+    },
+    'merchantLocationUid': '12303709-79d1-456f-a1b2-2d3332da7b92',
+    'merchantName': 'Pret A Manger',
+    'locationName': '54 Oxford Street',
+    'address': '54 Oxford St, Fitzrovia, London W1D 1BQ',
+    'phoneNumber': '020 7932 5250',
+    'googlePlaceId': 'ChIJA4AtjFxxekgR0ETGnV1wjBs',
+    'mastercardMerchantCategoryCode': 0
+  },
+  {
+    'merchantUid': 'e6dbe57e-7c23-4015-97a4-4afbbf7faa23',
+    'merchant': {
+      'href': '/api/v1/merchants/e6dbe57e-7c23-4015-97a4-4afbbf7faa23',
+      'templated': False
+    },
+    'merchantLocationUid': '7679cd0b-17da-4842-936d-bedb1e73b786',
+    'merchantName': 'Yorkshire Bank III',
+    'locationName': '35 Regent Street',
+    'address': '35 Regent Street',
+    'phoneNumber': '020987555777',
+    'googlePlaceId': 'ChIJAy40VNEEdkgR-9Ds6vFkYbk',
+    'mastercardMerchantCategoryCode': 0
+  },
+  {
+    'merchantUid': 'e6dbe57e-7c23-4015-97a4-4afbbf7faa23',
+    'merchant': {
+      'href': '/api/v1/merchants/e6dbe57e-7c23-4015-97a4-4afbbf7faa23',
+      'templated': False
+    },
+    'merchantLocationUid': '7679cd0b-17da-4842-936d-bedb1e73b786',
+    'merchantName': 'Yorkshire Bank III',
+    'locationName': '35 Regent Street',
+    'address': '35 Regent Street',
+    'phoneNumber': '020987555777',
+    'googlePlaceId': 'ChIJAy40VNEEdkgR-9Ds6vFkYbk',
+    'mastercardMerchantCategoryCode': 0
+  },
+  {
+    'merchantUid': '5ef0556e-4f3b-45e3-8997-49cd6289c2f3',
+    'merchant': {
+      'href': '/api/v1/merchants/5ef0556e-4f3b-45e3-8997-49cd6289c2f3',
+      'templated': False
+    },
+    'merchantLocationUid': '8798c74b-7c8d-4b39-922f-e07977e64d05',
+    'merchantName': 'Osprey London',
+    'locationName': 'Regent Street',
+    'address': "27 Regent St, St. James's, London SW1Y 4NQ",
+    'phoneNumber': '020 7851 9960',
+    'googlePlaceId': 'ChIJI13uUNEEdkgRaQOPTEzZK1s',
+    'mastercardMerchantCategoryCode': 5698
+  },
+  {
+    'merchantUid': 'c052f76f-e919-427d-85fc-f46a75a3ff26',
+    'merchant': {
+      'href': '/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26',
+      'templated': False
+    },
+    'merchantLocationUid': 'b7b9f347-99ab-4a83-9317-ec9895f47755',
+    'merchantName': 'Mastercard',
+    'locationName': 'Mastercard Europe',
+    'googlePlaceId': 'ChIJkSyl5M_xd0gRvnIIm_kNiqg',
+    'mastercardMerchantCategoryCode': 3431
+  },
+  {
+    'merchantUid': 'acc81c26-071b-4e22-904d-5635e4bd6089',
+    'merchant': {
+      'href': '/api/v1/merchants/acc81c26-071b-4e22-904d-5635e4bd6089',
+      'templated': False
+    },
+    'merchantLocationUid': '12303709-79d1-456f-a1b2-2d3332da7b92',
+    'merchantName': 'Pret A Manger',
+    'locationName': '54 Oxford Street',
+    'address': '54 Oxford St, Fitzrovia, London W1D 1BQ',
+    'phoneNumber': '020 7932 5250',
+    'googlePlaceId': 'ChIJA4AtjFxxekgR0ETGnV1wjBs',
+    'mastercardMerchantCategoryCode': 0
+  },
+  {
+    'merchantUid': 'c052f76f-e919-427d-85fc-f46a75a3ff26',
+    'merchant': {
+      'href': '/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26',
+      'templated': False
+    },
+    'merchantLocationUid': 'b7b9f347-99ab-4a83-9317-ec9895f47755',
+    'merchantName': 'Mastercard',
+    'locationName': 'Mastercard Europe',
+    'googlePlaceId': 'ChIJkSyl5M_xd0gRvnIIm_kNiqg',
+    'mastercardMerchantCategoryCode': 3431
+  },
+  {
+    'merchantUid': 'acc81c26-071b-4e22-904d-5635e4bd6089',
+    'merchant': {
+      'href': '/api/v1/merchants/acc81c26-071b-4e22-904d-5635e4bd6089',
+      'templated': False
+    },
+    'merchantLocationUid': '12303709-79d1-456f-a1b2-2d3332da7b92',
+    'merchantName': 'Pret A Manger',
+    'locationName': '54 Oxford Street',
+    'address': '54 Oxford St, Fitzrovia, London W1D 1BQ',
+    'phoneNumber': '020 7932 5250',
+    'googlePlaceId': 'ChIJA4AtjFxxekgR0ETGnV1wjBs',
+    'mastercardMerchantCategoryCode': 0
+  },
+  {
+    'merchantUid': 'e6dbe57e-7c23-4015-97a4-4afbbf7faa23',
+    'merchant': {
+      'href': '/api/v1/merchants/e6dbe57e-7c23-4015-97a4-4afbbf7faa23',
+      'templated': False
+    },
+    'merchantLocationUid': '7679cd0b-17da-4842-936d-bedb1e73b786',
+    'merchantName': 'Yorkshire Bank III',
+    'locationName': '35 Regent Street',
+    'address': '35 Regent Street',
+    'phoneNumber': '020987555777',
+    'googlePlaceId': 'ChIJAy40VNEEdkgR-9Ds6vFkYbk',
+    'mastercardMerchantCategoryCode': 0
+  },
+  {
+    'merchantUid': '5ef0556e-4f3b-45e3-8997-49cd6289c2f3',
+    'merchant': {
+      'href': '/api/v1/merchants/5ef0556e-4f3b-45e3-8997-49cd6289c2f3',
+      'templated': False
+    },
+    'merchantLocationUid': '8798c74b-7c8d-4b39-922f-e07977e64d05',
+    'merchantName': 'Osprey London',
+    'locationName': 'Regent Street',
+    'address': "27 Regent St, St. James's, London SW1Y 4NQ",
+    'phoneNumber': '020 7851 9960',
+    'googlePlaceId': 'ChIJI13uUNEEdkgRaQOPTEzZK1s',
+    'mastercardMerchantCategoryCode': 5698
+  },
+  {
+    'merchantUid': 'e6dbe57e-7c23-4015-97a4-4afbbf7faa23',
+    'merchant': {
+      'href': '/api/v1/merchants/e6dbe57e-7c23-4015-97a4-4afbbf7faa23',
+      'templated': False
+    },
+    'merchantLocationUid': '7679cd0b-17da-4842-936d-bedb1e73b786',
+    'merchantName': 'Yorkshire Bank III',
+    'locationName': '35 Regent Street',
+    'address': '35 Regent Street',
+    'phoneNumber': '020987555777',
+    'googlePlaceId': 'ChIJAy40VNEEdkgR-9Ds6vFkYbk',
+    'mastercardMerchantCategoryCode': 0
+  },
+  {
+    'merchantUid': 'e5b21fd4-fb62-4c40-8f56-4890a16bab51',
+    'merchant': {
+      'href': '/api/v1/merchants/e5b21fd4-fb62-4c40-8f56-4890a16bab51',
+      'templated': False
+    },
+    'merchantLocationUid': '96fc27d9-164d-4fb5-a60f-799e9b2b2294',
+    'merchantName': 'Sofitel',
+    'locationName': 'Sofitel St. James',
+    'address': "6 Waterloo Pl, St. James's, London SW1Y 4AN",
+    'phoneNumber': '+442077472200',
+    'googlePlaceId': 'ChIJKU7H_9AEdkgR4yo4FD1eNXc',
+    'mastercardMerchantCategoryCode': 3686
+  },
+  {
+    'merchantUid': 'e5b21fd4-fb62-4c40-8f56-4890a16bab51',
+    'merchant': {
+      'href': '/api/v1/merchants/e5b21fd4-fb62-4c40-8f56-4890a16bab51',
+      'templated': False
+    },
+    'merchantLocationUid': '96fc27d9-164d-4fb5-a60f-799e9b2b2294',
+    'merchantName': 'Sofitel',
+    'locationName': 'Sofitel St. James',
+    'address': "6 Waterloo Pl, St. James's, London SW1Y 4AN",
+    'phoneNumber': '+442077472200',
+    'googlePlaceId': 'ChIJKU7H_9AEdkgR4yo4FD1eNXc',
+    'mastercardMerchantCategoryCode': 3686
+  },
+  {
+    'merchantUid': '5ef0556e-4f3b-45e3-8997-49cd6289c2f3',
+    'merchant': {
+      'href': '/api/v1/merchants/5ef0556e-4f3b-45e3-8997-49cd6289c2f3',
+      'templated': False
+    },
+    'merchantLocationUid': '8798c74b-7c8d-4b39-922f-e07977e64d05',
+    'merchantName': 'Osprey London',
+    'locationName': 'Regent Street',
+    'address': "27 Regent St, St. James's, London SW1Y 4NQ",
+    'phoneNumber': '020 7851 9960',
+    'googlePlaceId': 'ChIJI13uUNEEdkgRaQOPTEzZK1s',
+    'mastercardMerchantCategoryCode': 5698
+  },
+  {
+    'merchantUid': 'acc81c26-071b-4e22-904d-5635e4bd6089',
+    'merchant': {
+      'href': '/api/v1/merchants/acc81c26-071b-4e22-904d-5635e4bd6089',
+      'templated': False
+    },
+    'merchantLocationUid': '12303709-79d1-456f-a1b2-2d3332da7b92',
+    'merchantName': 'Pret A Manger',
+    'locationName': '54 Oxford Street',
+    'address': '54 Oxford St, Fitzrovia, London W1D 1BQ',
+    'phoneNumber': '020 7932 5250',
+    'googlePlaceId': 'ChIJA4AtjFxxekgR0ETGnV1wjBs',
+    'mastercardMerchantCategoryCode': 0
+  },
+  {
+    'merchantUid': 'c052f76f-e919-427d-85fc-f46a75a3ff26',
+    'merchant': {
+      'href': '/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26',
+      'templated': False
+    },
+    'merchantLocationUid': 'b7b9f347-99ab-4a83-9317-ec9895f47755',
+    'merchantName': 'Mastercard',
+    'locationName': 'Mastercard Europe',
+    'googlePlaceId': 'ChIJkSyl5M_xd0gRvnIIm_kNiqg',
+    'mastercardMerchantCategoryCode': 3431
+  },
+  {
+    'merchantUid': 'e6dbe57e-7c23-4015-97a4-4afbbf7faa23',
+    'merchant': {
+      'href': '/api/v1/merchants/e6dbe57e-7c23-4015-97a4-4afbbf7faa23',
+      'templated': False
+    },
+    'merchantLocationUid': '7679cd0b-17da-4842-936d-bedb1e73b786',
+    'merchantName': 'Yorkshire Bank III',
+    'locationName': '35 Regent Street',
+    'address': '35 Regent Street',
+    'phoneNumber': '020987555777',
+    'googlePlaceId': 'ChIJAy40VNEEdkgR-9Ds6vFkYbk',
+    'mastercardMerchantCategoryCode': 0
+  },
+  {
+    'merchantUid': 'e6dbe57e-7c23-4015-97a4-4afbbf7faa23',
+    'merchant': {
+      'href': '/api/v1/merchants/e6dbe57e-7c23-4015-97a4-4afbbf7faa23',
+      'templated': False
+    },
+    'merchantLocationUid': '7679cd0b-17da-4842-936d-bedb1e73b786',
+    'merchantName': 'Yorkshire Bank III',
+    'locationName': '35 Regent Street',
+    'address': '35 Regent Street',
+    'phoneNumber': '020987555777',
+    'googlePlaceId': 'ChIJAy40VNEEdkgR-9Ds6vFkYbk',
+    'mastercardMerchantCategoryCode': 0
+  },
+  {
+    'merchantUid': 'd86542b9-a343-41af-a7b7-52f2aaf050a7',
+    'merchant': {
+      'href': '/api/v1/merchants/d86542b9-a343-41af-a7b7-52f2aaf050a7',
+      'templated': False
+    },
+    'merchantLocationUid': '0b2fff36-3b2b-46f7-aad9-b160c5885291',
+    'merchantName': 'ING',
+    'locationName': 'ING Waterloo Park',
+    'address': 'Waterloo Park, Brussels',
+    'googlePlaceId': 'ChIJv6LhNsbRw0cRPdhacABgOwI',
+    'mastercardMerchantCategoryCode': 7230
+  },
+  {
+    'merchantUid': 'c052f76f-e919-427d-85fc-f46a75a3ff26',
+    'merchant': {
+      'href': '/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26',
+      'templated': False
+    },
+    'merchantLocationUid': 'b7b9f347-99ab-4a83-9317-ec9895f47755',
+    'merchantName': 'Mastercard',
+    'locationName': 'Mastercard Europe',
+    'googlePlaceId': 'ChIJkSyl5M_xd0gRvnIIm_kNiqg',
+    'mastercardMerchantCategoryCode': 3431
+  },
+  {
+    'merchantUid': 'a358e5f4-085d-41bc-82fd-4033a03964d6',
+    'merchant': {
+      'href': '/api/v1/merchants/a358e5f4-085d-41bc-82fd-4033a03964d6',
+      'templated': False
+    },
+    'merchantLocationUid': 'fa7e4758-8a52-4353-8bb6-5f58ddaec732',
+    'merchantName': 'NatWest',
+    'locationName': 'Fenchurch Street',
+    'address': '120-122 Fenchurch St, London EC3M 5BA',
+    'phoneNumber': '0345 788 8444',
+    'googlePlaceId': 'ChIJO4aRsSoFdkgRIAxRvL40NZ4',
+    'mastercardMerchantCategoryCode': 5542
+  },
+  {
+    'merchantUid': '5ef0556e-4f3b-45e3-8997-49cd6289c2f3',
+    'merchant': {
+      'href': '/api/v1/merchants/5ef0556e-4f3b-45e3-8997-49cd6289c2f3',
+      'templated': False
+    },
+    'merchantLocationUid': '8798c74b-7c8d-4b39-922f-e07977e64d05',
+    'merchantName': 'Osprey London',
+    'locationName': 'Regent Street',
+    'address': "27 Regent St, St. James's, London SW1Y 4NQ",
+    'phoneNumber': '020 7851 9960',
+    'googlePlaceId': 'ChIJI13uUNEEdkgRaQOPTEzZK1s',
+    'mastercardMerchantCategoryCode': 5698
+  },
+  {
+    'merchantUid': '5ef0556e-4f3b-45e3-8997-49cd6289c2f3',
+    'merchant': {
+      'href': '/api/v1/merchants/5ef0556e-4f3b-45e3-8997-49cd6289c2f3',
+      'templated': False
+    },
+    'merchantLocationUid': '8798c74b-7c8d-4b39-922f-e07977e64d05',
+    'merchantName': 'Osprey London',
+    'locationName': 'Regent Street',
+    'address': "27 Regent St, St. James's, London SW1Y 4NQ",
+    'phoneNumber': '020 7851 9960',
+    'googlePlaceId': 'ChIJI13uUNEEdkgRaQOPTEzZK1s',
+    'mastercardMerchantCategoryCode': 5698
+  },
+  {
+    'merchantUid': 'acc81c26-071b-4e22-904d-5635e4bd6089',
+    'merchant': {
+      'href': '/api/v1/merchants/acc81c26-071b-4e22-904d-5635e4bd6089',
+      'templated': False
+    },
+    'merchantLocationUid': '5c1abdb1-8a8f-4a9f-a415-d8a5af8df0f6',
+    'merchantName': 'Pret A Manger',
+    'locationName': 'Lower Regent Street',
+    'address': "2 Regent St, St. James's, London SW1Y 4PF",
+    'phoneNumber': '020 7932 5309',
+    'googlePlaceId': 'ChIJswLrE9EEdkgRj-RlQ7iHX-s',
+    'mastercardMerchantCategoryCode': 5411
+  },
+  {
+    'merchantUid': 'e6dbe57e-7c23-4015-97a4-4afbbf7faa23',
+    'merchant': {
+      'href': '/api/v1/merchants/e6dbe57e-7c23-4015-97a4-4afbbf7faa23',
+      'templated': False
+    },
+    'merchantLocationUid': '7679cd0b-17da-4842-936d-bedb1e73b786',
+    'merchantName': 'Yorkshire Bank III',
+    'locationName': '35 Regent Street',
+    'address': '35 Regent Street',
+    'phoneNumber': '020987555777',
+    'googlePlaceId': 'ChIJAy40VNEEdkgR-9Ds6vFkYbk',
+    'mastercardMerchantCategoryCode': 0
+  },
+  {
+    'merchantUid': 'd86542b9-a343-41af-a7b7-52f2aaf050a7',
+    'merchant': {
+      'href': '/api/v1/merchants/d86542b9-a343-41af-a7b7-52f2aaf050a7',
+      'templated': False
+    },
+    'merchantLocationUid': '0b2fff36-3b2b-46f7-aad9-b160c5885291',
+    'merchantName': 'ING',
+    'locationName': 'ING Waterloo Park',
+    'address': 'Waterloo Park, Brussels',
+    'googlePlaceId': 'ChIJv6LhNsbRw0cRPdhacABgOwI',
+    'mastercardMerchantCategoryCode': 7230
+  },
+  {
+    'merchantUid': '06f89db7-eb27-479a-8cdb-1778ee0a0bc2',
+    'merchant': {
+      'href': '/api/v1/merchants/06f89db7-eb27-479a-8cdb-1778ee0a0bc2',
+      'templated': False
+    },
+    'merchantLocationUid': '36d50c49-1a9b-4ad3-b20e-1fdf50b2709f',
+    'merchantName': 'Villandry',
+    'locationName': 'St James',
+    'address': "12 Waterloo Pl, St. James's, London SW1Y 4AU",
+    'phoneNumber': '020 7930 3305',
+    'googlePlaceId': 'ChIJf5ODDdEEdkgRR2Psf5DUAJo',
+    'mastercardMerchantCategoryCode': 3383
+  },
+  {
+    'merchantUid': 'f700ecb4-dbc0-43a3-81c4-2d4db3d03e65',
+    'merchant': {
+      'href': '/api/v1/merchants/f700ecb4-dbc0-43a3-81c4-2d4db3d03e65',
+      'templated': False
+    },
+    'merchantLocationUid': '863ad84b-debd-4306-943c-79c144685a6a',
+    'merchantName': 'Amazon',
+    'locationName': 'Amazon EU',
+    'googlePlaceId': 'ChIJJ5lc7FIDdkgRzesFTBPZUiE',
+    'mastercardMerchantCategoryCode': 0
+  },
+  {
+    'merchantUid': 'e6dbe57e-7c23-4015-97a4-4afbbf7faa23',
+    'merchant': {
+      'href': '/api/v1/merchants/e6dbe57e-7c23-4015-97a4-4afbbf7faa23',
+      'templated': False
+    },
+    'merchantLocationUid': '7679cd0b-17da-4842-936d-bedb1e73b786',
+    'merchantName': 'Yorkshire Bank III',
+    'locationName': '35 Regent Street',
+    'address': '35 Regent Street',
+    'phoneNumber': '020987555777',
+    'googlePlaceId': 'ChIJAy40VNEEdkgR-9Ds6vFkYbk',
+    'mastercardMerchantCategoryCode': 0
+  },
+  {
+    'merchantUid': 'c052f76f-e919-427d-85fc-f46a75a3ff26',
+    'merchant': {
+      'href': '/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26',
+      'templated': False
+    },
+    'merchantLocationUid': 'b7b9f347-99ab-4a83-9317-ec9895f47755',
+    'merchantName': 'Mastercard',
+    'locationName': 'Mastercard Europe',
+    'googlePlaceId': 'ChIJkSyl5M_xd0gRvnIIm_kNiqg',
+    'mastercardMerchantCategoryCode': 3431
+  },
+  {
+    'merchantUid': 'c052f76f-e919-427d-85fc-f46a75a3ff26',
+    'merchant': {
+      'href': '/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26',
+      'templated': False
+    },
+    'merchantLocationUid': 'b7b9f347-99ab-4a83-9317-ec9895f47755',
+    'merchantName': 'Mastercard',
+    'locationName': 'Mastercard Europe',
+    'googlePlaceId': 'ChIJkSyl5M_xd0gRvnIIm_kNiqg',
+    'mastercardMerchantCategoryCode': 3431
+  },
+  {
+    'merchantUid': 'c052f76f-e919-427d-85fc-f46a75a3ff26',
+    'merchant': {
+      'href': '/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26',
+      'templated': False
+    },
+    'merchantLocationUid': 'b7b9f347-99ab-4a83-9317-ec9895f47755',
+    'merchantName': 'Mastercard',
+    'locationName': 'Mastercard Europe',
+    'googlePlaceId': 'ChIJkSyl5M_xd0gRvnIIm_kNiqg',
+    'mastercardMerchantCategoryCode': 3431
+  },
+  {
+    'merchantUid': 'e5b21fd4-fb62-4c40-8f56-4890a16bab51',
+    'merchant': {
+      'href': '/api/v1/merchants/e5b21fd4-fb62-4c40-8f56-4890a16bab51',
+      'templated': False
+    },
+    'merchantLocationUid': '96fc27d9-164d-4fb5-a60f-799e9b2b2294',
+    'merchantName': 'Sofitel',
+    'locationName': 'Sofitel St. James',
+    'address': "6 Waterloo Pl, St. James's, London SW1Y 4AN",
+    'phoneNumber': '+442077472200',
+    'googlePlaceId': 'ChIJKU7H_9AEdkgR4yo4FD1eNXc',
+    'mastercardMerchantCategoryCode': 3686
+  },
+  {
+    'merchantUid': 'd86542b9-a343-41af-a7b7-52f2aaf050a7',
+    'merchant': {
+      'href': '/api/v1/merchants/d86542b9-a343-41af-a7b7-52f2aaf050a7',
+      'templated': False
+    },
+    'merchantLocationUid': '0b2fff36-3b2b-46f7-aad9-b160c5885291',
+    'merchantName': 'ING',
+    'locationName': 'ING Waterloo Park',
+    'address': 'Waterloo Park, Brussels',
+    'googlePlaceId': 'ChIJv6LhNsbRw0cRPdhacABgOwI',
+    'mastercardMerchantCategoryCode': 7230
+  },
+  {
+    'merchantUid': '5ef0556e-4f3b-45e3-8997-49cd6289c2f3',
+    'merchant': {
+      'href': '/api/v1/merchants/5ef0556e-4f3b-45e3-8997-49cd6289c2f3',
+      'templated': False
+    },
+    'merchantLocationUid': '8798c74b-7c8d-4b39-922f-e07977e64d05',
+    'merchantName': 'Osprey London',
+    'locationName': 'Regent Street',
+    'address': "27 Regent St, St. James's, London SW1Y 4NQ",
+    'phoneNumber': '020 7851 9960',
+    'googlePlaceId': 'ChIJI13uUNEEdkgRaQOPTEzZK1s',
+    'mastercardMerchantCategoryCode': 5698
+  },
+  {
+    'merchantUid': 'e5b21fd4-fb62-4c40-8f56-4890a16bab51',
+    'merchant': {
+      'href': '/api/v1/merchants/e5b21fd4-fb62-4c40-8f56-4890a16bab51',
+      'templated': False
+    },
+    'merchantLocationUid': '96fc27d9-164d-4fb5-a60f-799e9b2b2294',
+    'merchantName': 'Sofitel',
+    'locationName': 'Sofitel St. James',
+    'address': "6 Waterloo Pl, St. James's, London SW1Y 4AN",
+    'phoneNumber': '+442077472200',
+    'googlePlaceId': 'ChIJKU7H_9AEdkgR4yo4FD1eNXc',
+    'mastercardMerchantCategoryCode': 3686
+  },
+  {
+    'merchantUid': 'acc81c26-071b-4e22-904d-5635e4bd6089',
+    'merchant': {
+      'href': '/api/v1/merchants/acc81c26-071b-4e22-904d-5635e4bd6089',
+      'templated': False
+    },
+    'merchantLocationUid': '12303709-79d1-456f-a1b2-2d3332da7b92',
+    'merchantName': 'Pret A Manger',
+    'locationName': '54 Oxford Street',
+    'address': '54 Oxford St, Fitzrovia, London W1D 1BQ',
+    'phoneNumber': '020 7932 5250',
+    'googlePlaceId': 'ChIJA4AtjFxxekgR0ETGnV1wjBs',
+    'mastercardMerchantCategoryCode': 0
+  },
+  {
+    'merchantUid': 'c052f76f-e919-427d-85fc-f46a75a3ff26',
+    'merchant': {
+      'href': '/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26',
+      'templated': False
+    },
+    'merchantLocationUid': 'b7b9f347-99ab-4a83-9317-ec9895f47755',
+    'merchantName': 'Mastercard',
+    'locationName': 'Mastercard Europe',
+    'googlePlaceId': 'ChIJkSyl5M_xd0gRvnIIm_kNiqg',
+    'mastercardMerchantCategoryCode': 3431
+  },
+  {
+    'merchantUid': 'e5b21fd4-fb62-4c40-8f56-4890a16bab51',
+    'merchant': {
+      'href': '/api/v1/merchants/e5b21fd4-fb62-4c40-8f56-4890a16bab51',
+      'templated': False
+    },
+    'merchantLocationUid': '96fc27d9-164d-4fb5-a60f-799e9b2b2294',
+    'merchantName': 'Sofitel',
+    'locationName': 'Sofitel St. James',
+    'address': "6 Waterloo Pl, St. James's, London SW1Y 4AN",
+    'phoneNumber': '+442077472200',
+    'googlePlaceId': 'ChIJKU7H_9AEdkgR4yo4FD1eNXc',
+    'mastercardMerchantCategoryCode': 3686
+  },
+  {
+    'merchantUid': 'f700ecb4-dbc0-43a3-81c4-2d4db3d03e65',
+    'merchant': {
+      'href': '/api/v1/merchants/f700ecb4-dbc0-43a3-81c4-2d4db3d03e65',
+      'templated': False
+    },
+    'merchantLocationUid': 'a0113c80-e8f5-47cb-8606-9e4c042d82f6',
+    'merchantName': 'Amazon',
+    'locationName': 'Amazon UK',
+    'googlePlaceId': 'ChIJ3XmGiVIbdkgRo1qRGtJQ4MI',
+    'mastercardMerchantCategoryCode': 0
+  },
+  {
+    'merchantUid': 'f700ecb4-dbc0-43a3-81c4-2d4db3d03e65',
+    'merchant': {
+      'href': '/api/v1/merchants/f700ecb4-dbc0-43a3-81c4-2d4db3d03e65',
+      'templated': False
+    },
+    'merchantLocationUid': '863ad84b-debd-4306-943c-79c144685a6a',
+    'merchantName': 'Amazon',
+    'locationName': 'Amazon EU',
+    'googlePlaceId': 'ChIJJ5lc7FIDdkgRzesFTBPZUiE',
+    'mastercardMerchantCategoryCode': 0
+  },
+  {
+    'merchantUid': 'd86542b9-a343-41af-a7b7-52f2aaf050a7',
+    'merchant': {
+      'href': '/api/v1/merchants/d86542b9-a343-41af-a7b7-52f2aaf050a7',
+      'templated': False
+    },
+    'merchantLocationUid': '0b2fff36-3b2b-46f7-aad9-b160c5885291',
+    'merchantName': 'ING',
+    'locationName': 'ING Waterloo Park',
+    'address': 'Waterloo Park, Brussels',
+    'googlePlaceId': 'ChIJv6LhNsbRw0cRPdhacABgOwI',
+    'mastercardMerchantCategoryCode': 7230
+  },
+  {
+    'merchantUid': 'c052f76f-e919-427d-85fc-f46a75a3ff26',
+    'merchant': {
+      'href': '/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26',
+      'templated': False
+    },
+    'merchantLocationUid': 'b7b9f347-99ab-4a83-9317-ec9895f47755',
+    'merchantName': 'Mastercard',
+    'locationName': 'Mastercard Europe',
+    'googlePlaceId': 'ChIJkSyl5M_xd0gRvnIIm_kNiqg',
+    'mastercardMerchantCategoryCode': 3431
+  },
+  {
+    'merchantUid': 'c052f76f-e919-427d-85fc-f46a75a3ff26',
+    'merchant': {
+      'href': '/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26',
+      'templated': False
+    },
+    'merchantLocationUid': 'b7b9f347-99ab-4a83-9317-ec9895f47755',
+    'merchantName': 'Mastercard',
+    'locationName': 'Mastercard Europe',
+    'googlePlaceId': 'ChIJkSyl5M_xd0gRvnIIm_kNiqg',
+    'mastercardMerchantCategoryCode': 3431
+  },
+  {
+    'merchantUid': 'c052f76f-e919-427d-85fc-f46a75a3ff26',
+    'merchant': {
+      'href': '/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26',
+      'templated': False
+    },
+    'merchantLocationUid': '371c62bc-dcfc-4799-8b23-b070626772f7',
+    'merchantName': 'Mastercard',
+    'locationName': 'Mastercard UK',
+    'googlePlaceId': 'ChIJJ9ZEdgG4h0gRqJZP_Z5tgCc',
+    'mastercardMerchantCategoryCode': 3619
+  },
+  {
+    'merchantUid': 'f700ecb4-dbc0-43a3-81c4-2d4db3d03e65',
+    'merchant': {
+      'href': '/api/v1/merchants/f700ecb4-dbc0-43a3-81c4-2d4db3d03e65',
+      'templated': False
+    },
+    'merchantLocationUid': '863ad84b-debd-4306-943c-79c144685a6a',
+    'merchantName': 'Amazon',
+    'locationName': 'Amazon EU',
+    'googlePlaceId': 'ChIJJ5lc7FIDdkgRzesFTBPZUiE',
+    'mastercardMerchantCategoryCode': 0
+  },
+  {
+    'merchantUid': 'acc81c26-071b-4e22-904d-5635e4bd6089',
+    'merchant': {
+      'href': '/api/v1/merchants/acc81c26-071b-4e22-904d-5635e4bd6089',
+      'templated': False
+    },
+    'merchantLocationUid': '12303709-79d1-456f-a1b2-2d3332da7b92',
+    'merchantName': 'Pret A Manger',
+    'locationName': '54 Oxford Street',
+    'address': '54 Oxford St, Fitzrovia, London W1D 1BQ',
+    'phoneNumber': '020 7932 5250',
+    'googlePlaceId': 'ChIJA4AtjFxxekgR0ETGnV1wjBs',
+    'mastercardMerchantCategoryCode': 0
+  },
+  {
+    'merchantUid': 'f700ecb4-dbc0-43a3-81c4-2d4db3d03e65',
+    'merchant': {
+      'href': '/api/v1/merchants/f700ecb4-dbc0-43a3-81c4-2d4db3d03e65',
+      'templated': False
+    },
+    'merchantLocationUid': '863ad84b-debd-4306-943c-79c144685a6a',
+    'merchantName': 'Amazon',
+    'locationName': 'Amazon EU',
+    'googlePlaceId': 'ChIJJ5lc7FIDdkgRzesFTBPZUiE',
+    'mastercardMerchantCategoryCode': 0
+  },
+  {
+    'merchantUid': '5ef0556e-4f3b-45e3-8997-49cd6289c2f3',
+    'merchant': {
+      'href': '/api/v1/merchants/5ef0556e-4f3b-45e3-8997-49cd6289c2f3',
+      'templated': False
+    },
+    'merchantLocationUid': '8798c74b-7c8d-4b39-922f-e07977e64d05',
+    'merchantName': 'Osprey London',
+    'locationName': 'Regent Street',
+    'address': "27 Regent St, St. James's, London SW1Y 4NQ",
+    'phoneNumber': '020 7851 9960',
+    'googlePlaceId': 'ChIJI13uUNEEdkgRaQOPTEzZK1s',
+    'mastercardMerchantCategoryCode': 5698
+  },
+  {
+    'merchantUid': 'acc81c26-071b-4e22-904d-5635e4bd6089',
+    'merchant': {
+      'href': '/api/v1/merchants/acc81c26-071b-4e22-904d-5635e4bd6089',
+      'templated': False
+    },
+    'merchantLocationUid': '5c1abdb1-8a8f-4a9f-a415-d8a5af8df0f6',
+    'merchantName': 'Pret A Manger',
+    'locationName': 'Lower Regent Street',
+    'address': "2 Regent St, St. James's, London SW1Y 4PF",
+    'phoneNumber': '020 7932 5309',
+    'googlePlaceId': 'ChIJswLrE9EEdkgRj-RlQ7iHX-s',
+    'mastercardMerchantCategoryCode': 5411
+  },
+  {
+    'merchantUid': 'acc81c26-071b-4e22-904d-5635e4bd6089',
+    'merchant': {
+      'href': '/api/v1/merchants/acc81c26-071b-4e22-904d-5635e4bd6089',
+      'templated': False
+    },
+    'merchantLocationUid': '12303709-79d1-456f-a1b2-2d3332da7b92',
+    'merchantName': 'Pret A Manger',
+    'locationName': '54 Oxford Street',
+    'address': '54 Oxford St, Fitzrovia, London W1D 1BQ',
+    'phoneNumber': '020 7932 5250',
+    'googlePlaceId': 'ChIJA4AtjFxxekgR0ETGnV1wjBs',
+    'mastercardMerchantCategoryCode': 0
+  },
+  {
+    'merchantUid': 'c052f76f-e919-427d-85fc-f46a75a3ff26',
+    'merchant': {
+      'href': '/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26',
+      'templated': False
+    },
+    'merchantLocationUid': 'b7b9f347-99ab-4a83-9317-ec9895f47755',
+    'merchantName': 'Mastercard',
+    'locationName': 'Mastercard Europe',
+    'googlePlaceId': 'ChIJkSyl5M_xd0gRvnIIm_kNiqg',
+    'mastercardMerchantCategoryCode': 3431
+  },
+  {
+    'merchantUid': 'c052f76f-e919-427d-85fc-f46a75a3ff26',
+    'merchant': {
+      'href': '/api/v1/merchants/c052f76f-e919-427d-85fc-f46a75a3ff26',
+      'templated': False
+    },
+    'merchantLocationUid': 'b7b9f347-99ab-4a83-9317-ec9895f47755',
+    'merchantName': 'Mastercard',
+    'locationName': 'Mastercard Europe',
+    'googlePlaceId': 'ChIJkSyl5M_xd0gRvnIIm_kNiqg',
+    'mastercardMerchantCategoryCode': 3431
+  }
+]
