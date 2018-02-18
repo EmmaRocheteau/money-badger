@@ -77,6 +77,7 @@ class Starling(BaseView):
                                auth="Starling Bank", redirect="/starling/login", img="starling",
                                base_template=appbuilder.base_template, appbuilder=appbuilder)
 
+
 def get_starling(access_token, getreq):
     
     url = "https://api-sandbox.starlingbank.com/api/v1/"+getreq
