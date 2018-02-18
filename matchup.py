@@ -38,7 +38,6 @@ def get_sample_data():
         unique_costs = np.unique(pd.to_numeric(sorted['Cost']))
         rows_to_delete = []
         rows_to_both = []
-        print('hello', sorted)
         for cost in unique_costs:
             repeats = np.where(sorted['Cost'] == cost)[0]
             if len(repeats) >= 2:
