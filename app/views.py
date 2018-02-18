@@ -94,14 +94,16 @@ def get_sample_data():
         df2['Source'] = 'Splitwise'
         combined = pd.concat([df1, df2])
         sorted = combined.sort_values('Date')
-        unique_costs = np.unique(pd.to_numeric(sorted['Cost']))
+        """unique_costs = np.unique(pd.to_numeric(sorted['Cost']))
         rows_to_delete = []
         rows_to_both = []
         for cost in unique_costs:
             repeats = np.where(sorted['Cost'] == cost)[0]
             if len(repeats) >= 2:
                 for pair in list(combinations(repeats, 2)):
-                    if sorted.iloc[pair[0], 2] - td(days=5) <= sorted.iloc[pair[1], 2] <= sorted.iloc[pair[0], 2] + td(days=5):
+                    if sorted.loc[pair[0], 3] - td(days=5) <= sorted.iloc[
+                        pair[1], 3] <= sorted.iloc[pair[0], 3] + td(
+                        days=5):
                         # repeated transaction
                         if sorted.iloc[pair[0], -1] == 'starling':
                             #sorted = sorted.drop(sorted.index[pair[0]])
@@ -115,7 +117,7 @@ def get_sample_data():
                             rows_to_both.append(pair[0])
         sorted.iloc[rows_to_both, -1] = 'both'
         rows_to_delete.sort(reverse=True)
-        sorted = np.delete(np.array(sorted), rows_to_delete, 0)
+        sorted = np.delete(np.array(sorted), rows_to_delete, 0)"""
         return pd.DataFrame(sorted, columns=['Category', 'Cost', 'Currency',
                                              'Date', 'Description',
                                              'Group ID', 'Owe', 'Payment',

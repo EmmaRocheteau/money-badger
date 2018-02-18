@@ -10,7 +10,6 @@ from get_balance import get_balance
 def line_balance(data):
     #dat = get_balance("../sample_data.csv")
     dat = d.dataframer()
-    print(dat)
     data = dict(balance_x=dat['Balance_x'], balance_y=dat['Balance_y'], Date=dat['Date'])
     ser = TimeSeries(data, x='Date', ylabel='Balance/£', legend=None,
                      width=1000)
