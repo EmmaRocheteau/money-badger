@@ -140,11 +140,13 @@ class Home(BaseView):
 
     @expose('/remove_debtor')
     def remove_debtor(self):
+        print("remove_debtor called")
         nm = request.args.get('nm', "", type=str)
-        index = -1
+        print(nm)
         for i, debtor in enumerate(self.debtors):
             if debtor.name == nm:
                 del(self.debtors[i])
+                print("Deleting debtor " + str(i) + " called " + debtor.name)
                 break
         return jsonify(False)
 
