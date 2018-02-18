@@ -3,7 +3,6 @@ import numpy as np
 import pandas as pd
 import yaml
 import datetime
-import matplotlib.pyplot as plt
 import math
 import re
 from pprint import pprint

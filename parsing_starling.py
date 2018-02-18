@@ -2,7 +2,6 @@ import dateutil.parser as dp
 import numpy as np
 import pandas as pd
 import datetime
-import matplotlib.pyplot as plt
 import math
 import re
 import json
