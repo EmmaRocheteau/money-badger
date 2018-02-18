@@ -8,6 +8,7 @@ import requests
 from splitwise import Splitwise
 import config as Config
 from data_classes import *
+from merchants import *
 
 import json
 from app import app
@@ -24,7 +25,34 @@ authorize_url='https://secure.splitwise.com/oauth/authorize',
 consumer_key='QhKCiloQAS3UKPQm9yrI59WGfIsJcv2VO0llHsmX',
 consumer_secret='yPIQ0El2AwF8kg4RjdPjZIBKHRHTKBviycTqyHOh')
 
+def get_merchants(file_name):
+    json1_file = open(file_name)
+    json1_str = json1_file.read()
+    data = json.loads(json1_str)
 
+    merchants = []
+    for transaction in data['_embedded']['transactions']:
+        amount = -transaction['amount']
+        if 'merchantLocation' in transaction['_links']:
+            getreq = str(transaction['_links']['merchantLocation']['href'])
+            merchant_loc = str(getreq.split('/')[-1])
+            merchant = str(getreq.split('/')[-3])
+            merchant_data = get_starling(
+                "idBjil3J7CS0ZCa1wqSN4vReAiM3oq2Sl0iaE6MY1MN9Bj0B0skZBxdd3X7vMRKY",
+                'merchants/{}/locations/{}'.format(merchant, merchant_loc))
+            merchants.append([merchant_data['merchantName'], merchant_data[
+                'locationName'], merchant_data['googlePlaceId'], amount])
+    merchants = pd.DataFrame(merchants, columns=[
+        'Merchant Name', 'Location Name', 'Place ID', 'Cost']).groupby(
+        ['Merchant Name', 'Location Name', 'Place ID'])['Cost'].agg('sum')
+    merchants = merchants.to_frame(name='Cost').reset_index()
+
+    ms = []
+    for index, row in merchants.iterrows():
+        ms.append(Merchant(row['Merchant Name'], row['Location Name'],
+                           row['Place ID'], row['Cost']))
+
+    return ms
 
 
 @appbuilder.sm.oauth_user_info_getter
@@ -155,7 +183,7 @@ class Home(BaseView):
 
     @expose('/map')
     def map(self):
-        ids = []
+        ids = get_merchants('card_transactions.json')
         return render2("test_map2.html", ids=ids)
 
     @expose('/home')
