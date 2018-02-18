@@ -27,6 +27,8 @@ def create_records(sample_data):
     records = []
     for i in range(len(sample_data)):
         row = sample_data.iloc[i]
+        if type(row['Category']) is not str:
+            row['Category'] = ''
         records.append(Record(row['Date'], row['Description'],
                               row['Cost'], row['Category'], row['Source'],
                               row['Owe']))

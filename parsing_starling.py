@@ -6,6 +6,8 @@ import matplotlib.pyplot as plt
 import math
 import re
 import json
+from datetime import datetime
+import random
 
 
 def json_read(json_file):
@@ -41,10 +43,16 @@ def cleanup(data):
     """Cleans up the data. Converts costs to numbers, and datetime strings
     to dates. Returns a Pandas dataframe containing only the useful fields."""
     nice_format = []
+
     for transaction in data['_embedded']['transactions']:
+        year = 2017
+        month = random.choice(range(1, 13))
+        day = random.choice(range(1, 29))
+        date = datetime(year, month, day)
+
         if transaction['direction'] == 'OUTBOUND':
             nice_format.append(
-                {'Date'       : dp.parse(transaction['created']).date(),
+                {'Date'       : date.date(),
                  'Description': transaction['narrative'],
                  'Cost'       : np.float(-transaction['amount']),
                  'Currency'   : transaction['currency']})

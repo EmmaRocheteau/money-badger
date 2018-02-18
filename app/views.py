@@ -170,8 +170,6 @@ class Splitwise(BaseView):
         return render_template('output.html', getresp="waddup pimps", base_template=appbuilder.base_template, appbuilder=appbuilder)
 
 
-
-
 class Home(BaseView):
     route_base = '/home'
     default_view = '/home'
@@ -182,7 +180,6 @@ class Home(BaseView):
         sl_auth = 'starling_access_token' in session
         return render_template("login.html", splitwise_auth=sw_auth, starling_auth = sl_auth,
                                base_template=appbuilder.base_template, appbuilder=appbuilder)
-
 
     @expose('/settle')
     def settle(self):
@@ -196,8 +193,10 @@ class Home(BaseView):
 
     @expose('/home')
     def root(self):
-        df = m.get_sample_data()
-        r = create_records(df)
+        if 'calculated_records' not in session:
+            df = m.get_sample_data()
+            r = create_records(df)
+            session['calculated_records'] = r
         return render_template("root.html", records=r,
                                base_template=appbuilder.base_template, appbuilder=appbuilder)
 

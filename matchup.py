@@ -24,15 +24,14 @@ def get_sample_data():
     df2 = sp.date_filter(df, date_from='01/01/2017', to='26/12/2017')
 
     df3 = df2.rename(index=str, columns={"Paid": "Cost"})
-    print(df3)
 
     def compare_and_merge(df1, df2):
         df1['Category'] = np.nan
         df1['Group ID'] = np.nan
         df1['Payment'] = False
         df1['Owe'] = df1['Cost']
-        df1['Source'] = 'starling'
-        df2['Source'] = 'splitwise'
+        df1['Source'] = 'Starling'
+        df2['Source'] = 'Splitwise'
         combined = pd.concat([df1, df2])
         sorted = combined.sort_values('Date')
         unique_costs = np.unique(pd.to_numeric(sorted['Cost']))
