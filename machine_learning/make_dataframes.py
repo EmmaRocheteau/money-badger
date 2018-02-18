@@ -2,7 +2,11 @@
 
 import pandas as pd
 
-graph_data = pd.read_csv('../../graph_data.csv')
-prediction_data = pd.read_csv('../../prediction_data.csv')
 
-df_for_plotting = pd.merge(graph_data, prediction_data, on='Date', how='outer')
+def dataframer():
+    graph_data = pd.read_csv('../../graph_data.csv')
+    prediction_data = pd.read_csv('../../prediction_data.csv')
+
+    df_for_plotting = pd.merge(graph_data, prediction_data, on='Date', how='outer')
+
+    return df_for_plotting
