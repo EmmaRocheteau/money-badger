@@ -7,6 +7,9 @@ class Debtor():
         self.name = str(name)
         self.amount = "£" + "{0:,.2f}".format(amount)
 
+    def __delete__(self, instance):
+        return
+
 
 class Record():
     def __init__(self, date, desc, amount, category, source, owed=0):
