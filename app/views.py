@@ -162,10 +162,8 @@ class Home(BaseView):
 
     @expose('/home')
     def root(self):
-        r = []
-        r.append(Record(datetime.datetime(2018, 2, 15), "Drugs", 420, "Food & Drink", "Splitwise", 69))
-        r.append(Record(datetime.datetime(2018, 1, 30), "Guns", 0.2, "Charitable Causes", "Bank"))
-        r.append(Record(datetime.datetime(2017, 12, 30), "Champage", 50, "Political Contributions", "Bank"))
+        df = m.get_sample_data()
+        r = create_records(df)
         return render_template("root.html", records=r,
                                base_template=appbuilder.base_template, appbuilder=appbuilder)
     

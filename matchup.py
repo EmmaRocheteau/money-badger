@@ -23,37 +23,14 @@ def get_sample_data():
     df = df[df['Currency'] == 'GBP']
     df2 = sp.date_filter(df, date_from='01/01/2017', to='26/12/2017')
 
-    df3 = df2[['Category', 'Currency', 'Date', 'Description', 'Paid', 'Payment']]
-    df3 = df3.rename(index=str, columns={"Paid": "Cost"})
-
-
-    def compare_dfs(st_df, sp_df):
-        # create a list for what has actually been spent.
-        big_list = []
-        matched_pairs = []
-        for i in range(len(st_df['Cost'])):
-            match_found = False
-            unique_inds = np.where(sp_df['Cost'] == st_df['Cost'][i])[0]
-            for ind in unique_inds:
-                if sp_df.iloc[ind - 5, 2] <= st_df.iloc[i, 2] <= sp_df.iloc[ind + 5, 2]:
-                    # there is a match between the entries in the two data frames.
-                    big_list.append([*st_df.iloc[i, :], 'both'])
-                    matched_pairs.append([i, ind])
-                    match_found = True
-            if not match_found:
-                # this is a personal expense, logged only on starling
-                big_list.append([*st_df.iloc[i, :], 'starling'])
-        for j in range(len(sp_df['Cost'])):
-            if j not in np.array(matched_pairs)[:, 1]:
-                big_list.append([*sp_df.iloc[j, :], 'splitwise'])
-        return big_list
-
+    df3 = df2.rename(index=str, columns={"Paid": "Cost"})
+    print(df3)
 
     def compare_and_merge(df1, df2):
         df1['Category'] = np.nan
         df1['Group ID'] = np.nan
-        df1['Payment'] = np.nan
-        df1['Owe'] = np.nan
+        df1['Payment'] = False
+        df1['Owe'] = df1['Cost']
         df1['Source'] = 'starling'
         df2['Source'] = 'splitwise'
         combined = pd.concat([df1, df2])
@@ -80,14 +57,14 @@ def get_sample_data():
         sorted.iloc[rows_to_both, -1] = 'both'
         rows_to_delete.sort(reverse=True)
         sorted = np.delete(np.array(sorted), rows_to_delete, 0)
-        return pd.DataFrame(sorted, columns=['Cost', 'Currency', 'Date',
-                                             'Description', 'Category',
-                                             'Group ID', 'Payment', 'Owe',
+        return pd.DataFrame(sorted, columns=['Category', 'Cost', 'Currency',
+                                             'Date', 'Description',
+                                             'Group ID', 'Owe', 'Payment',
                                              'Source'])
     return compare_and_merge(cleaned, df3)
 
 
 if __name__=="__main__":
     df = get_sample_data()
-    df.to_csv('sample_data.csv')
+    #df.to_csv('sample_data.csv')
     print(df)
