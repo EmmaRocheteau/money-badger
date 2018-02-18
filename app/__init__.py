@@ -1,6 +1,7 @@
 import logging
 from flask import Flask, session
 from flask.ext.appbuilder import SQLA, AppBuilder
+from app.index import MyIndexView
 
 """
  Logging configuration
@@ -12,7 +13,7 @@ logging.getLogger().setLevel(logging.DEBUG)
 app = Flask(__name__)
 app.config.from_object('config')
 db = SQLA(app)
-appbuilder = AppBuilder(app, db.session, base_template="graph_base.html")
+appbuilder = AppBuilder(app, db.session, base_template="graph_base.html", indexview=MyIndexView)
 
 
 # if 'access_token' in session:
