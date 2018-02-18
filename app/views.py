@@ -179,6 +179,7 @@ def get_starling(access_token, getreq, **kwargs):
     return requests.get(url, headers={'Authorization': 'Bearer ' +
                                                        access_token}, data=kwargs).json()
 
+
 # def get_splitwise(access_token, url, **kwargs):
 #     options = kwargs
 #     sObj = Splitwise(Config.consumer_key,Config.consumer_secret)
@@ -231,6 +232,14 @@ class Home(BaseView):
 
     @expose('/settle')
     def settle(self):
+        sObj = Splitwise(Config.consumer_key,Config.consumer_secret)
+        sObj.setAccessToken(session['access_token'])
+        content = sObj.getExpenses()
+        session['expenses'] = content
+
+        friends = sObj.getFriends()
+        self.debtors = friendsload(friends)
+        
         d = []
         d.append(Debtor("Hugh Mungus", 69.0))
         d.append(Debtor("Gareth Funk", 100000))
@@ -244,6 +253,13 @@ class Home(BaseView):
         print(nm)
         for i, debtor in enumerate(self.debtors):
             if debtor.name == nm:
+                print("Posting amount", debtor.amount)
+
+                tmps = {"payment": {"currency": "GBP", "amount": debtor.amount},  "destinationAccountUid": "7f03a23a-bafc-4479-8d4d-abb6a9119d27",  "reference": "Splitwise"}
+                url = "https://api-sandbox.starlingbank.com/api/v1/payments/local/"
+                access_token = session['starling_access_token']
+                resp = requests.post(url, headers={'Authorization': 'Bearer ' +
+                                                       access_token}, data={'body': json.dumps(tmps)})
                 del(self.debtors[i])
                 print("Deleting debtor " + str(i) + " called " + debtor.name)
                 break
