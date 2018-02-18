@@ -5,7 +5,7 @@ from app import appbuilder, db
 from flask_login import current_user
 from flask_oauth import OAuth
 import requests
-from splitwise import Splitwise as splimp
+from splitwise import Splitwise
 import config as Config
 from data_classes import *
 
@@ -81,6 +81,14 @@ def get_starling(access_token, getreq, **kwargs):
     url = "https://api-sandbox.starlingbank.com/api/v1/"+getreq
     return requests.get(url, headers={'Authorization': 'Bearer '+ access_token}, data=kwargs).json()
 
+# def get_splitwise(access_token, url, **kwargs):
+#     options = kwargs
+#     sObj = Splitwise(Config.consumer_key,Config.consumer_secret)
+#     sObj.setAccessToken(access_token)
+#     # url += sObj.__prepareOptionsUrl(options)
+#     content = sObj.__makeRequest(url)
+#     return json.loads(content.decode("utf-8"))
+
 class Welcome(BaseView):
     route_base = '/welcome'
     default_view = '/'
@@ -95,49 +103,22 @@ class Welcome(BaseView):
 def get_splitwise_token(token=None):
     return session['splitwise_token']
 
-class Splitwise(BaseView):
-    route_base = '/splitwise'
+# class Splitwise(BaseView):
+#     route_base = '/splitwise'
 
-    @expose('/login/')
-    #@has_access
-    def login(self):
-        # do something with param1
-        # and render template with param
-        sObj = splimp(Config.consumer_key,Config.consumer_secret)
-        url, secret = sObj.getAuthorizeURL()
-        session['secret'] = secret
-        #url ='/splitwise/auth'
-        return redirect(url)
-    @expose('/auth/')
-    #@has_access
-    #@splitwise.authorized_handler
-    def authed(self):
-        if 'secret' not in session:
-            return redirect('/home/login')
+    
 
-        oauth_token    = request.args.get('oauth_token')
-        oauth_verifier = request.args.get('oauth_verifier')
-
-        sObj = splimp(Config.consumer_key,Config.consumer_secret)
-        access_token = sObj.getAccessToken(oauth_token,session['secret'],oauth_verifier)
-        session['access_token'] = access_token
-
-        return redirect('/home/login')
-
-    @expose('/expenses')
-    def get_expenses(self):
-        sObj = splimp(Config.consumer_key,Config.consumer_secret)
-        sObj.setAccessToken(session['access_token'])
-        url = splimp.GET_EXPENSES_URL
-        options = {}
-        url += sObj.__prepareOptionsUrl(options)
-        content = sObj.__makeRequest(url)
-        content = json.loads(content.decode("utf-8"))
-        session['expenses'] = content
-        #print("\n\n\n\n\n\n" , content)
-        #resp = splitwise.get('get_current_user')
-        return render2('output.html', getresp="waddup pimps")
-
+def friendsload(js):
+    js = js['friends']
+    out = []
+    for fr in js:
+        if len(fr['balance'])>0:
+            for ba in fr['balance']:
+                if ba['currency_code'] == 'GBP' and float(ba['amount']) <0:
+                    # print(fr['first_name'], fr['last_name'])
+                    out.append(Debtor(fr['first_name'], -float(ba['amount'])))
+    
+    return out
 
 class Home(BaseView):
     route_base = '/home'
@@ -151,12 +132,14 @@ class Home(BaseView):
 
     @expose('/settle')
     def settle(self):
+
+
         d = []
         d.append(Debtor("Hugh Mungus", 69.0))
         d.append(Debtor("Gareth Funk", 100000))
         d.append(Debtor("The Queen", 1000000000.01))
 
-        return render2("settle.html", debtors=d)
+        return render2("settle.html", debtors=self.debtors)
 
     @expose('/home')
     def root(self):
@@ -172,10 +155,51 @@ class Home(BaseView):
         script, div = components(chart)
         return render2("graphs.html", script=script, div=div)
 
+    @expose('/splitwise/login/')
+    #@has_access
+    def splogin(self):
+        # do something with param1
+        # and render template with param
+        sObj = Splitwise(Config.consumer_key,Config.consumer_secret)
+        url, secret = sObj.getAuthorizeURL()
+        session['secret'] = secret
+        #url ='/splitwise/auth'
+        return redirect(url)
+
+    @expose('/splitwise/auth/')
+    #@has_access
+    #@splitwise.authorized_handler
+    def spauthed(self):
+        if 'secret' not in session:
+            return redirect('/home/login')
+
+        oauth_token    = request.args.get('oauth_token')
+        oauth_verifier = request.args.get('oauth_verifier')
+
+        sObj = Splitwise(Config.consumer_key,Config.consumer_secret)
+        access_token = sObj.getAccessToken(oauth_token,session['secret'],oauth_verifier)
+        session['access_token'] = access_token
+
+        return redirect('/home/login')
+
+    @expose('/splitwise/expenses')
+    def get_expenses(self):
+        sObj = Splitwise(Config.consumer_key,Config.consumer_secret)
+        sObj.setAccessToken(session['access_token'])
+        content = sObj.getExpenses()
+        session['expenses'] = content
+
+        friends = sObj.getFriends()
+        self.debtors = friendsload(friends)
+        #print(friendsload(friends))
+        #print("\n\n\n\n\n\n" , content)
+        #resp = splitwise.get('get_current_user')
+        return render2('output.html', getresp="waddup")
+
 # class Root(BaseView):
 
 
-appbuilder.add_view_no_menu(Splitwise())
+# appbuilder.add_view_no_menu(Splitwise())
 appbuilder.add_view_no_menu(Starling())
 appbuilder.add_view_no_menu(Home())
 
