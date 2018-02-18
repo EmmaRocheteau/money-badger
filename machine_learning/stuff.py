@@ -92,7 +92,6 @@
     from pandas import Series
     from pandas import concat
     from pandas import read_csv
-    from pandas import datetime
     from sklearn.metrics import mean_squared_error
     from sklearn.preprocessing import MinMaxScaler
     from keras.models import Sequential
@@ -101,12 +100,6 @@
     from math import sqrt
     from matplotlib import pyplot
     from numpy import array
-
-
-    # date-time parsing function for loading the dataset
-    def parser(x):
-        return datetime.strptime('190' + x, '%Y-%m')
-
 
     # convert time series into supervised learning problem
     def series_to_supervised(data, n_in=1, n_out=1, dropnan=True):
