@@ -104,3 +104,4 @@ def date_filter(transactions, date_from=None, to=None):
     mask = (transactions['Date'] >= date_from) & \
            (transactions['Date'] <= to)
     return transactions.loc[mask]
+
